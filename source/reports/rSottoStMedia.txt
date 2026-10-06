@@ -1,0 +1,299 @@
+Version =21
+VersionRequired =20
+Checksum =-2146613883
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =126
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9026
+    DatasheetFontHeight =10
+    ItemSuffix =23
+    Left =270
+    Top =210
+    Right =11085
+    Bottom =10155
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x263075a82da8e440
+    End
+    GUID = Begin
+        0x609bd7f72b5e2e4298ac495b8efea8ca
+    End
+    RecordSource ="qProfUceStMedia"
+    Caption ="qProfUceStMedia"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x53030000a005000053030000a005000000000000422300004701000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupFooter = NotDefault
+            ControlSource ="AnnoS"
+        End
+        Begin BreakLevel
+            GroupFooter = NotDefault
+            ControlSource ="NominativoProf"
+        End
+        Begin BreakLevel
+            ControlSource ="Dove"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Stejemo"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Razred"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =57
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x6f8177e54e78664187415c57e92aba68
+            End
+            Begin
+                Begin Line
+                    BorderWidth =2
+                    Top =57
+                    Width =9026
+                    BorderColor =12632256
+                    Name ="Linea15"
+                    GUID = Begin
+                        0x784e96b1e506414ab4af6318c04dbb73
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0xae46f74716c57c46aee7153a9a25fd30
+            End
+            Begin
+                Begin Line
+                    BorderWidth =2
+                    Width =9026
+                    Name ="Linea16"
+                    GUID = Begin
+                        0xb7051c9aa9ee1a4ba470d4793c4fe3ba
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            BreakLevel =3
+            Name ="IntestazioneGruppo2"
+            GUID = Begin
+                0x9a61b5bf4c3dbf4b85eb69aa98d92b5a
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            BreakLevel =4
+            Name ="IntestazioneGruppo3"
+            GUID = Begin
+                0x5555c975290bda478086e9e947b3748c
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =327
+            Name ="Corpo"
+            GUID = Begin
+                0xf276442d91247046bb041fd02fc1c8d2
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =6973
+                    Width =875
+                    Height =270
+                    Name ="MediaDiOre"
+                    ControlSource ="MediaDiOre"
+                    GUID = Begin
+                        0x028e9ad81ec5cf48b476ce0129d2343c
+                    End
+
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =302
+            BreakLevel =1
+            Name ="PièDiPaginaGruppo5"
+            GUID = Begin
+                0xa34582408a6da74ea8210562dd1c40fd
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =6119
+                    Width =1134
+                    Height =283
+                    Name ="Testo18"
+                    ControlSource ="=Sum([MediaDiOre])"
+                    GUID = Begin
+                        0xa5541755a0f2884ea0229207d36baac7
+                    End
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4422
+                            Top =2
+                            Width =1485
+                            Height =300
+                            Name ="Etichetta19"
+                            Caption ="totale Docente:"
+                            GUID = Begin
+                                0xc790076425014a4fbd3abf4524e38ecc
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =396
+            Name ="PièDiPaginaGruppo6"
+            GUID = Begin
+                0xbed811d3ef39f7479710169fee1e6ed9
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1701
+                    Width =1134
+                    Height =283
+                    Name ="Testo20"
+                    ControlSource ="=Sum([MediaDiOre])"
+                    GUID = Begin
+                        0x224d65dab3983742b721a037371a9097
+                    End
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Width =1155
+                            Height =300
+                            Name ="Etichetta21"
+                            Caption ="TotaleAnno"
+                            GUID = Begin
+                                0xd2a44890977f234f870d013e1203f318
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x6f666b5434861b419b60c33cec832b2f
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xcb2cee9704c524409dfda94ae25bc564
+            End
+        End
+    End
+End

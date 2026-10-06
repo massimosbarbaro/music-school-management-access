@@ -1,0 +1,503 @@
+Version =21
+VersionRequired =20
+Checksum =-1932044897
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =124
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =12195
+    DatasheetFontHeight =10
+    ItemSuffix =38
+    Left =270
+    Top =600
+    Right =14250
+    Bottom =7335
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xf9a202755ca6e440
+    End
+    GUID = Begin
+        0x423002486aa7244699357a84878b0bc9
+    End
+    RecordSource ="qNastop"
+    Caption ="rNastop"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a005000000000000a32f0000c102000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Nastop"
+        End
+        Begin BreakLevel
+            ControlSource ="Nominativo"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =909
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0xcd84e3aa869cf34b803d174ce708dca5
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =57
+                    Top =57
+                    Width =1380
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta30"
+                    Caption ="rNastop"
+                    GUID = Begin
+                        0xdfe06c63d6358c4a93924551bf250a72
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Top =57
+                    Width =12195
+                    BorderColor =12632256
+                    Name ="Linea33"
+                    GUID = Begin
+                        0xabcf8844e667544d819387e4f85dec15
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =429
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0xe4c4c3b26837a64fbd1a5c927e910cbd
+            End
+            Begin
+                Begin Label
+                    Left =57
+                    Top =57
+                    Width =1767
+                    Height =300
+                    Name ="Nastop_Etichetta"
+                    Caption ="Nastop"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x4c44846106915c48bf322b4926044073
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Width =12195
+                    Name ="Linea34"
+                    GUID = Begin
+                        0xdf95f9e5df9d2148b2af5c3f47ebe8b6
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Top =414
+                    Width =12195
+                    Name ="Linea35"
+                    GUID = Begin
+                        0x04e41458988e6349889593d1fe9d0e54
+                    End
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1984
+                    Top =56
+                    Width =1482
+                    Height =270
+                    Name ="Solsko"
+                    ControlSource ="Solsko"
+                    StatusBarText ="Leto"
+                    GUID = Begin
+                        0xe4eb194d3f1fa444af8eb1f76e995625
+                    End
+
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =850
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0xc779ac7dfa24fd4f909c2b1250daa314
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    DecimalPlaces =0
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =57
+                    Width =1767
+                    Height =330
+                    ColumnWidth =5565
+                    FontSize =11
+                    ForeColor =8388608
+                    Name ="Nastop"
+                    ControlSource ="Nastop"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x5c0e2e3e9f987e47be969ef7e7ad3b40
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1927
+                    Width =2112
+                    Height =270
+                    TabIndex =1
+                    Name ="Organizator"
+                    ControlSource ="Organizator"
+                    GUID = Begin
+                        0x2c5c3378e1f526409719916daacf8e92
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =4081
+                    Width =2907
+                    Height =270
+                    TabIndex =2
+                    Name ="TipNastop"
+                    ControlSource ="TipNastop"
+                    StatusBarText ="Tipologia pobude - srecanje - zakljucna"
+                    GUID = Begin
+                        0xa138255433827648a7c3f89589cce5f6
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =56
+                    Top =453
+                    Width =2367
+                    Height =270
+                    TabIndex =3
+                    Name ="Kraj"
+                    ControlSource ="Kraj"
+                    GUID = Begin
+                        0xddb647c80b188f4dad11b052f3a1f437
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =7086
+                    Width =684
+                    Height =270
+                    TabIndex =4
+                    Name ="Da"
+                    ControlSource ="Da"
+                    GUID = Begin
+                        0xd49fe6c953846f4591e21155449d0282
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =7827
+                    Width =684
+                    Height =270
+                    TabIndex =5
+                    Name ="A"
+                    ControlSource ="A"
+                    GUID = Begin
+                        0xd623a6946fbbd040b837eb76c1a7c57e
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =2494
+                    Top =453
+                    Width =2907
+                    Height =270
+                    ColumnWidth =2130
+                    TabIndex =6
+                    Name ="Comune"
+                    ControlSource ="Comune"
+                    GUID = Begin
+                        0x4869f7f5f367974b8c677c6b1e11cb39
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =5458
+                    Top =453
+                    Width =2907
+                    Height =270
+                    TabIndex =7
+                    Name ="Slov"
+                    ControlSource ="Slov"
+                    GUID = Begin
+                        0x57320b8fcc38004997bdaaa66865f85c
+                    End
+
+                End
+                Begin Line
+                    BorderWidth =2
+                    Top =795
+                    Width =12195
+                    Name ="Linea36"
+                    GUID = Begin
+                        0x47f89a8652321848b73dc15ae689e673
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =705
+            Name ="Corpo"
+            GUID = Begin
+                0x36e536bc6bafb84fbb06d88fc00c78ae
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =56
+                    Width =3507
+                    Height =270
+                    ColumnWidth =3270
+                    Name ="Nominativo"
+                    ControlSource ="Nominativo"
+                    GUID = Begin
+                        0xa178d709ee86784d9d33c273e04edce8
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =113
+                    Top =396
+                    Width =1482
+                    Height =270
+                    TabIndex =1
+                    Name ="NominativoP"
+                    ControlSource ="NominativoP"
+                    GUID = Begin
+                        0x6e510780be639940b89ab5da5660c7e2
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =3628
+                    Width =2607
+                    Height =270
+                    TabIndex =2
+                    Name ="Skupine"
+                    ControlSource ="Skupine"
+                    StatusBarText ="Ime skupine"
+                    GUID = Begin
+                        0x92a8bd50c17bfd40b7d2eca518c2a9d8
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =6405
+                    Width =1872
+                    Height =270
+                    ColumnWidth =3735
+                    TabIndex =3
+                    Name ="Materia"
+                    ControlSource ="Materia"
+                    GUID = Begin
+                        0x81d78a06feee0348b0fe6eb8f36d1c4c
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1700
+                    Top =396
+                    Width =6582
+                    Height =270
+                    TabIndex =4
+                    Name ="Glasba"
+                    ControlSource ="Glasba"
+                    GUID = Begin
+                        0x4d3bb928ca56b24c9f64b2ad30ddda41
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =8447
+                    Width =3621
+                    Height =270
+                    TabIndex =5
+                    Name ="Opombe"
+                    ControlSource ="Opombe"
+                    GUID = Begin
+                        0x3e4cd435b746bc48b5f12e848786721d
+                    End
+
+                End
+                Begin Line
+                    BorderWidth =1
+                    Top =690
+                    Width =12195
+                    Name ="Linea37"
+                    GUID = Begin
+                        0x974d5feda04a1e4c8846ca313a5ad818
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =528
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x227e4baf7ab9d34295cbcd3325587b02
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =57
+                    Top =228
+                    Width =5040
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo31"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x1e2a1494f90b564689c44098b7b770ee
+                    End
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =6063
+                    Top =228
+                    Width =6075
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo32"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xc1b986560e0e37488d95f114a465e166
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xab04edd500ce734a81fdb8b5ee25cd29
+            End
+        End
+    End
+End

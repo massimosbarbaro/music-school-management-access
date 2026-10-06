@@ -1,0 +1,509 @@
+Version =21
+VersionRequired =20
+Checksum =-449227575
+Begin Form
+    Modal = NotDefault
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    DataEntry = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    TabularFamily =126
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =4044
+    DatasheetFontHeight =10
+    ItemSuffix =12
+    Left =12255
+    Top =3870
+    Right =16305
+    Bottom =7020
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xbe71f0381474e440
+    End
+    GUID = Begin
+        0xe90e85a8b34d714bb8c7bef338eae3b8
+    End
+    RecordSource ="RicGenerale"
+    Caption ="Data Ricevuta"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a005000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =963
+            BackColor =6723891
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0x2ea0677b5d01ba4f9d4bd9ddfd137718
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextFontFamily =18
+                    Left =566
+                    Top =113
+                    Width =2880
+                    Height =660
+                    FontSize =26
+                    Name ="Etichetta6"
+                    Caption ="Data ricevuta"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x766a2845cfa7af44923a39e8ce883899
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =1167
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                0x435cd9ca009bac448017791e7c88cb4d
+            End
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =477
+                    Top =114
+                    Width =486
+                    Height =255
+                    ColumnWidth =1701
+                    Name ="IdRg"
+                    ControlSource ="IdRg"
+                    GUID = Begin
+                        0xf11b68528010554ba27c91da8418bd01
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =57
+                            Top =114
+                            Width =420
+                            Height =240
+                            Name ="IdRg_Etichetta"
+                            Caption ="IdRg"
+                            GUID = Begin
+                                0xfdd60b0f5e38af4db07b9d9e9b03700a
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =1610
+                    Top =113
+                    Width =1035
+                    Height =255
+                    ColumnWidth =1035
+                    TabIndex =1
+                    Name ="Data"
+                    ControlSource ="Data"
+                    Format ="Short Date"
+                    InputMask ="00/00/00;0;_"
+                    GUID = Begin
+                        0xe6ab9062200dc740af4ecf783fdf9f2c
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =1190
+                            Top =113
+                            Width =420
+                            Height =240
+                            Name ="Data_Etichetta"
+                            Caption ="Data"
+                            GUID = Begin
+                                0xa91c179c930a89468a80cce92e03feb3
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =476
+                    Top =623
+                    Width =3150
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =2
+                    Name ="Note"
+                    ControlSource ="Note"
+                    GUID = Begin
+                        0xcd1ddc128d9a4c4ebf97b5cfd98dbac6
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =623
+                            Width =420
+                            Height =240
+                            Name ="Note_Etichetta"
+                            Caption ="Note"
+                            GUID = Begin
+                                0xbba70c5943cd3546adcf4ed1ab94909a
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =1029
+            BackColor =6723891
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x6a7576e3cf1b6a4f9a3d916d1067bc68
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3174
+                    Top =113
+                    Width =576
+                    Height =576
+                    Name ="cmdEsci"
+                    Caption ="Comando7"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0x0ac30a6a2ba9ec438ce306aa665cf61f
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1247
+                    Top =170
+                    Width =1470
+                    Height =405
+                    TabIndex =1
+                    Name ="smdStampaR"
+                    Caption ="Stampa Ricevuta"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x53130aedf650bf488b50d96a4e45d86d
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
+Private Sub Inserimento()
+Dim sqlc As String
+Dim rsR As Recordset, db As Database
+
+Set db = CurrentDb
+
+
+sqlc = " SELECT Ricevuta.IdR, Ricevuta.IdRg, Ricevuta.IdP," & _
+            "Ricevuta.Selezione FROM Ricevuta " & _
+        "WHERE (((Ricevuta.IdRg) Is Null) AND ((Ricevuta.IdP)=" & sIdP & ") AND ((Ricevuta.Selezione)=-1))"
+'WHERE (((Ricevuta.IdP)=" & sIdP & ") AND ((Ricevuta.Selezione)=-1))"
+
+
+
+
+
+
+    
+    Set rsR = db.OpenRecordset(sqlc, dbOpenDynaset)
+
+    If Not rsR.EOF Then
+    '    If Not rsR("IdRg") <> 0 Then
+            Do While Not rsR.EOF
+                rsR.Edit
+                    rsR("IdRg") = Me.IdRg
+                rsR.Update
+                rsR.MoveNext
+            Loop
+     '   Else
+     '       MsgBox "Ristampo la ricevuta!"
+    '    End If
+        
+    Else
+        MsgBox "Ristampo la ricevuta!!"
+        
+    End If
+    
+'        rsR.AddNew
+'        rsR("IdRg") = Me.IdRg
+'        rsR("IdP") = sIdP
+'        rsR.Update
+        
+'If Not rsR.EOF Then
+'    txtRicevuta = rsR("SommaDiImporto")
+    
+'End If
+End Sub
+
+
+Private Sub smdStampaR_Click()
+On Error GoTo Err_smdStampaR_Click
+
+'   Dim stDocName As String
+
+    Dim stDocName As String, SWhere As String
+    
+    Inserimento
+    SWhere = "[IdP]=" & sIdP
+    
+
+   ' stDocName = "rRicevutaStarsi"
+   
+     ' Inserisco; il; controllo; dei; maggiorenni
+ '  Metto 216 perchè sono i mesi di maggiore età 12x18=216
+ 
+    If Not (DateDiff("m", sDataN, Date)) >= 216 Then
+ '      DATEDIFF("m", DataN, DATE())=216 OR ( DATEDIFF("m", DataN, DATE()) > 216
+        stDocName = "rRicevutaStarsi"
+    Else
+        stDocName = "rRicevutaMaggiorenni"
+    End If
+
+    
+    cmdSave_Click
+    cmdNext_Click
+    cmdPrej_Click
+    DoCmd.Save
+    DoCmd.Close
+    
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+    DoCmd.Maximize
+    
+'    DoCmd.Requery
+    'DoCmd.SE
+'    oCmd.Close
+    
+    
+Exit_smdStampaR_Click:
+    Exit Sub
+
+Err_smdStampaR_Click:
+    MsgBox Err.Description
+    Resume Exit_smdStampaR_Click
+    
+End Sub
+Private Sub cmdSave_Click()
+On Error GoTo Err_cmdSave_Click
+
+
+    DoCmd.DoMenuItem acFormBar, acRecordsMenu, acSaveRecord, , acMenuVer70
+
+Exit_cmdSave_Click:
+    Exit Sub
+
+Err_cmdSave_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdSave_Click
+    
+End Sub
+Private Sub cmdNext_Click()
+On Error GoTo Err_cmdNext_Click
+
+
+    DoCmd.GoToRecord , , acNext
+
+Exit_cmdNext_Click:
+    Exit Sub
+
+Err_cmdNext_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdNext_Click
+    
+End Sub
+Private Sub cmdPrej_Click()
+On Error GoTo Err_cmdPrej_Click
+
+
+    DoCmd.GoToRecord , , acPrevious
+
+Exit_cmdPrej_Click:
+    Exit Sub
+
+Err_cmdPrej_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdPrej_Click
+    
+End Sub

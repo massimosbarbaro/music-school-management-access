@@ -1,0 +1,656 @@
+Version =21
+VersionRequired =20
+Checksum =360990210
+Begin Report
+    LayoutForPrint = NotDefault
+    PictureTiling = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =126
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =1
+    GridY =1
+    Width =10099
+    DatasheetFontHeight =10
+    ItemSuffix =47
+    Left =705
+    Right =11745
+    Bottom =8640
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x7a6dfb0c188ae440
+    End
+    GUID = Begin
+        0xd11037d1a05cb24088b76b4019027a7d
+    End
+    RecordSource ="qPoterdilo"
+    Caption ="qPoterdilo"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x5303000037020000370200003702000000000000732700003029000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =255
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            ControlSource ="Go.Cognome"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =4138
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x7cef94c975736f40a96d995627a509a5
+            End
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    Left =1305
+                    Width =8145
+                    Height =1110
+                    FontSize =15
+                    FontWeight =400
+                    Name ="Etichetta38"
+                    Caption ="GLASBENA ŠOLA\015\012po konvenciji s konservatorijem  iz Vidma\015\012convenzion"
+                        "ata con il Conservatorio\015\012"
+                    GUID = Begin
+                        0x739acb1246d6914dbdffcf9cc31fc3a4
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    Left =2040
+                    Top =2777
+                    Width =6075
+                    Height =465
+                    FontSize =18
+                    Name ="Etichetta40"
+                    Caption ="P O T R D I L O  –  A T T E S T A T O"
+                    GUID = Begin
+                        0xed80b0f90f23844ea735064e685f7b06
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =7993
+                    Top =1984
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x72edc9a472d5fa4f80472d0ced9cb7d5
+                    End
+
+                End
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =7891
+                    Top =1650
+                    Width =1575
+                    Height =450
+                    FontSize =16
+                    TabIndex =1
+                    Name ="AnnoS"
+                    ControlSource ="AnnoS"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x454baa83a0244b43aab86b8da834372f
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            Left =6360
+                            Top =1650
+                            Width =1440
+                            Height =465
+                            FontSize =16
+                            FontWeight =400
+                            Name ="AnnoS_Etichetta"
+                            Caption ="A.L./A.A"
+                            GUID = Begin
+                                0x2a9a318dd630b84ab6572e715a405d3d
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x6379a4849aad3447b2c9ebf7eac1042a
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =10544
+            Name ="Corpo"
+            GUID = Begin
+                0x2c7337daa29ec74ea7aab1b380c54158
+            End
+            Begin
+                Begin TextBox
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =6236
+                    Top =1814
+                    Width =3705
+                    Height =345
+                    ColumnWidth =2130
+                    FontSize =14
+                    TabIndex =1
+                    Name ="Comune"
+                    ControlSource ="Comune"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x346dff06ae84304dad9982454fa4d011
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            TextAlign =3
+                            Left =3794
+                            Top =1814
+                            Width =2265
+                            Height =375
+                            FontSize =14
+                            FontWeight =400
+                            Name ="Comune_Etichetta"
+                            Caption ="luogo di nascita"
+                            GUID = Begin
+                                0x71afe3e629b530478383b4ca91ebab6a
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =6236
+                    Top =1417
+                    Width =3705
+                    Height =345
+                    FontSize =14
+                    TabIndex =2
+                    Name ="Slov"
+                    ControlSource ="Slov"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xa80eb8f328b25e46ba82d8e3747b0f62
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =1360
+                    Top =4648
+                    Width =1815
+                    Height =375
+                    FontSize =14
+                    TabIndex =3
+                    Name ="Data"
+                    ControlSource ="Data"
+                    Format ="dd\\.mm\\.yyyy"
+                    StatusBarText ="Data Esame sia Attestato che Spricevalo"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x314e59272620c94882e450a0c3c4a4ab
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            Left =285
+                            Top =4425
+                            Width =825
+                            Height =705
+                            FontSize =14
+                            FontWeight =400
+                            Name ="Data_Etichetta"
+                            Caption ="dne\015\012in data"
+                            GUID = Begin
+                                0x60334f6446cde349b0bff68ff4e5cdbe
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =9529
+                    Top =2607
+                    Width =405
+                    Height =345
+                    FontSize =14
+                    FontWeight =700
+                    TabIndex =4
+                    Name ="Razred"
+                    ControlSource ="Livello"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x8b5390855992224c895f1bbae37ce769
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            Left =6626
+                            Top =2400
+                            Width =2850
+                            Height =690
+                            FontSize =14
+                            FontWeight =400
+                            Name ="Razred_Etichetta"
+                            Caption ="pred-akademska stopnja \015\012livello pre-accademico"
+                            GUID = Begin
+                                0x234edd5ad1c0714d862a7ce5ceb421d2
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =5331
+                    Top =3632
+                    Width =1530
+                    Height =375
+                    FontSize =14
+                    FontWeight =700
+                    TabIndex =5
+                    Name ="Voto"
+                    ControlSource ="Voto"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x78aa27ace8578941abfc30519b98da25
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            Left =2781
+                            Top =3469
+                            Width =2265
+                            Height =705
+                            FontSize =14
+                            FontWeight =400
+                            Name ="Voto_Etichetta"
+                            Caption ="z oceno \015\012con la votazione di "
+                            GUID = Begin
+                                0xa9a149d60facaa4db8c4e87d688c2fef
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =6237
+                    Top =4648
+                    Width =3705
+                    Height =345
+                    FontSize =14
+                    TabIndex =6
+                    Name ="Luogo"
+                    ControlSource ="Luogo"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x1204de4685b6eb4aa61583d35010d6eb
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            Left =5442
+                            Top =4478
+                            Width =720
+                            Height =705
+                            FontSize =14
+                            FontWeight =400
+                            Name ="Luogo_Etichetta"
+                            Caption ="kraj \015\012luogo"
+                            GUID = Begin
+                                0xdf04bebb735e5846ba1a323d3dddb17c
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =2891
+                    Top =2607
+                    Width =3630
+                    Height =345
+                    ColumnWidth =3195
+                    FontSize =14
+                    FontWeight =700
+                    TabIndex =7
+                    Name ="Spricevalo"
+                    ControlSource ="Spricevalo"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xc90232ad001a4c428fa36c17f87654ca
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            Left =227
+                            Top =2435
+                            Width =2655
+                            Height =705
+                            FontSize =14
+                            FontWeight =400
+                            Name ="Spricevalo_Etichetta"
+                            Caption ="Opravil/a izpit \015\012ha superato l’esame di "
+                            GUID = Begin
+                                0x0a6f3d46cc81d7408b89d4af20684e10
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =2
+                    Left =283
+                    Top =7755
+                    Width =3900
+                    Height =1365
+                    FontSize =14
+                    FontWeight =400
+                    Name ="Etichetta34"
+                    Caption ="Ravnatelj / il Direttore  \015\012konservatorija / del Conservatorio\015\012“J. "
+                        "\015\012"
+                    GUID = Begin
+                        0x9bdcc32f43568c47a6dc3ab96e117b8b
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =2
+                    Left =6465
+                    Top =7755
+                    Width =2685
+                    Height =1365
+                    FontSize =14
+                    FontWeight =400
+                    Name ="Etichetta35"
+                    Caption ="Ravnatelj / il Direttore\015\012Glasbene matice / della\015\012GLASBENA ŠOLA\015"
+                        "\012"
+                    GUID = Begin
+                        0x94bee5d06d0a994ba2bc6ef7fbf6fa4a
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    Left =1530
+                    Top =10035
+                    Width =1245
+                    Height =375
+                    FontSize =14
+                    FontWeight =400
+                    Name ="Etichetta36"
+                    Caption ="žig/timbro"
+                    GUID = Begin
+                        0x0ee0d65c7adbae4c965848806a12f3a7
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    Left =7140
+                    Top =10035
+                    Width =1245
+                    Height =375
+                    FontSize =14
+                    FontWeight =400
+                    Name ="Etichetta37"
+                    Caption ="žig/timbro"
+                    GUID = Begin
+                        0xdea4f1c06f326a409eb2713f82353ca9
+                    End
+                End
+                Begin Rectangle
+                    SpecialEffect =4
+                    BorderWidth =3
+                    Left =2610
+                    Top =3405
+                    Width =4376
+                    Name ="Casella42"
+                    GUID = Begin
+                        0xa9dc576ff319764c83439eebf216fd4d
+                    End
+                End
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =2891
+                    Top =510
+                    Width =6825
+                    Height =420
+                    ColumnWidth =1935
+                    FontSize =16
+                    TabIndex =8
+                    Name ="Nominativo"
+                    ControlSource ="Nominativo"
+                    Format =">"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xe0b7b2bc59482d49a227aed41dcf1548
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            TextAlign =0
+                            Left =225
+                            Top =345
+                            Width =2430
+                            Height =870
+                            FontSize =16
+                            FontWeight =400
+                            Name ="Etichetta44"
+                            Caption ="Ime in priimek\015\012Nome e cognome"
+                            GUID = Begin
+                                0xdfd42e505e2ea0479f46238cd3450014
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =2891
+                    Top =5560
+                    Width =5115
+                    Height =375
+                    FontSize =14
+                    TabIndex =9
+                    Name ="NomeP"
+                    ControlSource ="NomeP"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x3be19585d036324aa666ec4cf2ae894c
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            TextAlign =0
+                            Left =225
+                            Top =5447
+                            Width =2550
+                            Height =795
+                            FontSize =14
+                            FontWeight =400
+                            Name ="Etichetta45"
+                            Caption ="profesor pripravljalec\015\012docente preparatore"
+                            GUID = Begin
+                                0xbb10d54a23bfb44c889b993e4bf593f2
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    Left =4763
+                    Top =1417
+                    Width =1335
+                    Height =375
+                    FontSize =14
+                    FontWeight =400
+                    Name ="Etichetta46"
+                    Caption ="kraj rojstva"
+                    GUID = Begin
+                        0xeb629044a2e33f4c92e0d6bbc1ebb1a8
+                    End
+                End
+                Begin TextBox
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =2891
+                    Top =1535
+                    Width =1635
+                    Height =375
+                    FontSize =14
+                    Name ="DataN"
+                    ControlSource ="DataN"
+                    Format ="dd\\.mm\\.yyyy"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x87790995a58cb8448e7e3eb4ed279cb4
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            Left =227
+                            Top =1370
+                            Width =1425
+                            Height =705
+                            FontSize =14
+                            FontWeight =400
+                            Name ="DataN_Etichetta"
+                            Caption ="Rojen/a dne\015\012Nato/a il"
+                            GUID = Begin
+                                0x2c2c9efc527224469611d83b044bf32a
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x2073f26225bf954ba128b135ca1dbd5f
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xf96bc70eabd16047aee2be79551076f7
+            End
+        End
+    End
+End

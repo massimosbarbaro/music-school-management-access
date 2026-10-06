@@ -1,0 +1,333 @@
+Version =21
+VersionRequired =20
+Checksum =-374419977
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9029
+    DatasheetFontHeight =10
+    ItemSuffix =15
+    Left =276
+    Top =600
+    Right =11088
+    Bottom =5928
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x4447c01d8e64e440
+    End
+    GUID = Begin
+        0xbdd6938d5773774ea7ad6d8ee67425f6
+    End
+    RecordSource ="Ricevuta"
+    Caption ="rRicevuta"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a005000000000000452300008001000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            ControlSource ="Data"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =909
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0xd0621c5fbcafde42bfc3a8727ef522b5
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =57
+                    Top =57
+                    Width =1680
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta10"
+                    Caption ="rRicevuta"
+                    GUID = Begin
+                        0xa934499f9a7b554f816d74e3e949ee32
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =414
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x6aa2a09835a1fe409d14ad7105383252
+            End
+            Begin
+                Begin Label
+                    TextAlign =3
+                    Left =57
+                    Top =57
+                    Width =1035
+                    Height =300
+                    Name ="Data_Etichetta"
+                    Caption ="Data"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xb37ec8f21bded34cab3a3707db53c563
+                    End
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =1149
+                    Top =57
+                    Width =1701
+                    Height =300
+                    Name ="IdR_Etichetta"
+                    Caption ="IdR"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xd10cef3c58ffe44a8928e53f81fc4a89
+                    End
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =2907
+                    Top =57
+                    Width =1170
+                    Height =300
+                    Name ="IdP_Etichetta"
+                    Caption ="IdP"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x80690f76fe3d1c41bea5c4430a0e4c7d
+                    End
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =4134
+                    Top =57
+                    Width =1170
+                    Height =300
+                    Name ="IdC_Etichetta"
+                    Caption ="IdC"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x69f01b0a3d810d4995a4d5a264c8edc0
+                    End
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =5361
+                    Top =57
+                    Width =1170
+                    Height =300
+                    Name ="Pagato_Etichetta"
+                    Caption ="Pagato"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x8437a7ec7dba8f41965ee0757fa020b3
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Left =57
+                    Top =357
+                    Width =6474
+                    Name ="Linea13"
+                    GUID = Begin
+                        0xd285f98ac9272c44b24717346833ce39
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =384
+            Name ="Corpo"
+            GUID = Begin
+                0x3d7071f4752c724ba7cb2962028e3848
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =57
+                    Top =57
+                    Width =1035
+                    Height =270
+                    Name ="Data"
+                    ControlSource ="Data"
+                    GUID = Begin
+                        0x9a14fbf4ce0a6c4a87bb6859c6db4406
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1149
+                    Top =57
+                    Height =225
+                    TabIndex =1
+                    Name ="IdR"
+                    ControlSource ="IdR"
+                    GUID = Begin
+                        0xa78be51f1637bf43ab7dfa863e16848e
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =2907
+                    Top =57
+                    Width =1170
+                    Height =270
+                    TabIndex =2
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0x986ab4cf55528d468d26eb8d7f666078
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =4134
+                    Top =57
+                    Width =1170
+                    Height =270
+                    TabIndex =3
+                    Name ="IdC"
+                    ControlSource ="IdC"
+                    GUID = Begin
+                        0x155b3dd2dd334c449030b2684a70839f
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =5361
+                    Top =57
+                    Width =1170
+                    Height =270
+                    TabIndex =4
+                    Name ="Pagato"
+                    ControlSource ="Pagato"
+                    GUID = Begin
+                        0xbacd7fdff943fb4893589cd0520200f5
+                    End
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =528
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x754bb8728056b04ab61b189671540318
+            End
+            Begin
+                Begin Line
+                    BorderWidth =3
+                    Left =57
+                    Top =228
+                    Width =8915
+                    BorderColor =12632256
+                    Name ="Linea14"
+                    GUID = Begin
+                        0xea5488eaad57674c837250109fa0c9bb
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xd61ed94e6bdc20448916d48b76d6e5a9
+            End
+        End
+    End
+End

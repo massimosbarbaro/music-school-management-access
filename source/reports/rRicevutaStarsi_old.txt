@@ -1,0 +1,627 @@
+Version =21
+VersionRequired =20
+Checksum =-1568025859
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =0
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9766
+    DatasheetFontHeight =10
+    ItemSuffix =40
+    Left =705
+    Top =255
+    Right =7425
+    Bottom =9750
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x151f64af7b65e440
+    End
+    GUID = Begin
+        0x742b99bbcd551e43bc5996cef350667c
+    End
+    RecordSource ="qRicevutaStarsi"
+    Caption ="rRicevuta2"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x5303000038040000f80100003804000000000000262600008c01000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            ControlSource ="IdS"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =2267
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x79d9c938f568e4439e9d297fcc9c214a
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =56
+                    Width =1215
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta33"
+                    Caption ="SEDE 1"
+                    GUID = Begin
+                        0x35dbb8abc7127848bdc75a45ce1e8225
+                    End
+                End
+                Begin Label
+                    TextAlign =2
+                    Left =1241
+                    Top =60
+                    Width =3855
+                    Height =390
+                    Name ="Etichetta35"
+                    Caption ="SEDE 1/..."
+                    GUID = Begin
+                        0x54b302e4be584d4f9fe4a05bc83977f0
+                    End
+                End
+                Begin Label
+                    Left =116
+                    Top =510
+                    Width =3345
+                    Height =690
+                    Name ="Etichetta36"
+                    Caption ="Ul./Via ... tel./fax ..."
+                    GUID = Begin
+                        0x9398ca92310b824b81b70e5a43e51380
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    Top =1305
+                    Width =4020
+                    Height =288
+                    FontWeight =400
+                    Name ="Etichetta37"
+                    Caption ="C.F. ...         P.I. ..."
+                    GUID = Begin
+                        0xcec8522095615f46a833d115faf1e333
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =737
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x8c2faef39cc8b14ca3242bbc2bfb8458
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =1247
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0x10e1db5e0c32d5429bbc67e6e415cd9e
+            End
+            Begin
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =5537
+                    Top =60
+                    Width =4047
+                    Height =300
+                    FontSize =11
+                    Name ="Genitore"
+                    ControlSource ="Genitore"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x460b1ca6a7a029418530c7a068155587
+                    End
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =4596
+                            Top =64
+                            Width =984
+                            Height =300
+                            Name ="Etichetta22"
+                            Caption ="Star./Gen."
+                            GUID = Begin
+                                0xf7ad07a7f6da0e4f8272844096b7b38e
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =7268
+                    Top =453
+                    Width =621
+                    Height =300
+                    FontSize =11
+                    TabIndex =1
+                    Name ="IdS"
+                    ControlSource ="IdS"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x8dbfaee9e077ae439eb37ea46f81295a
+                    End
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =6803
+                            Top =453
+                            Width =465
+                            Height =300
+                            Name ="Etichetta23"
+                            Caption ="IdS:"
+                            GUID = Begin
+                                0x6f9a50fdc7fa994aad47b0b49234556c
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    TextAlign =2
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =1759
+                    Top =60
+                    Width =621
+                    Height =300
+                    FontSize =11
+                    TabIndex =2
+                    Name ="IdR"
+                    ControlSource ="IdRg"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x0884b09fc0860b45824df362af66e99a
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =60
+                            Top =68
+                            Width =1548
+                            Height =300
+                            Name ="IdR_Etichetta"
+                            Caption ="Rac./Ricevuta n."
+                            GUID = Begin
+                                0x870ebce455b03044915828f3e74b814c
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Top =737
+                    Height =300
+                    FontSize =11
+                    TabIndex =3
+                    Name ="Go.Nome"
+                    ControlSource ="Nome"
+                    FontName ="Times New Roman"
+                    EventProcPrefix ="Go_Nome"
+                    GUID = Begin
+                        0x7062f79f6d770f438ff47b582e0ed32d
+                    End
+
+                End
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =1757
+                    Top =737
+                    Width =1806
+                    Height =300
+                    FontSize =11
+                    TabIndex =4
+                    Name ="Go.Cognome"
+                    ControlSource ="Cognome"
+                    FontName ="Times New Roman"
+                    EventProcPrefix ="Go_Cognome"
+                    GUID = Begin
+                        0x81e1e0e6e411104baf71a2bc7907b3c4
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =2325
+                    Top =60
+                    Width =1875
+                    Height =300
+                    FontSize =11
+                    TabIndex =5
+                    Name ="Data"
+                    ControlSource ="RicGenerale.Data"
+                    Format ="Short Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xf754b54db296c04e814e7251e228f8c9
+                    End
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OldBorderStyle =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =6066
+                    Top =566
+                    Width =555
+                    Height =300
+                    FontSize =11
+                    TabIndex =6
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x9ca8e03d66a5414aaa06cd4d5d773ff4
+                    End
+
+                End
+                Begin Label
+                    Left =4596
+                    Top =732
+                    Width =984
+                    Height =300
+                    Name ="Pagato_Etichetta"
+                    Caption ="Plac./Pag."
+                    GUID = Begin
+                        0xe320086fefaf0d499539293e0527652d
+                    End
+                End
+                Begin Line
+                    Left =56
+                    Top =1077
+                    Width =8901
+                    Name ="Linea27"
+                    GUID = Begin
+                        0x6706a9f7ab5ba24ab8342c7ccbfdc227
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =396
+            Name ="Corpo"
+            GUID = Begin
+                0x65f2615b20bab84cbdce9cbd57d4841b
+            End
+            Begin
+                Begin TextBox
+                    Visible = NotDefault
+                    OldBorderStyle =1
+                    TextFontCharSet =177
+                    IMESentenceMode =3
+                    Left =3741
+                    Width =345
+                    Height =270
+                    FontSize =10
+                    Name ="IdC"
+                    ControlSource ="IdC"
+                    GUID = Begin
+                        0x79fde8cb888e58479577a4b4467349f2
+                    End
+
+                End
+                Begin TextBox
+                    TextFontCharSet =177
+                    IMESentenceMode =3
+                    Left =4488
+                    Width =1170
+                    Height =270
+                    FontSize =10
+                    TabIndex =1
+                    Name ="Pagato"
+                    ControlSource ="Pagato"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0x6421a708a060484398fe0ebd345cf84f
+                    End
+
+                End
+                Begin Line
+                    Top =340
+                    Width =8901
+                    Name ="Linea13"
+                    GUID = Begin
+                        0x74cacf7d56e8b84e9d679fa09c2dfd34
+                    End
+                End
+                Begin TextBox
+                    TextFontCharSet =177
+                    IMESentenceMode =3
+                    Width =3681
+                    Height =285
+                    FontSize =10
+                    TabIndex =2
+                    Name ="Causale"
+                    ControlSource ="Causale"
+                    GUID = Begin
+                        0xd7c61af36ae98344ae054150415417e2
+                    End
+
+                End
+                Begin TextBox
+                    TextFontCharSet =177
+                    IMESentenceMode =3
+                    Left =5772
+                    Width =3756
+                    FontSize =10
+                    TabIndex =3
+                    Name ="Stampa"
+                    ControlSource ="Stampa"
+                    GUID = Begin
+                        0xf8a5376200f015439f7428952b0ec077
+                    End
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OldBorderStyle =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =56
+                    Width =501
+                    Height =300
+                    FontSize =10
+                    TabIndex =4
+                    Name ="Testo31"
+                    ControlSource ="IdR"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x9849f1f205079f4ba89415cdf7712522
+                    End
+
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =3566
+            Name ="PièDiPaginaGruppo1"
+            GUID = Begin
+                0x30f6e68c9c17e54dae3bf0dae99f5f92
+            End
+            Begin
+                Begin TextBox
+                    TextFontCharSet =177
+                    IMESentenceMode =3
+                    Left =4307
+                    Top =64
+                    Width =1356
+                    Height =340
+                    FontSize =12
+                    Name ="Testo24"
+                    ControlSource ="=Sum([Pagato])"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0x3c37bc95cfea40449dbc0c486f84a73d
+                    End
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =3174
+                            Top =56
+                            Width =1092
+                            Height =300
+                            FontSize =12
+                            Name ="Etichetta25"
+                            Caption ="Skup./Tot."
+                            GUID = Begin
+                                0x97af790c4d64e1478a5910f9b37b1bb0
+                            End
+                        End
+                    End
+                End
+                Begin Label
+                    Left =60
+                    Top =120
+                    Width =2832
+                    Height =768
+                    FontSize =10
+                    Name ="Etichetta28"
+                    Caption ="Operazione non imponibile ai sensi dell'art. 4 c. 4 DPR 633/72"
+                    GUID = Begin
+                        0x58b3cef7db6c2548ad9fd238b180ff4a
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =2
+                    TextFontFamily =34
+                    Left =390
+                    Top =1980
+                    Width =8670
+                    Height =435
+                    FontSize =8
+                    FontWeight =400
+                    ForeColor =0
+                    Name ="Etichetta39"
+                    Caption ="ZA ZNESKE VIŠJE OD 77,47€ JE POTREBEN TUDI KOLEK (2,00€) \015\012 PER IMPORTI SU"
+                        "PERIORI A 77,47€  E' NECESSARIO AGGIUNGERE UNA MARCA DA BOLLO ( 2,00€)"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0xf5bc1e1f5d58794698ccaa1038bfc2e4
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =2
+                    TextFontFamily =34
+                    Left =829
+                    Top =3341
+                    Width =8130
+                    Height =225
+                    FontSize =8
+                    FontWeight =400
+                    ForeColor =0
+                    Name ="Etichetta38"
+                    Caption ="NI UPORABNO ZA DAVCNE NAMENE / NON UTILIZZABILE A FINI FISCALI"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0x2518ced9383a28498da509db4e713c52
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =629
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x08cc1d6b4e487e41abedd454cf15c764
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =7656
+                    Width =1316
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo12"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x71893532547c36459ccfe9b96059a8f3
+                    End
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =113
+                    Top =113
+                    Width =2384
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo11"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x64665a4083616b46802b767c37c03377
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xaf466bfab768e742897d9b48b7411b65
+            End
+        End
+    End
+End

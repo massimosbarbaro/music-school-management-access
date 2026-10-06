@@ -1,0 +1,634 @@
+Version =21
+VersionRequired =20
+Checksum =1370079042
+Begin Form
+    AutoCenter = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =14730
+    DatasheetFontHeight =10
+    ItemSuffix =31
+    Left =60
+    Top =3420
+    Right =15405
+    Bottom =7935
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xbecf06add263e440
+    End
+    GUID = Begin
+        0xc69af602b59421428bcc096f4732959d
+    End
+    RecordSource ="Ricevuta"
+    Caption ="fRicevuta"
+    OnCurrent ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a005000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =340
+            BackColor =-2147483633
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xb9d910ea288f5c43afcf8795b1d6e01c
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =57
+                    Top =57
+                    Width =270
+                    Height =240
+                    Name ="IdR_Etichetta"
+                    Caption ="St."
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x2a3e4382e2ec7649aefef7eec165bca1
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =7295
+                    Top =60
+                    Width =555
+                    Height =240
+                    Name ="Data_Etichetta"
+                    Caption ="Datum"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x45ef5051a3df014aba08005758c3d22a
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =8270
+                    Top =60
+                    Width =660
+                    Height =240
+                    Name ="Pagato_Etichetta"
+                    Caption ="Placano"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xa3ca63840f45df448d7beb482e5f3d0d
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =6315
+                    Top =56
+                    Width =465
+                    Height =240
+                    Name ="Etichetta12"
+                    Caption ="Cena"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x18a4c49e6c42644f9197520fd44f6f1b
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =10588
+                    Top =56
+                    Width =405
+                    Height =240
+                    Name ="Etichetta25"
+                    Caption ="Print"
+                    GUID = Begin
+                        0x1cf17f568cf2f64aa2a744c9332ae815
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =12522
+                    Top =60
+                    Width =690
+                    Height =240
+                    Name ="Etichetta23"
+                    Caption ="Opomba"
+                    GUID = Begin
+                        0x09b265f0247e4348a8e91537177ca558
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =3
+                    Left =9305
+                    Top =60
+                    Width =885
+                    Height =240
+                    Name ="Etichetta29"
+                    Caption ="Preostanek"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x14ed57e0388d034abd5825ca40beaf54
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =453
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                0x93c9f27b6b7e5d4cb7521f026bf909ff
+            End
+            Begin
+                Begin TextBox
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =623
+                    Top =56
+                    Width =576
+                    Height =255
+                    ColumnWidth =1701
+                    ColumnOrder =6
+                    Name ="IdR"
+                    ControlSource ="IdR"
+                    OnDblClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x6be1d60e4905744c96fa0f1a3bdb6c83
+                    End
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    Left =1360
+                    Top =113
+                    Width =345
+                    Height =225
+                    ColumnWidth =900
+                    ColumnOrder =4
+                    TabIndex =11
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0x70075a75108523448a0da8d253aa3eb0
+                    End
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    Left =2772
+                    Top =56
+                    Width =285
+                    Height =255
+                    ColumnWidth =900
+                    ColumnOrder =3
+                    TabIndex =1
+                    Name ="IdC"
+                    ControlSource ="IdC"
+                    GUID = Begin
+                        0xfc93bfbcc9d7004da78f039e331c7178
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =7031
+                    Top =56
+                    Width =1035
+                    Height =255
+                    ColumnWidth =1035
+                    ColumnOrder =2
+                    TabIndex =4
+                    Name ="Data"
+                    ControlSource ="Data"
+                    InputMask ="00/00/00;;_"
+                    GUID = Begin
+                        0x45fe1e8497e5f143bffd7c1d7fc18102
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =8157
+                    Top =56
+                    Width =975
+                    Height =255
+                    ColumnWidth =900
+                    ColumnOrder =1
+                    TabIndex =5
+                    Name ="Pagato"
+                    ControlSource ="Pagato"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0xcaf665c507534d4d848700fd7e3b220e
+                    End
+
+                End
+                Begin ComboBox
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    ColumnCount =3
+                    ListWidth =2835
+                    Left =1305
+                    Top =60
+                    Width =4752
+                    Height =284
+                    ColumnWidth =2550
+                    ColumnOrder =0
+                    TabIndex =2
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"\";\"\";\"10\";\"500\""
+                    GUID = Begin
+                        0x34968385cc90a144b11919ba920acf5a
+                    End
+                    Name ="ccCausale"
+                    ControlSource ="IdC"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Causale.IdC, Causale.Causale, Causale.Importo FROM Causale GROUP BY Causa"
+                        "le.IdC, Causale.Causale, Causale.Importo, Causale.Ordina ORDER BY Causale.Ordina"
+                        " DESC; "
+                    ColumnWidths ="0;4536;567"
+                    AfterUpdate ="[Event Procedure]"
+                    BaseInfo ="\"SELECT Causale.IdC, Causale.Causale, Causale.Importo FROM Causale GROUP BY Cau"
+                        "sale.IdC, Causale.Causale, Causale.Importo, Causale.Ordina ORDER BY Causale.Ordi"
+                        "na DESC; \";\"Causale\";\"\";\"IdC\";\"Causale\";\"PrimaryKey\""
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =6180
+                    Top =56
+                    Width =786
+                    TabIndex =3
+                    Name ="Dovuto"
+                    ControlSource ="Dovuto"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0x9c678f36cbde124284b6e5686f05247c
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =10310
+                    Top =60
+                    Width =1941
+                    TabIndex =7
+                    Name ="Stampa"
+                    ControlSource ="Stampa"
+                    GUID = Begin
+                        0x2cda334c60d5fa4a98e3117b98aca8cd
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =12346
+                    Top =56
+                    Width =1971
+                    TabIndex =8
+                    Name ="Nota"
+                    ControlSource ="Nota"
+                    GUID = Begin
+                        0x28116e0041ba8a47bcee6a58b7ce3144
+                    End
+
+                End
+                Begin CheckBox
+                    OverlapFlags =85
+                    Left =14500
+                    Top =56
+                    Width =230
+                    Height =225
+                    TabIndex =9
+                    Name ="Selezione"
+                    ControlSource ="Selezione"
+                    GUID = Begin
+                        0xf57120b387d4d744884b7701a7590766
+                    End
+
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =60
+                    Top =60
+                    Width =456
+                    Height =255
+                    TabIndex =10
+                    Name ="IdRg"
+                    ControlSource ="IdRg"
+                    OnDblClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x3a29e5b4b9a4da428dfc7ac1f78ea798
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =9179
+                    Top =56
+                    Width =1022
+                    Height =255
+                    TabIndex =6
+                    Name ="txtResto"
+                    ControlSource ="=[Pagato]-[Dovuto]"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0x08c312633484de4baa277e0342436044
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =737
+            BackColor =-2147483633
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x29134049e745bd4c94225a3fd1f4be41
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =288
+                    Top =60
+                    Width =14286
+                    Height =456
+                    Name ="Placano"
+                    ControlSource ="Placano"
+                    GUID = Begin
+                        0x151b0674f0f6d64b815b4ff032174e76
+                    End
+
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Public sDovuto As String
+
+Private Sub ccCausale_AfterUpdate()
+'DescTip
+
+End Sub
+
+Private Sub Form_Current()
+'DescTip
+'Me.OrderBy = IdC
+' = True
+'If txtResto.Value < 0 Then
+'    txtResto.BackColor = 8388863
+'Else
+'   txtResto.BackColor = 16777215
+'End If
+
+
+
+End Sub
+
+Private Sub Form_Load()
+
+'DescTip
+
+
+
+
+End Sub
+Sub SommaRicevuta()
+Dim sqlc As String
+Dim rsR As Recordset, db As Database
+
+Set db = CurrentDb
+
+
+sqlc = "SELECT Ricevuta.IdP, Sum(Ricevuta.Pagato) AS SommaDiPagato, " & _
+                "Sum(Causale.Importo) AS SommaDiImporto " & _
+        "FROM Ricevuta INNER JOIN Causale ON Ricevuta.IdC = Causale.Id " & _
+        "GROUP BY Ricevuta.IdP " & _
+            "HAVING Ricevuta.IdP=" & IdP
+            
+Set rsR = db.OpenRecordset(sqlc, dbOpenDynaset)
+
+If Not rsR.EOF Then
+    txtRicevuta = rsR("SommaDiImporto")
+    
+End If
+
+
+
+
+End Sub
+
+Sub DescTip()
+Dim sqlc As String
+Dim rsT As Recordset, db As Database
+
+Set db = CurrentDb
+sqlc = "SELECT IdC, Causale, Importo " & _
+            "FROM Causale " & _
+            "WHERE IdC=" & IdC
+        
+Set rsT = db.OpenRecordset(sqlc, dbOpenDynaset)
+
+If Not rsT.EOF Then
+    txtDovuto = rsT("Importo")
+    
+End If
+
+
+
+
+End Sub
+
+Private Sub Form_Open(Cancel As Integer)
+'Me.OrderByOn = False
+'Me.OrderBy = [IdC]
+
+'Me.OrderByOn = True
+
+End Sub
+
+Private Sub Form_Query()
+DescTip
+
+End Sub
+
+Private Sub IdR_DblClick(Cancel As Integer)
+
+
+
+'    stDocName = "rRicevuta2"
+'    sWhere = "[IdR]=" & Me![IdR]
+'    DoCmd.OpenReport stDocName, acPreview, , sWhere
+     Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fCorrRicevuta"
+    
+    stLinkCriteria = "[IdR]=" & Me![IdR]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_IdRg_DblClick:
+    Exit Sub
+
+End Sub
+
+Private Sub IdRg_DblClick(Cancel As Integer)
+On Error GoTo Err_IdRg_DblClick
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fRicGenerale"
+    
+    stLinkCriteria = "[IdRg]=" & Me![IdRg]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_IdRg_DblClick:
+    Exit Sub
+
+Err_IdRg_DblClick:
+    MsgBox Err.Description
+    Resume Exit_IdRg_DblClick
+
+End Sub

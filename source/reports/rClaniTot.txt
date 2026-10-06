@@ -1,0 +1,701 @@
+Version =21
+VersionRequired =20
+Checksum =-4965585
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =16110
+    DatasheetFontHeight =11
+    ItemSuffix =34
+    Left =2436
+    Top =408
+    Right =13704
+    Bottom =8400
+    RecSrcDt = Begin
+        0x4da039718da5e440
+    End
+    GUID = Begin
+        0x3e056db0f280704ab22a8daef3dc7a18
+    End
+    RecordSource ="qClaniGenerale"
+    Caption ="Clani Skup."
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000ee3e0000d701000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =9
+            FontWeight =700
+            BorderColor =5066944
+            ForeColor =11830108
+            FontName ="Calibri"
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin Line
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =5066944
+        End
+        Begin Image
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            OldBorderStyle =0
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =5066944
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =5066944
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontSize =9
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin BreakLevel
+            ControlSource ="Nominativo"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =623
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0xa9670478fc1b484fba4fded77c02eeec
+            End
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    OverlapFlags =81
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =2436
+                    Width =9300
+                    Height =456
+                    FontSize =18
+                    BorderColor =0
+                    ForeColor =10040879
+                    Name ="Etichetta12"
+                    Caption ="SEZNAM CLANOV GLASBENA ŠOLA "
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xfc2e82087c51d44892a39d98cbf31381
+                    End
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    OverlapFlags =211
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =10488
+                    Width =1533
+                    Height =456
+                    ColumnWidth =2670
+                    FontSize =18
+                    FontWeight =700
+                    ForeColor =10040879
+                    Name ="TextCausale"
+                    ControlSource ="=Right$([Causale],4)"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x615668d208cd69418c3687af101f46ff
+                    End
+
+                End
+            End
+        End
+        Begin PageHeader
+            Height =303
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0xf2be7a62348ef24d994e5b82cf845b54
+            End
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =81
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =3399
+                    Width =510
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="Nominativo_Etichetta"
+                    Caption ="Clan"
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x9de760a3eff57f49847e34118fa580c5
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =81
+                    TextAlign =3
+                    TextFontFamily =18
+                    Left =4929
+                    Width =1620
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="DataN_Etichetta"
+                    Caption ="Datum in kraj r."
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xfa768b74c76a434eadc46cd787c3bcb8
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =81
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =3
+                    Width =564
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="St_Etichetta"
+                    Caption ="Št."
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x7d0b5104eeb19e44a9fcb1b10ea40c73
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =81
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =6969
+                    Width =1380
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="davcna koda_Etichetta"
+                    Caption ="Davcna koda"
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="davcna_koda_Etichetta"
+                    GUID = Begin
+                        0xff900515c9f81249a25f643c02f1398a
+                    End
+                End
+                Begin Line
+                    LineSlant = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =2
+                    OverlapFlags =83
+                    Top =285
+                    Width =15872
+                    BorderColor =8388608
+                    Name ="Linea15"
+                    GUID = Begin
+                        0xa38c97a97a8d0745b049bed75600bbdb
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =211
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =9807
+                    Top =3
+                    Width =1665
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="Etichetta19"
+                    Caption ="Bivalisce"
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xbcc16345e6d974489ea3d1f3533ddacc
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =211
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =12245
+                    Width =1665
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="Etichetta29"
+                    Caption ="Izguba clanstva"
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xcf95b7115344f940b93ec6c30c31a307
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =211
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =14400
+                    Width =690
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="Etichetta30"
+                    Caption ="Razlog"
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xae54ca660d996a45b55d082c992b7a94
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =211
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =795
+                    Width =570
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="Etichetta31"
+                    Caption ="Proš."
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x0a6131c114bda64b8759e6b5a7db82c3
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =211
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =1601
+                    Width =645
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="Etichetta32"
+                    Caption ="Sprej."
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x44a98b260cbe2f4aa7911e70952fe9fa
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =471
+            Name ="Corpo"
+            GUID = Begin
+                0xc6c2c218693a9147a2f10f142247d64e
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =81
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =2484
+                    Top =4
+                    Width =2034
+                    Height =390
+                    FontSize =8
+                    BorderColor =0
+                    Name ="Testo17"
+                    ControlSource ="Nominativo"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0xeb675158fd1c584080a73aae5802199a
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =4695
+                    Width =2304
+                    Height =390
+                    FontSize =8
+                    TabIndex =1
+                    BorderColor =0
+                    Name ="Testo18"
+                    ControlSource ="Nascita"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0xb66173862c49fc4697b183762d650dc3
+                    End
+
+                End
+                Begin TextBox
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Top =60
+                    Width =624
+                    Height =285
+                    FontSize =8
+                    TabIndex =2
+                    BorderColor =0
+                    Name ="Testo19"
+                    ControlSource ="St"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0x8c1fc349b1206f499dba003dbfe82eaf
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7020
+                    Top =4
+                    Width =1734
+                    Height =225
+                    FontSize =8
+                    TabIndex =3
+                    BorderColor =0
+                    Name ="Testo20"
+                    ControlSource ="davcna koda"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0x5bf4a31099e8554da5c64aa218d5d81b
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =8790
+                    Top =4
+                    Width =3801
+                    Height =390
+                    ColumnWidth =4425
+                    FontSize =8
+                    TabIndex =4
+                    Name ="Bivalisce"
+                    ControlSource ="Bivalisce"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0x0b2c74e56dc48342a8f56c0be8cf1c31
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =83
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =630
+                    Width =891
+                    Height =225
+                    FontSize =8
+                    TabIndex =5
+                    Name ="DataD"
+                    ControlSource ="DataD"
+                    StatusBarText ="Data accettazione"
+                    GUID = Begin
+                        0xdcd343fd40710845b370a367de6e5c4b
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =1590
+                    Width =891
+                    Height =225
+                    FontSize =8
+                    TabIndex =6
+                    Name ="DataA"
+                    ControlSource ="DataA"
+                    StatusBarText ="Data domanda"
+                    GUID = Begin
+                        0x0edafac2ecbd6240b83f0aabc19c99a7
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =12642
+                    Width =1071
+                    Height =225
+                    TabIndex =7
+                    Name ="DataE"
+                    ControlSource ="DataE"
+                    StatusBarText ="Data Espulsione"
+                    GUID = Begin
+                        0xb19285e942bc174abf4603b1c8f2a185
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    IMESentenceMode =3
+                    Left =13436
+                    Width =2436
+                    Height =450
+                    TabIndex =8
+                    Name ="Motiv"
+                    ControlSource ="Motiv"
+                    StatusBarText ="Motivazione"
+                    GUID = Begin
+                        0x46395b7b3afad146808fb72dac2f77b1
+                    End
+
+                End
+                Begin Line
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    OverlapFlags =115
+                    Top =456
+                    Width =15872
+                    BorderColor =8388608
+                    Name ="Linea17"
+                    GUID = Begin
+                        0xcad86d1f9b5729488cd0ea0accabc55d
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =298
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x7c89c8d859f83943b1379356415adaf6
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =81
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =60
+                    Top =70
+                    Width =5040
+                    Height =228
+                    FontSize =8
+                    Name ="Testo15"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    GUID = Begin
+                        0x2e682269f8d8c84a90aee0253f5ca9b9
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =10318
+                    Top =56
+                    Width =5490
+                    Height =228
+                    FontSize =8
+                    TabIndex =1
+                    Name ="Testo16"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    GUID = Begin
+                        0x71c9a8e27687e44886ade139c3fe9ef5
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =623
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xb42b4c3081270d40a8700606eb6d8e99
+            End
+            Begin
+                Begin Rectangle
+                    SpecialEffect =1
+                    OverlapFlags =81
+                    Left =113
+                    Top =56
+                    Width =2664
+                    Height =454
+                    BackColor =16777215
+                    BorderColor =0
+                    Name ="Casella23"
+                    GUID = Begin
+                        0x32f086a2886ac94ba51a7bc1a7856256
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =211
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =1190
+                    Top =113
+                    Width =1418
+                    Height =330
+                    FontSize =12
+                    FontWeight =700
+                    Name ="txtConta"
+                    ControlSource ="=Count([Nominativo])"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x690f829a10d13245848d33e80f15887e
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =211
+                            TextFontFamily =18
+                            Left =170
+                            Top =113
+                            Width =930
+                            Height =330
+                            FontSize =12
+                            ForeColor =8388608
+                            Name ="Etichetta22"
+                            Caption ="Clani št."
+                            FontName ="Times New Roman"
+                            GUID = Begin
+                                0x41638959111ecc449ce578fd0f606a69
+                            End
+                        End
+                    End
+                End
+            End
+        End
+    End
+End

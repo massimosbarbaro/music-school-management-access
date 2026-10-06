@@ -1,0 +1,554 @@
+Version =21
+VersionRequired =20
+Checksum =60571506
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =124
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10716
+    DatasheetFontHeight =10
+    ItemSuffix =99
+    Left =708
+    Top =648
+    Right =6336
+    Bottom =8640
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xebbd0b065093e440
+    End
+    GUID = Begin
+        0x3565494706f31f4e9b2c953ed21f3a37
+    End
+    RecordSource ="SELECT qClanarina.*\015\012FROM qClanarina\015\012WHERE ([IdP]=222);"
+    Caption ="Vpisnina"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x530300001c010000f00000000601000000000000dc2900000000000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            ControlSource ="IdP"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            KeepTogether =1
+            ControlSource ="NominativoS"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =1699
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0xa84caee105f59842a7c6cd7a667aeb39
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x3bd20939d67ec7419cae0cba314cfb31
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =907
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0x47f2062832302a4cabbe626ae9d3a72d
+            End
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    OverlapFlags =81
+                    TextAlign =2
+                    Left =1848
+                    Top =108
+                    Width =7596
+                    Height =564
+                    FontSize =18
+                    ForeColor =0
+                    Name ="Testo72"
+                    Caption ="Vpisna pola za šolsko leto 2016/2017"
+                    GUID = Begin
+                        0x36b82c71bacfe9489df705e6ff1c2c91
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =870
+            BreakLevel =1
+            Name ="IntestazioneGruppo1"
+            GUID = Begin
+                0xe9fedb6001d61340a499536a97babdfc
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =243
+                    IMESentenceMode =3
+                    Left =915
+                    Width =3174
+                    Height =285
+                    FontSize =11
+                    FontWeight =700
+                    Name ="Starsi.Nome"
+                    ControlSource ="NominativoS"
+                    EventProcPrefix ="Starsi_Nome"
+                    GUID = Begin
+                        0x105efab3fa22544a82832ff28cded2c0
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    IMESentenceMode =3
+                    Left =4764
+                    Top =60
+                    FontSize =10
+                    TabIndex =1
+                    Name ="Starsi.DataN"
+                    ControlSource ="Starsi.DataN"
+                    Format ="dd\\.mm\\.yyyy"
+                    EventProcPrefix ="Starsi_DataN"
+                    GUID = Begin
+                        0x4dc4a76d4bbf0343b77b78297227caed
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    IMESentenceMode =3
+                    Left =7140
+                    Width =3393
+                    FontSize =10
+                    TabIndex =2
+                    Name ="Comuni.Comune"
+                    ControlSource ="Comuni.[Slov ]"
+                    EventProcPrefix ="Comuni_Comune"
+                    GUID = Begin
+                        0x6f6b9ab0bc3829408ef96b9178502b54
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextFontCharSet =177
+                    IMESentenceMode =3
+                    Left =1755
+                    Top =345
+                    Width =2376
+                    Height =285
+                    FontSize =9
+                    TabIndex =3
+                    Name ="Starsi.Via"
+                    ControlSource ="Starsi.Via"
+                    EventProcPrefix ="Starsi_Via"
+                    GUID = Begin
+                        0x5d19155ab3043a45a44cf018e69fcb66
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextFontCharSet =177
+                    IMESentenceMode =3
+                    Left =4200
+                    Top =345
+                    Height =285
+                    FontSize =9
+                    TabIndex =4
+                    Name ="Comuni_1.Comune"
+                    ControlSource ="Comuni_1.Slov"
+                    EventProcPrefix ="Comuni_1_Comune"
+                    GUID = Begin
+                        0xda0a3fd2b81bcf45bbcef1435dc6e748
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    IMESentenceMode =3
+                    Left =6864
+                    Top =336
+                    Width =3558
+                    Height =285
+                    FontSize =10
+                    TabIndex =5
+                    Name ="davcna"
+                    ControlSource ="davcna"
+                    GUID = Begin
+                        0xc1dbfdc56e4cb54da0b04d57b96dd1d7
+                    End
+
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =0
+            Name ="Corpo"
+            GUID = Begin
+                0xe9bc6abefa008946b8c8292caec418cb
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =10409
+            Name ="PièDiPaginaGruppo0"
+            GUID = Begin
+                0x6a7f38988f77e146ab3decaf782307f0
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =243
+                    TextFontCharSet =177
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1296
+                    Top =564
+                    Width =3570
+                    Height =345
+                    FontSize =10
+                    FontWeight =700
+                    Name ="Go.Nome"
+                    ControlSource ="NominativoU"
+                    EventProcPrefix ="Go_Nome"
+                    GUID = Begin
+                        0x5e54c877f79d194285cfb3a68c0ade5a
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =5328
+                    Top =624
+                    Width =1329
+                    FontSize =10
+                    TabIndex =1
+                    Name ="DataN"
+                    ControlSource ="Go.DataN"
+                    Format ="dd\\.mm\\.yyyy"
+                    GUID = Begin
+                        0x561f38e9f4711f41b615490d2f0519ec
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =3465
+                    Top =1425
+                    Width =1428
+                    Height =270
+                    FontSize =10
+                    TabIndex =2
+                    Name ="tel"
+                    ControlSource ="tel"
+                    GUID = Begin
+                        0x653c35330ac06441bcea948b90a5c5cd
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6870
+                    Top =1425
+                    Width =3453
+                    Height =270
+                    FontSize =10
+                    TabIndex =3
+                    Name ="mail"
+                    ControlSource ="mail"
+                    GUID = Begin
+                        0x39d94e67ebb74047be339624ad1b2b20
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =4939
+                    Top =1425
+                    Width =1443
+                    Height =270
+                    FontSize =10
+                    TabIndex =4
+                    Name ="cel"
+                    ControlSource ="cel"
+                    GUID = Begin
+                        0x65e454e3489fa24f882f09ec9925a891
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    IMESentenceMode =3
+                    Left =7032
+                    Top =624
+                    Width =3567
+                    Height =255
+                    ColumnWidth =2130
+                    FontSize =10
+                    TabIndex =5
+                    Name ="Comuni_2.Comune"
+                    ControlSource ="Comuni_2.Slov"
+                    EventProcPrefix ="Comuni_2_Comune"
+                    GUID = Begin
+                        0x574962486f6e44418205800bfa228c82
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    IMESentenceMode =3
+                    Left =1080
+                    Top =1425
+                    Width =1926
+                    ColumnWidth =2280
+                    TabIndex =7
+                    Name ="davcna koda"
+                    ControlSource ="davcna koda"
+                    EventProcPrefix ="davcna_koda"
+                    GUID = Begin
+                        0x2d3ef53f70e4de4480e334c1dfc2e3d7
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    BackStyle =1
+                    IMESentenceMode =3
+                    Left =1984
+                    Top =963
+                    Width =8676
+                    Height =315
+                    ColumnWidth =2130
+                    FontSize =10
+                    TabIndex =6
+                    Name ="Comuni_3.Comune"
+                    ControlSource ="ComR"
+                    EventProcPrefix ="Comuni_3_Comune"
+                    GUID = Begin
+                        0x1042a44ff46bb64a8cd80ecca7589cfa
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =7490
+                    Top =2600
+                    Width =2376
+                    Height =225
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =8
+                    Name ="Dove"
+                    ControlSource ="Dove"
+                    StatusBarText =" Dove fanno lezione"
+                    GUID = Begin
+                        0x13d05ff52f041146913692a5907e11a5
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =1140
+                    Top =3795
+                    Width =3561
+                    ColumnWidth =3735
+                    FontSize =10
+                    TabIndex =9
+                    Name ="Materia"
+                    ControlSource ="Materia"
+                    GUID = Begin
+                        0x7da5443dbd0ee04db3f72cb2d74a0402
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5392
+                    Top =3795
+                    Width =1206
+                    FontSize =10
+                    TabIndex =10
+                    Name ="Razred"
+                    ControlSource ="Razred"
+                    GUID = Begin
+                        0x77b8d23aa0ce36448a611f5d81050d08
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =8000
+                    Top =3795
+                    Width =2331
+                    FontSize =10
+                    TabIndex =11
+                    Name ="Prof.Cognome"
+                    ControlSource ="Prof.Cognome"
+                    EventProcPrefix ="Prof_Cognome"
+                    GUID = Begin
+                        0x2739714c458ae04890c53650b42ecf66
+                    End
+
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =243
+                    Left =3288
+                    Top =10034
+                    Width =7320
+                    Height =375
+                    FontSize =10
+                    FontWeight =400
+                    ForeColor =0
+                    Name ="Etichetta82"
+                    Caption ="(osebe, na katero se nanašajo zahtevani podatki - oz. osebe, ki izvršuje roditel"
+                        "jske pravice)"
+                    GUID = Begin
+                        0x2436091644745745a233c7c6ad25b576
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextFontCharSet =177
+                    IMESentenceMode =3
+                    Left =2205
+                    Top =1755
+                    Width =8061
+                    ColumnWidth =3045
+                    FontSize =10
+                    TabIndex =12
+                    Name ="Scuola"
+                    ControlSource ="Scuola"
+                    GUID = Begin
+                        0x67ad6bfa424b7047acf24d90b5e4b487
+                    End
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x6ad33b5b79791041b67eef231c771e79
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xb6c90424443c5e469c086261fa72c895
+            End
+        End
+    End
+End

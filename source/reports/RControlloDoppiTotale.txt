@@ -1,0 +1,634 @@
+Version =21
+VersionRequired =20
+Checksum =1136776459
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularCharSet =204
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =31680
+    DatasheetFontHeight =11
+    ItemSuffix =21
+    Top =480
+    Right =16176
+    Bottom =6372
+    RecSrcDt = Begin
+        0x8a739900edfee440
+    End
+    GUID = Begin
+        0x16d6c717a4aef94daec1022b3d137ab7
+    End
+    RecordSource ="controllo doppi Totale"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000c07b00009401000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontFamily =0
+            FontSize =11
+            ForeColor =8998176
+            FontName ="Calibri"
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =11
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            BackStyle =1
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            TextFontFamily =0
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            TextFontFamily =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =11
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontFamily =0
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin Chart
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin UnboundObjectFrame
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin PageBreak
+            Width =283
+        End
+        Begin CustomControl
+            SpecialEffect =2
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =11
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            TextFontFamily =0
+            Width =5103
+            Height =3402
+            FontSize =11
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin Page
+            Width =1701
+            Height =1701
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =704
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0xdc154f214762b845ba85eebcdb5d875e
+            End
+            Begin
+                Begin Label
+                    TextAlign =1
+                    TextFontFamily =34
+                    Left =1288
+                    Top =60
+                    Width =3656
+                    Height =572
+                    FontSize =18
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Auto_Title0"
+                    Caption ="controllo doppi Totale"
+                    FontName ="Segoe UI"
+                    GUID = Begin
+                        0xd36e38b699e87a40a8c6dd78aff384f9
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    TextAlign =3
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =6081
+                    Top =60
+                    Width =5103
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Testo0"
+                    ControlSource ="=Date()"
+                    Format ="Long Date"
+                    GUID = Begin
+                        0x8a96281c1bc7fe448a1cf0b3e1c0f734
+                    End
+
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    TextAlign =3
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =6081
+                    Top =360
+                    Width =5103
+                    Height =344
+                    TabIndex =1
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Testo1"
+                    ControlSource ="=Time()"
+                    Format ="Long Time"
+                    GUID = Begin
+                        0xa1ead42af6bcbf4ebd7761408b27bc75
+                    End
+
+                End
+            End
+        End
+        Begin PageHeader
+            Height =446
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x14039994d77a854a9a615b8aa0d80e7b
+            End
+            Begin
+                Begin Label
+                    Left =56
+                    Top =60
+                    Width =3420
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Etichetta4"
+                    Caption ="AnnoS"
+                    GUID = Begin
+                        0x1c223c5a7173b641bd0048b97b7d92d5
+                    End
+                End
+                Begin Label
+                    Left =3536
+                    Top =60
+                    Width =3420
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Etichetta6"
+                    Caption ="Sede"
+                    GUID = Begin
+                        0x014cf38581f5b849820a310838bda536
+                    End
+                End
+                Begin Label
+                    Left =7016
+                    Top =60
+                    Width =3420
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Etichetta8"
+                    Caption ="Dove"
+                    GUID = Begin
+                        0xb874ece956b0fc47bdaaa0c268316914
+                    End
+                End
+                Begin Label
+                    Left =10496
+                    Top =60
+                    Width =3420
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Etichetta10"
+                    Caption ="NominativoProf"
+                    GUID = Begin
+                        0xc15d7198844c3e4c946b86cda3da6a6e
+                    End
+                End
+                Begin Label
+                    Left =13976
+                    Top =60
+                    Width =3420
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Etichetta12"
+                    Caption ="NominativoUc"
+                    GUID = Begin
+                        0xa2336aadb6fb39478fee4cf1aaae7678
+                    End
+                End
+                Begin Label
+                    Left =17456
+                    Top =60
+                    Width =1440
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Etichetta14"
+                    Caption ="Ore"
+                    GUID = Begin
+                        0xd72269978cb26c4d8b3add55287b8d0c
+                    End
+                End
+                Begin Label
+                    Left =18956
+                    Top =60
+                    Width =3420
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Etichetta16"
+                    Caption ="Stejemo"
+                    GUID = Begin
+                        0x4248c33c14b6d8479e2c610c6bbbe854
+                    End
+                End
+                Begin Label
+                    Left =22436
+                    Top =60
+                    Width =2516
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Etichetta18"
+                    Caption ="SommaDiSommaDiDovuto"
+                    GUID = Begin
+                        0xa280041b6f4c4d4e9c8e134a5105fe1e
+                    End
+                End
+                Begin Label
+                    Left =25012
+                    Top =60
+                    Width =2480
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Etichetta20"
+                    Caption ="SommaDiSommaDiPagato"
+                    GUID = Begin
+                        0xa4b88a5facfaa545a676e9d83a7f1c38
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =404
+            Name ="Corpo"
+            GUID = Begin
+                0x4469361152720b4aba89a66e0f21abd3
+            End
+            Begin
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =56
+                    Top =36
+                    Width =3420
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="AnnoS"
+                    ControlSource ="AnnoS"
+                    GUID = Begin
+                        0xb562bf88b0c29b47ae2b1779c7029907
+                    End
+
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =3536
+                    Top =36
+                    Width =3420
+                    Height =344
+                    TabIndex =1
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Sede"
+                    ControlSource ="Sede"
+                    GUID = Begin
+                        0xa6a54433edb420469c9e9fba659ee386
+                    End
+
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =7016
+                    Top =36
+                    Width =3420
+                    Height =344
+                    TabIndex =2
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Dove"
+                    ControlSource ="Dove"
+                    GUID = Begin
+                        0x4738488c718b5e41ba538f5ed0d67650
+                    End
+
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =10496
+                    Top =36
+                    Width =3420
+                    Height =344
+                    TabIndex =3
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="NominativoProf"
+                    ControlSource ="NominativoProf"
+                    GUID = Begin
+                        0x4bf02df12aaee04cb8d93000c6765d21
+                    End
+
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =13976
+                    Top =36
+                    Width =3420
+                    Height =344
+                    TabIndex =4
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="NominativoUc"
+                    ControlSource ="NominativoUc"
+                    GUID = Begin
+                        0xfe4f2f781ec901428aee1e76feb020a4
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =17456
+                    Top =36
+                    Width =1440
+                    Height =344
+                    TabIndex =5
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Ore"
+                    ControlSource ="Ore"
+                    GUID = Begin
+                        0x64fa28e91a53484f9eb0b071f6952cd9
+                    End
+
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    IMESentenceMode =3
+                    Left =18956
+                    Top =36
+                    Width =3420
+                    Height =344
+                    TabIndex =6
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Stejemo"
+                    ControlSource ="Stejemo"
+                    GUID = Begin
+                        0x915885c1e8b7654bb67bfe5f479dd60b
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =22436
+                    Top =36
+                    Width =2516
+                    Height =344
+                    TabIndex =7
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="SommaDiSommaDiDovuto"
+                    ControlSource ="SommaDiSommaDiDovuto"
+                    GUID = Begin
+                        0x42bdb78755573c4ca273fad8cdef072b
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =25012
+                    Top =36
+                    Width =2480
+                    Height =344
+                    TabIndex =8
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="SommaDiSommaDiPagato"
+                    ControlSource ="SommaDiSommaDiPagato"
+                    GUID = Begin
+                        0xed9c090d14aa4544864b2811a2b790d6
+                    End
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =344
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x0cc479f5b45a16469b90da27c3b3f8de
+            End
+            Begin
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    TextAlign =2
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =3792
+                    Width =3600
+                    Height =344
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Testo2"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    GUID = Begin
+                        0x5e8222fea3ab4245873c2c3e1b7363d7
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =492
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x446cda95ac093848951a7652358cdd94
+            End
+            Begin
+                Begin TextBox
+                    TextFontFamily =34
+                    IMESentenceMode =3
+                    Left =56
+                    Top =48
+                    Width =3420
+                    Height =300
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="AccessTotalsAnnoS"
+                    ControlSource ="=Count(*)"
+                    ControlTipText ="Conteggio record"
+                    GUID = Begin
+                        0x2b39d5fb936fc74bbc6fd5fd04acbc93
+                    End
+
+                End
+            End
+        End
+    End
+End

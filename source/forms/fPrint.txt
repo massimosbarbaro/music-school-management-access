@@ -1,0 +1,1173 @@
+Version =21
+VersionRequired =20
+Checksum =587389614
+Begin Form
+    Modal = NotDefault
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    TabularFamily =126
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =4478
+    DatasheetFontHeight =10
+    ItemSuffix =32
+    Left =4035
+    Top =405
+    Right =8520
+    Bottom =8895
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xd69ea7f65473e440
+    End
+    GUID = Begin
+        0xcddcb5535e0d5143b82021a8013482d6
+    End
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a005000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =1134
+            BackColor =6723891
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xb22cf4c8aec8c5449d3fcc9fdcea2089
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextFontFamily =18
+                    Left =1870
+                    Top =226
+                    Width =1110
+                    Height =660
+                    FontSize =26
+                    Name ="Etichetta2"
+                    Caption ="Print"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x58e9bb71442098418b59cee7eb3e4dc0
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =6406
+            BackColor =12632256
+            Name ="Corpo"
+            GUID = Begin
+                0xc60e213b50044849a35e7f4564aed0f7
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =225
+                    Top =225
+                    Width =915
+                    Height =405
+                    Name ="cmdDijaki"
+                    Caption ="Dijaki"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x8c8a6c30d6bd2a4aa0acf88bbc5ab796
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3225
+                    Top =225
+                    Width =915
+                    Height =405
+                    TabIndex =1
+                    Name ="cmdRacuni"
+                    Caption ="Racuni S"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x5b1dd47f2187454aa61cdf232386011d
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3225
+                    Top =887
+                    Width =915
+                    Height =405
+                    TabIndex =2
+                    Name ="cmdRacuniG"
+                    Caption ="Racuni G"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x2ef622851bcb734180952498073a82c5
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =225
+                    Top =1524
+                    Width =915
+                    Height =405
+                    TabIndex =3
+                    Name ="cmdStarsi"
+                    Caption ="Starši"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xa51c32d1ded09144952e31ae57f04f5e
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =225
+                    Top =2186
+                    Width =915
+                    Height =405
+                    TabIndex =4
+                    Name ="cmdPoskus"
+                    Caption ="Poskus"
+                    OnClick ="[Event Procedure]"
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Report su file"
+                    GUID = Begin
+                        0x3ce5a7798ad0e348bd689cafd3d438cb
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3225
+                    Top =1524
+                    Width =915
+                    Height =405
+                    TabIndex =5
+                    Name ="cmdUcenci"
+                    Caption ="Ucenci"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xf482b9b191ecf843b80c4932b2a56652
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1725
+                    Top =225
+                    Width =915
+                    Height =405
+                    TabIndex =6
+                    Name ="cmdFatture"
+                    Caption ="Fakture"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xf071580096c1fa4cbf2e91b64d900e12
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1725
+                    Top =887
+                    Width =915
+                    Height =405
+                    TabIndex =7
+                    Name ="cmdBil"
+                    Caption ="Bilanca"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x4e408fa872f28a4ab071d5fb496256e1
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1755
+                    Top =2205
+                    Width =915
+                    Height =405
+                    TabIndex =8
+                    Name ="cmdProfUce"
+                    Caption ="ProfUce"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xca00cdc9b434a944929e760422612231
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1720
+                    Top =3472
+                    Width =915
+                    Height =405
+                    TabIndex =9
+                    Name ="cmdExProf"
+                    Caption ="ExProfUce"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xa20051e0fa633b4dbc7454444a55ecfc
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =225
+                    Top =3472
+                    Width =915
+                    Height =405
+                    TabIndex =10
+                    Name ="cmdClani"
+                    Caption ="Clani"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xbec603143d1cb14da86ab45f402abb85
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3225
+                    Top =2186
+                    Width =915
+                    Height =405
+                    TabIndex =11
+                    Name ="smdUcNoSt"
+                    Caption ="Uc.No St."
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x7799f1f96d3c7442ae3c0f1665d77493
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1695
+                    Top =4081
+                    Width =915
+                    Height =405
+                    TabIndex =12
+                    Name ="cmdPoskProf"
+                    Caption ="ProfUcPo"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xcd856a8bce9f914bbcf59d65f85bf55d
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3225
+                    Top =2835
+                    Width =915
+                    Height =405
+                    TabIndex =13
+                    Name ="cmdUcST"
+                    Caption ="Uc. St"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x06c99c80ab93264a9ff59bf002bc9bc9
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =225
+                    Top =4081
+                    Width =915
+                    Height =405
+                    TabIndex =14
+                    Name ="cmdClaniTot"
+                    Caption ="Clani Sk."
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xe11c7f631857254ea6ac0fadf256cf40
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =225
+                    Top =2835
+                    Width =915
+                    Height =405
+                    TabIndex =15
+                    Name ="cmdIzpit"
+                    Caption ="Iz. Kons."
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x9a654d9b73ba394f913ee7a0f425b363
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3225
+                    Top =4695
+                    Width =915
+                    Height =405
+                    TabIndex =16
+                    Name ="cmdTekm"
+                    Caption ="Tekmov."
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x1ff807dd2c874b4794ec73bc871ec52d
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =225
+                    Top =4695
+                    Width =915
+                    Height =405
+                    TabIndex =17
+                    Name ="cmdMail"
+                    Caption ="Mail"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x6cf0e0c7b238ed45bdc96a8de4b99d4f
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1694
+                    Top =1524
+                    Width =915
+                    Height =405
+                    TabIndex =18
+                    Name ="cmdBilKaus"
+                    Caption ="Bil/kaus Sp"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x2135739dc64cbb439cd47fa0699995a4
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3225
+                    Top =3472
+                    Width =915
+                    Height =405
+                    TabIndex =19
+                    Name ="cmdUreSt"
+                    Caption ="Uc. Ure St"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x24ac112134385d4988f2e02b8a407ed4
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3225
+                    Top =4081
+                    Width =915
+                    Height =390
+                    TabIndex =20
+                    Name ="cmdStarost"
+                    Caption ="Starost"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x52d4d3f383de5c4aa69939b32a401af5
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1700
+                    Top =4695
+                    Width =915
+                    Height =390
+                    TabIndex =21
+                    Name ="cmdNovi"
+                    Caption ="Novi Uc"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x89d07affa692b74695e7a354d15ccb14
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =225
+                    Top =887
+                    Width =915
+                    Height =420
+                    TabIndex =22
+                    Name ="cmdUltima"
+                    Caption ="Ultima fak"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x3ff6e0d62bf1dc4bb341526c18f58cda
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1695
+                    Top =5385
+                    Width =900
+                    Height =405
+                    TabIndex =23
+                    Name ="cmdAnualita"
+                    Caption ="Annualita"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xca78623219775f458a05c731b43207cb
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3225
+                    Top =5385
+                    Width =930
+                    Height =405
+                    TabIndex =24
+                    Name ="cmdConteggioAnnualita"
+                    Caption ="2015-2016"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x05c9571652f83f499dfacdb990ec1550
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =225
+                    Top =5385
+                    Width =915
+                    Height =405
+                    TabIndex =25
+                    Name ="cmdConteggio"
+                    Caption ="Conteggio"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x1d253f4c096dba4dab6973aee095558e
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1755
+                    Top =2775
+                    Width =915
+                    Height =405
+                    TabIndex =26
+                    Name ="cmdProfUcUr"
+                    Caption ="ProfUceUr"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xdc272c3c17daea46ad4978aaaef1ede6
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+        Begin FormFooter
+            Height =963
+            BackColor =6723891
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0xe732c08b8812cc4697ee6b01319ef492
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3685
+                    Top =283
+                    Width =576
+                    Height =576
+                    Name ="cmdEsci"
+                    Caption ="Comando1"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0x4b0efca5c211ee4a94cd32b2116c6de0
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =680
+                    Top =283
+                    Width =1245
+                    Height =510
+                    TabIndex =1
+                    Name ="cmdEntrate"
+                    Caption ="Entrate"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x2a760d60abbbb143a31c53fb0e01f5dc
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub cmdAnualita_Click()
+On Error GoTo Err_cmdAnualita_Click
+
+    Dim stDocName As String
+
+    stDocName = "rParagoneAnnualita"
+    DoCmd.OutputTo acReport, stDocName
+
+Exit_cmdAnualita_Click:
+    Exit Sub
+
+Err_cmdAnualita_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdAnualita_Click
+    
+
+End Sub
+
+Private Sub cmdDijaki_Click()
+On Error GoTo Err_cmdDijaki_Click
+
+    Dim stDocName As String
+
+    stDocName = "rDijakElenco"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdDijaki_Click:
+    Exit Sub
+
+Err_cmdDijaki_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdDijaki_Click
+    
+End Sub
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
+
+Private Sub cmdNovi_Click()
+
+    Dim stDocName As String
+
+    stDocName = "rScuolaProfUceSTNoStNovi"
+    DoCmd.OutputTo acReport, stDocName
+
+Exit_cmdNovi_Click:
+    Exit Sub
+
+Err_cmdNovi_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdNovi_Click
+    
+End Sub
+
+Private Sub cmdProfUcUr_Click()
+On Error GoTo Err_cmdProfUcUr_Click
+    Dim stDocName As String
+
+    stDocName = "rProfUceDataFine"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdProfUcUr_Click:
+    Exit Sub
+
+Err_cmdProfUcUr_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdProfUcUr_Click
+    
+
+End Sub
+
+Private Sub cmdRacuni_Click()
+On Error GoTo Err_cmdRacuni_Click
+
+    Dim stDocName As String
+
+    stDocName = "rPagati"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdRacuni_Click:
+    Exit Sub
+
+Err_cmdRacuni_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdRacuni_Click
+    
+End Sub
+Private Sub cmdRacuniG_Click()
+On Error GoTo Err_cmdRacuniG_Click
+
+    Dim stDocName As String
+
+    stDocName = "rRestoGenerale"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdRacuniG_Click:
+    Exit Sub
+
+Err_cmdRacuniG_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdRacuniG_Click
+    
+End Sub
+Private Sub cmdStarsi_Click()
+On Error GoTo Err_cmdStarsi_Click
+
+    Dim stDocName As String
+
+    stDocName = "rDijakStar"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdStarsi_Click:
+    Exit Sub
+
+Err_cmdStarsi_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdStarsi_Click
+    
+End Sub
+Private Sub cmdPoskus_Click()
+On Error GoTo Err_cmdPoskus_Click
+
+    Dim stDocName As String
+
+    stDocName = "rPoskus"
+    DoCmd.OutputTo acReport, stDocName
+
+Exit_cmdPoskus_Click:
+    Exit Sub
+
+Err_cmdPoskus_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdPoskus_Click
+    
+End Sub
+Private Sub cmdUcenci_Click()
+On Error GoTo Err_cmdUcenci_Click
+
+    Dim stDocName As String
+
+    stDocName = "rUcenci"
+    DoCmd.OutputTo acReport, stDocName
+
+Exit_cmdUcenci_Click:
+    Exit Sub
+
+Err_cmdUcenci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdUcenci_Click
+    
+End Sub
+Private Sub cmdFatture_Click()
+On Error GoTo Err_cmdFatture_Click
+
+    Dim stDocName As String
+
+    stDocName = "rFattura"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdFatture_Click:
+    Exit Sub
+
+Err_cmdFatture_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdFatture_Click
+    
+End Sub
+Private Sub cmdBil_Click()
+On Error GoTo Err_cmdBil_Click
+
+    Dim stDocName As String
+
+    stDocName = "rRestoMensile"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdBil_Click:
+    Exit Sub
+
+Err_cmdBil_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdBil_Click
+    
+End Sub
+Private Sub cmdProfUce_Click()
+On Error GoTo Err_cmdProfUce_Click
+
+    Dim stDocName As String
+
+    stDocName = "rProfUce"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdProfUce_Click:
+    Exit Sub
+
+Err_cmdProfUce_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdProfUce_Click
+    
+End Sub
+Private Sub cmdExProf_Click()
+On Error GoTo Err_cmdExProf_Click
+
+    Dim stDocName As String
+
+    stDocName = "rExProfUce"
+    DoCmd.OutputTo acReport, stDocName
+
+Exit_cmdExProf_Click:
+    Exit Sub
+
+Err_cmdExProf_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdExProf_Click
+    
+End Sub
+Private Sub cmdClani_Click()
+On Error GoTo Err_cmdClani_Click
+
+    Dim stDocName As String
+
+    stDocName = "rClani"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdClani_Click:
+    Exit Sub
+
+Err_cmdClani_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdClani_Click
+    
+End Sub
+
+Private Sub cmdUltima_Click()
+On Error GoTo Err_cmdUltima_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fUltima"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdUltima_Click:
+    Exit Sub
+
+Err_cmdUltima_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdUltima_Click
+    
+End Sub
+
+Private Sub Comando23_Click()
+On Error GoTo Err_cmdBilKaus_Click
+
+    Dim stDocName As String
+
+    stDocName = "rRestoMensileCausaleUK"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdBilKaus_Click:
+    Exit Sub
+
+Err_cmdBilKaus_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdBilKaus_Click
+    
+
+End Sub
+
+Private Sub Comando27_Click()
+
+End Sub
+
+Private Sub smdUcNoSt_Click()
+On Error GoTo Err_smdUcNoSt_Click
+
+    Dim stDocName As String
+
+    stDocName = "rProfUceNoST"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_smdUcNoSt_Click:
+    Exit Sub
+
+Err_smdUcNoSt_Click:
+    MsgBox Err.Description
+    Resume Exit_smdUcNoSt_Click
+    
+End Sub
+Private Sub cmdPoskProf_Click()
+On Error GoTo Err_cmdPoskProf_Click
+
+    Dim stDocName As String
+
+    stDocName = "rProfUcePosk"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdPoskProf_Click:
+    Exit Sub
+
+Err_cmdPoskProf_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdPoskProf_Click
+    
+End Sub
+Private Sub cmdUcST_Click()
+On Error GoTo Err_cmdUcST_Click
+
+    Dim stDocName As String
+
+    stDocName = "rProfUceST"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdUcST_Click:
+    Exit Sub
+
+Err_cmdUcST_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdUcST_Click
+    
+End Sub
+Private Sub cmdClaniTot_Click()
+On Error GoTo Err_cmdClaniTot_Click
+
+    Dim stDocName As String
+
+    stDocName = "rClaniTot"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdClaniTot_Click:
+    Exit Sub
+
+Err_cmdClaniTot_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdClaniTot_Click
+    
+End Sub
+Private Sub cmdIzpit_Click()
+On Error GoTo Err_cmdIzpit_Click
+
+    Dim stDocName As String
+
+    stDocName = "rKonservIzpit"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdIzpit_Click:
+    Exit Sub
+
+Err_cmdIzpit_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdIzpit_Click
+    
+End Sub
+Private Sub cmdTekm_Click()
+On Error GoTo Err_cmdTekm_Click
+
+    Dim stDocName As String
+
+    stDocName = "rTekmovanije"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdTekm_Click:
+    Exit Sub
+
+Err_cmdTekm_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdTekm_Click
+    
+End Sub
+Private Sub cmdMail_Click()
+On Error GoTo Err_cmdMail_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fMail"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdMail_Click:
+    Exit Sub
+
+Err_cmdMail_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdMail_Click
+    
+End Sub
+Private Sub cmdBilKaus_Click()
+On Error GoTo Err_cmdBilKaus_Click
+
+    Dim stDocName As String
+
+    stDocName = "rRestoMensileCausale"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdBilKaus_Click:
+    Exit Sub
+
+Err_cmdBilKaus_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdBilKaus_Click
+    
+End Sub
+Private Sub cmdUreSt_Click()
+On Error GoTo Err_cmdUreSt_Click
+
+    Dim stDocName As String
+
+    stDocName = "rProfUceStSkupno"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdUreSt_Click:
+    Exit Sub
+
+Err_cmdUreSt_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdUreSt_Click
+    
+End Sub
+Private Sub cmdStarost_Click()
+On Error GoTo Err_cmdStarost_Click
+
+    Dim stDocName As String
+
+    stDocName = "rScuolaProfUceSTNoSt"
+    DoCmd.OutputTo acReport, stDocName
+
+Exit_cmdStarost_Click:
+    Exit Sub
+
+Err_cmdStarost_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdStarost_Click
+    
+End Sub
+Private Sub cmdConteggioAnnualita_Click()
+On Error GoTo Err_cmdConteggioAnnualita_Click
+
+    Dim stDocName As String
+
+    stDocName = "rParagoneAnnualitaConteggio"
+    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdConteggioAnnualita_Click:
+    Exit Sub
+
+Err_cmdConteggioAnnualita_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdConteggioAnnualita_Click
+    
+End Sub
+Private Sub cmdConteggio_Click()
+On Error GoTo Err_cmdConteggio_Click
+
+    Dim stDocName As String
+
+    stDocName = "rAnnualitaConteggioPerAnno"
+    DoCmd.OutputTo acReport, stDocName
+
+Exit_cmdConteggio_Click:
+    Exit Sub
+
+Err_cmdConteggio_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdConteggio_Click
+    
+End Sub
+Private Sub cmdEntrate_Click()
+On Error GoTo Err_cmdEntrate_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fPrintPrispevki"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdEntrate_Click:
+    Exit Sub
+
+Err_cmdEntrate_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEntrate_Click
+    
+End Sub

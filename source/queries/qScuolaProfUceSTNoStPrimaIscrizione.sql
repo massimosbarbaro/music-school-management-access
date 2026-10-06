@@ -1,0 +1,5 @@
+SELECT Go.PIscr, Scuola.AnnoS, Go.Sede, [Prof.Cognome] & " " & [Prof.Nome] AS NominativoProf, [Go.Cognome] & " " & [Go.Nome] AS NominativoUc, Go.DataN, DateDiff("yyyy",[Go.DataN],Date())+(Format(Date(),"mmdd")<Format([Go.DataN],"mmdd")) AS Starost, Go.tel, Go.mail, Go.cel, Materia.Stejemo, Scuola.Razred, Scuola.Ore, Podruzica.Dove, Scuola.Posk, Sola.Sola, Sola.Razred, Sola.Sek, Sola.Note
+FROM (((([Go] LEFT JOIN Scuola ON Go.IdP=Scuola.IdP) LEFT JOIN Materia ON Scuola.IdM=Materia.IdM) LEFT JOIN Podruzica ON Scuola.IdD=Podruzica.IdD) LEFT JOIN Sola ON (Scuola.AnnoS=Sola.AnnoS) AND (Scuola.IdP=Sola.IdP)) LEFT JOIN Prof ON Scuola.IdPr=Prof.IdPr
+GROUP BY Go.PIscr, Scuola.AnnoS, Go.Sede, [Prof.Cognome] & " " & [Prof.Nome], [Go.Cognome] & " " & [Go.Nome], Go.DataN, DateDiff("yyyy",[Go.DataN],Date())+(Format(Date(),"mmdd")<Format([Go.DataN],"mmdd")), Go.tel, Go.mail, Go.cel, Materia.Stejemo, Scuola.Razred, Scuola.Ore, Podruzica.Dove, Scuola.Posk, Sola.Sola, Sola.Razred, Sola.Sek, Sola.Note
+HAVING (((Go.PIscr) Like [Solsko leto?]) AND ((Scuola.Posk)=0))
+ORDER BY Materia.Stejemo;

@@ -1,0 +1,2 @@
+SELECT Go.IdP, [Go.Cognome] & " " & [go.Nome] AS NominativoP, Sodelo.Solsko, LSPPr.Skupine, Materia_3.Materia, [Prof.Cognome] & " " & [Prof.Nome] AS NominativoPr, Sodelo.Organizator, Sodelo.Pobude, Sodelo.TipPobude, Sodelo.Kraj, Sodelo.Da, Sodelo.A
+FROM ((([Go] INNER JOIN LSPPr ON Go.IdP=LSPPr.IdP) LEFT JOIN Sodelo ON LSPPr.IdS=Sodelo.IdS) LEFT JOIN Materia AS Materia_3 ON LSPPr.IdM=Materia_3.IdM) INNER JOIN Prof ON LSPPr.IdPr=Prof.IdPr;

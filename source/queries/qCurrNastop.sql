@@ -1,0 +1,2 @@
+SELECT Go.IdP, [Go.Cognome] & " " & [go.Nome] AS NominativoP, Nastop.Solsko, LNPPr.Skupine, Materia.Materia, [Prof.Cognome] & " " & [Prof.Nome] AS NominativoPr, Nastop.Organizator, Nastop.Nastop, Nastop.TipNastop, Nastop.Kraj, Nastop.Da, Nastop.A
+FROM ((([Go] INNER JOIN LNPPr ON Go.IdP=LNPPr.IdP) LEFT JOIN Nastop ON LNPPr.IdN=Nastop.IdN) LEFT JOIN Materia ON LNPPr.IdM=Materia.IdM) LEFT JOIN Prof ON LNPPr.IdPr=Prof.IdPr;

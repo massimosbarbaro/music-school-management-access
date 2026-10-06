@@ -1,0 +1,874 @@
+Version =21
+VersionRequired =20
+Checksum =-1442971854
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularCharSet =163
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10711
+    DatasheetFontHeight =11
+    ItemSuffix =38
+    Left =585
+    Top =1320
+    Right =11580
+    Bottom =7995
+    RecSrcDt = Begin
+        0x45645875583ce540
+    End
+    GUID = Begin
+        0x1be52b86b397b8439d05cf270cced182
+    End
+    RecordSource ="Go"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12632256
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin FormHeader
+            Height =690
+            BackColor =16768194
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xb88e36188739614597356b74652610c7
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =1288
+                    Top =60
+                    Width =9363
+                    Height =1064
+                    FontSize =18
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =8998176
+                    Name ="Auto_Title0"
+                    Caption ="fUc"
+                    FontName ="Segoe UI"
+                    GUID = Begin
+                        0x5c4c3ebcbabc08438838564900d9b532
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =5559
+            Name ="Corpo"
+            GUID = Begin
+                0x3cf0e82d5974354f8f877720648e23b7
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1739
+                    Top =360
+                    Width =3975
+                    Height =359
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0x2211b1b33abcb64f8014ed1ff1183dde
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =360
+                            Width =1319
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta1"
+                            Caption ="IdP:"
+                            GUID = Begin
+                                0x5a9c4632d3f13245a2357c8da2a030c2
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1739
+                    Top =794
+                    Width =3975
+                    Height =359
+                    TabIndex =1
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Sede"
+                    ControlSource ="Sede"
+                    GUID = Begin
+                        0x2db805638b2a3c4cab9b689e5fe01153
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =794
+                            Width =1319
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta3"
+                            Caption ="Sede:"
+                            GUID = Begin
+                                0x49feefce535fc64294078d01257a726f
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1739
+                    Top =1228
+                    Width =3975
+                    Height =585
+                    TabIndex =2
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Cognome"
+                    ControlSource ="Cognome"
+                    Format =">"
+                    GUID = Begin
+                        0xbb847de55520ce4d82a9e0b7c7e178c2
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =1228
+                            Width =1319
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta5"
+                            Caption ="Cognome:"
+                            GUID = Begin
+                                0xb5645d25707d454a8864de741508c8bf
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1739
+                    Top =1888
+                    Width =3975
+                    Height =585
+                    TabIndex =3
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Nome"
+                    ControlSource ="Nome"
+                    Format =">"
+                    GUID = Begin
+                        0xd073944d443fd64080aaf8787f12d394
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =1888
+                            Width =1319
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta7"
+                            Caption ="Nome:"
+                            GUID = Begin
+                                0xa2ca86d0ff781d4986c422ba35cdbbbf
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1739
+                    Top =2548
+                    Width =3975
+                    Height =359
+                    TabIndex =4
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="IdCN"
+                    ControlSource ="IdCN"
+                    GUID = Begin
+                        0x1038c079a6ac4146b06e8582a1143a98
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =2548
+                            Width =1319
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta9"
+                            Caption ="IdCN:"
+                            GUID = Begin
+                                0x305eb88e704d104eac3bab8b4e6e1edb
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1739
+                    Top =2982
+                    Width =3975
+                    Height =359
+                    TabIndex =5
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="DataN"
+                    ControlSource ="DataN"
+                    GUID = Begin
+                        0x70448c8604148c4bb7e94e46a6d78e60
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =2982
+                            Width =1319
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta11"
+                            Caption ="DataN:"
+                            GUID = Begin
+                                0xaf5322de69957d429e27945d69a8ece0
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1739
+                    Top =3416
+                    Width =3975
+                    Height =585
+                    ColumnWidth =2280
+                    TabIndex =6
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="davcna koda"
+                    ControlSource ="davcna koda"
+                    EventProcPrefix ="davcna_koda"
+                    GUID = Begin
+                        0x5ecb43897a93084faf0b9de97c603134
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =3416
+                            Width =1319
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta13"
+                            Caption ="davcna koda:"
+                            GUID = Begin
+                                0xcae911e184073d4199c9fe5aa1257c1e
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1739
+                    Top =4076
+                    Width =3975
+                    Height =585
+                    ColumnWidth =2835
+                    TabIndex =7
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Via"
+                    ControlSource ="Via"
+                    GUID = Begin
+                        0xab03fa8afa0c4f48ae83aa3ca1fb7cc7
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =4076
+                            Width =1319
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta15"
+                            Caption ="Via:"
+                            GUID = Begin
+                                0x73eab613221da7478b5fdd28ee1d7514
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1739
+                    Top =4736
+                    Width =3975
+                    Height =359
+                    TabIndex =8
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="IdCR"
+                    ControlSource ="IdCR"
+                    GUID = Begin
+                        0x87f2721b0b268e45ba001da43a6b34ec
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =4736
+                            Width =1319
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta17"
+                            Caption ="IdCR:"
+                            GUID = Begin
+                                0xc1784428110cd34caec884d3967a0f67
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1739
+                    Top =5170
+                    Width =3975
+                    Height =359
+                    TabIndex =9
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="tel"
+                    ControlSource ="tel"
+                    GUID = Begin
+                        0xf3f580da9174824ab053d91d9a5907bd
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =5170
+                            Width =1319
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta19"
+                            Caption ="tel:"
+                            GUID = Begin
+                                0x590e21d42e6a604bb5a9a5c6b0e51d64
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6698
+                    Top =360
+                    Width =3975
+                    Height =359
+                    TabIndex =10
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="mail"
+                    ControlSource ="mail"
+                    GUID = Begin
+                        0x194570159a95364b9026c7edfe0ff5f5
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =5904
+                            Top =360
+                            Width =734
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta21"
+                            Caption ="mail:"
+                            GUID = Begin
+                                0xc5ca22b7b0cfe740b7821b0b870d1f8d
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6698
+                    Top =794
+                    Width =3975
+                    Height =359
+                    TabIndex =11
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="cel"
+                    ControlSource ="cel"
+                    GUID = Begin
+                        0x29fdec85f01eab4db4a6ed428b72a7a5
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =5904
+                            Top =794
+                            Width =734
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta23"
+                            Caption ="cel:"
+                            GUID = Begin
+                                0x7b7de523cfaaed448f66739ab0a1c052
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6698
+                    Top =1228
+                    Width =3975
+                    Height =585
+                    TabIndex =12
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="PIscr"
+                    ControlSource ="PIscr"
+                    GUID = Begin
+                        0x7c03b591de6a5643ba27de69578bd7dd
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =5904
+                            Top =1228
+                            Width =734
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta25"
+                            Caption ="PIscr:"
+                            GUID = Begin
+                                0xf5b21f556cd9f44a8c4928358693cbae
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6698
+                    Top =1888
+                    Width =3975
+                    Height =585
+                    TabIndex =13
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Note"
+                    ControlSource ="Note"
+                    GUID = Begin
+                        0xecf732f1e0965143a62518cb93865a89
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =5904
+                            Top =1888
+                            Width =734
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta27"
+                            Caption ="Note:"
+                            GUID = Begin
+                                0xaa5b382d27addb46b89b715ed2244f7a
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6698
+                    Top =2548
+                    Width =3975
+                    Height =359
+                    TabIndex =14
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="DataS"
+                    ControlSource ="DataS"
+                    StatusBarText ="Data scadenza documento ucenci"
+                    GUID = Begin
+                        0x1829ba9a5bfba745b631ba166660f799
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =5904
+                            Top =2548
+                            Width =734
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta29"
+                            Caption ="DataS:"
+                            GUID = Begin
+                                0x1436978a34fdd44e8c2b9c6e3f2c3471
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6698
+                    Top =2982
+                    Width =3975
+                    Height =359
+                    TabIndex =15
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="DataD"
+                    ControlSource ="DataD"
+                    StatusBarText ="Data accettazione"
+                    GUID = Begin
+                        0x3b5c8f3ac6be314d92bc5649ddae0019
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =5904
+                            Top =2982
+                            Width =734
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta31"
+                            Caption ="DataD:"
+                            GUID = Begin
+                                0x9540f2fef026bd46a98f9a4a348c7abb
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6698
+                    Top =3416
+                    Width =3975
+                    Height =359
+                    TabIndex =16
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="DataA"
+                    ControlSource ="DataA"
+                    StatusBarText ="Data domanda"
+                    GUID = Begin
+                        0x1c32b8732a8e154781ab390cb9a814d6
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =5904
+                            Top =3416
+                            Width =734
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta33"
+                            Caption ="DataA:"
+                            GUID = Begin
+                                0xe7f26aa0d20cca448ca8be2fd0ac8d6d
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6698
+                    Top =3850
+                    Width =3975
+                    Height =359
+                    TabIndex =17
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="DataE"
+                    ControlSource ="DataE"
+                    StatusBarText ="Data Espulsione"
+                    GUID = Begin
+                        0x9789a8aa223e86478b2b74fca226308b
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =5904
+                            Top =3850
+                            Width =734
+                            Height =359
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta35"
+                            Caption ="DataE:"
+                            GUID = Begin
+                                0x387abe4f7d78b14dade37470ab642409
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =6698
+                    Top =4284
+                    Width =3975
+                    Height =585
+                    TabIndex =18
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Motiv"
+                    ControlSource ="Motiv"
+                    StatusBarText ="Motivazione"
+                    GUID = Begin
+                        0x781323bc70f0a942a27fe835a4c2616b
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =5904
+                            Top =4284
+                            Width =734
+                            Height =585
+                            LeftMargin =22
+                            TopMargin =22
+                            RightMargin =22
+                            BottomMargin =22
+                            ForeColor =8998176
+                            Name ="Etichetta37"
+                            Caption ="Motiv:"
+                            GUID = Begin
+                                0x1fabd98d16191542b51ec132db01c7c7
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0xdcfa5076c516e846a3cc9c8f5118f1ea
+            End
+        End
+    End
+End

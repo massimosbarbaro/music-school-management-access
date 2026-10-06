@@ -1,0 +1,3 @@
+SELECT Scuola.AnnoS, Prof.IdPr, Scuola.IdM, Prof.Cognome, Prof.Nome, Podruzica.Dove, Go.Cognome, Go.Nome, Materia.Materia, Go.mail, Scuola.Razred, [Go.Cognome] & " " & [Go.Nome] AS Nominativo, [Prof.Cognome] & " " & [Prof.Nome] AS NominativoP, Go.tel, Go.cel, Scuola.Ore, Scuola.Ore2, Scuola.DataI, Scuola.DataF, Scuola.DataI2, Scuola.DataF2, Scuola.Note
+FROM ((Prof RIGHT JOIN ([Go] INNER JOIN Scuola ON Go.IdP=Scuola.IdP) ON Prof.IdPr=Scuola.IdPr) LEFT JOIN Materia ON Scuola.IdM=Materia.IdM) LEFT JOIN Podruzica ON Scuola.IdD=Podruzica.IdD
+WHERE (((Scuola.AnnoS)=Forms!fMail!cmdSolsko) And ((Prof.IdPr)=Forms!fMail!cmbIdPr) And ((Scuola.IdM)=Forms!fMail!cmdPredmet));

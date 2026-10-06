@@ -1,0 +1,786 @@
+Version =21
+VersionRequired =20
+Checksum =-463871251
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =126
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10688
+    DatasheetFontHeight =10
+    ItemSuffix =62
+    Left =1230
+    Right =7110
+    Bottom =8340
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x2831e1f5aff1e440
+    End
+    GUID = Begin
+        0x429aeebc99425640805a31559e51bcac
+    End
+    RecordSource ="qProfUceDataFine"
+    Caption ="rProfUce"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x3702000037020000370200003702000000000000c02900005401000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="AnnoS"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            KeepTogether =1
+            ControlSource ="NominativoProf"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Dove"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            KeepTogether =1
+            ControlSource ="Materia"
+        End
+        Begin BreakLevel
+            ControlSource ="DataI"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =909
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x1dc2d02bdfb01d4b906061bd4f8ff7c0
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    OverlapFlags =81
+                    Left =60
+                    Top =60
+                    Width =2856
+                    Height =516
+                    FontSize =20
+                    Name ="Etichetta20"
+                    Caption ="Prof. Ucenci Ure"
+                    GUID = Begin
+                        0x8449ac5f15860242b6a80f8b06a11c6a
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    OverlapFlags =83
+                    Top =57
+                    Width =10646
+                    BorderColor =12632256
+                    Name ="Linea23"
+                    GUID = Begin
+                        0x2c724aa0cab9524fb661fb23937bc73f
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =56
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x5b7c18f48a7aeb47ba9914ae495b069b
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            ForceNewPage =1
+            Height =405
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0x2cb82897db37c54c91d8403ebbbd67ab
+            End
+            Begin
+                Begin Line
+                    BorderWidth =2
+                    OverlapFlags =81
+                    Top =390
+                    Width =10596
+                    Name ="Linea28"
+                    GUID = Begin
+                        0xc09f80b6f0e8d64db4d034a357e2627c
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            ForceNewPage =1
+            NewRowOrCol =2
+            Height =170
+            BreakLevel =1
+            Name ="IntestazioneGruppo1"
+            GUID = Begin
+                0x307bda0773755945a6d939c93f589e27
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =56
+            BreakLevel =2
+            Name ="IntestazioneGruppo3"
+            GUID = Begin
+                0x9ff58b1f773edb4caf9948b24fb46783
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =729
+            BreakLevel =3
+            Name ="IntestazioneGruppo2"
+            GUID = Begin
+                0x3e2956b12cb8ce47ad800d69f2ee3fb5
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =81
+                    TextAlign =2
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =6122
+                    Width =4377
+                    Height =345
+                    ColumnWidth =4170
+                    FontSize =11
+                    FontWeight =700
+                    Name ="Spricevalo"
+                    ControlSource ="Materia"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x1edb64c17379334f82d60a91276ef5ed
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    OverlapFlags =81
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Width =3636
+                    Height =345
+                    FontSize =11
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo31"
+                    ControlSource ="NominativoProf"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x3ab7083e7c912843a9bf1a8263ca1b57
+                    End
+
+                End
+                Begin Line
+                    BorderWidth =2
+                    OverlapFlags =81
+                    Top =390
+                    Width =10596
+                    Name ="Linea32"
+                    GUID = Begin
+                        0xb34a73d525df7a478a064816eac9fbef
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    OverlapFlags =115
+                    Width =10596
+                    Name ="Linea27"
+                    GUID = Begin
+                        0x24d9409081f70947978bcd891fb1b279
+                    End
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    OverlapFlags =243
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =3685
+                    Width =1815
+                    Height =345
+                    FontSize =12
+                    FontWeight =700
+                    TabIndex =2
+                    BackColor =12632256
+                    Name ="AnnoS"
+                    ControlSource ="AnnoS"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xf35a3f2d0e1b5f4aba1e69b25c0e1cdc
+                    End
+
+                End
+                Begin Label
+                    OverlapFlags =81
+                    Left =6107
+                    Top =453
+                    Width =900
+                    Height =276
+                    Name ="Etichetta44"
+                    Caption ="Data fine"
+                    GUID = Begin
+                        0xa1bc82228ee76840af97a167159ec5fc
+                    End
+                End
+                Begin Label
+                    OverlapFlags =81
+                    Left =4920
+                    Top =453
+                    Width =1044
+                    Height =276
+                    Name ="Etichetta45"
+                    Caption ="Data inizio"
+                    GUID = Begin
+                        0x6acb0d32b8e5dc43a8dea2c307776501
+                    End
+                End
+                Begin Label
+                    OverlapFlags =81
+                    Left =8942
+                    Top =450
+                    Width =900
+                    Height =276
+                    Name ="Etichetta46"
+                    Caption ="Data fine"
+                    GUID = Begin
+                        0xde7fb25598406444b3161f8489646a1b
+                    End
+                End
+                Begin Label
+                    OverlapFlags =81
+                    Left =7755
+                    Top =450
+                    Width =1044
+                    Height =276
+                    Name ="Etichetta47"
+                    Caption ="Data inizio"
+                    GUID = Begin
+                        0xb350bcdbf51c8a4abe717dc414a00093
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =340
+            Name ="Corpo"
+            GUID = Begin
+                0xb5654607a7a30e47bc2c2d8605c3f421
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =56
+                    Top =56
+                    Width =3057
+                    Height =234
+                    FontSize =7
+                    Name ="NominativoUc"
+                    ControlSource ="NominativoUc"
+                    GUID = Begin
+                        0x3809759c3fa90b408ec9367ff6ca3018
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =83
+                    IMESentenceMode =3
+                    Left =3116
+                    Top =60
+                    Width =507
+                    Height =225
+                    FontSize =7
+                    TabIndex =1
+                    Name ="Razred"
+                    ControlSource ="Razred"
+                    GUID = Begin
+                        0x45917ae5b583694d94b4514ce864cc40
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =2
+                    OverlapFlags =81
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =6884
+                    Top =56
+                    Width =393
+                    Height =237
+                    FontSize =7
+                    TabIndex =2
+                    Name ="Ore"
+                    ControlSource ="Ore"
+                    Format ="Standard"
+                    GUID = Begin
+                        0x8b81d342ae2ae24a86ada6d9865a5e31
+                    End
+
+                End
+                Begin Line
+                    OverlapFlags =115
+                    Left =60
+                    Top =288
+                    Width =10596
+                    Name ="Linea26"
+                    GUID = Begin
+                        0xdd9dbedc1295e0488d25d18ceb5c7711
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =4820
+                    Top =56
+                    Width =1029
+                    Height =216
+                    TabIndex =3
+                    Name ="DataI"
+                    ControlSource ="DataI"
+                    GUID = Begin
+                        0x693f66fedd894f42a382e39240f098dc
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =83
+                    IMESentenceMode =3
+                    Left =5852
+                    Top =60
+                    Width =1029
+                    Height =216
+                    TabIndex =4
+                    Name ="DataF"
+                    ControlSource ="DataF"
+                    GUID = Begin
+                        0x78ed5f0e51bc7745a3cbaa3e5aacb835
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =2
+                    OverlapFlags =81
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =9572
+                    Top =60
+                    Width =405
+                    Height =216
+                    TabIndex =5
+                    Name ="Ore2"
+                    ControlSource ="Ore2"
+                    Format ="Standard"
+                    GUID = Begin
+                        0xd51009878d3420498e0d03a526d630c3
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =7283
+                    Top =60
+                    Width =1134
+                    Height =216
+                    TabIndex =6
+                    Name ="DataI2"
+                    ControlSource ="DataI2"
+                    GUID = Begin
+                        0x7a9d7e4eba4bc841a9ffc7af4c0641ff
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =83
+                    IMESentenceMode =3
+                    Left =8420
+                    Top =60
+                    Width =1149
+                    Height =216
+                    TabIndex =7
+                    Name ="DataF2"
+                    ControlSource ="DataF2"
+                    GUID = Begin
+                        0x9798a2d7ab11084aa990997acd9b51a1
+                    End
+
+                End
+                Begin Line
+                    OverlapFlags =115
+                    Left =7280
+                    Width =0
+                    Height =288
+                    Name ="Linea48"
+                    GUID = Begin
+                        0xddf09facc37b1d49891f639db12ff791
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =115
+                    IMESentenceMode =3
+                    Left =3626
+                    Top =56
+                    Width =1191
+                    Height =225
+                    TabIndex =8
+                    Name ="Dove"
+                    ControlSource ="Dove"
+                    StatusBarText =" Dove fanno lezione"
+                    GUID = Begin
+                        0xd1923c77347d4d40bc602637daabfb82
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =2
+                    OverlapFlags =81
+                    TextFontCharSet =204
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =10034
+                    Width =549
+                    Height =275
+                    FontWeight =700
+                    TabIndex =9
+                    Name ="OreN"
+                    ControlSource ="=IIf([DataI2] Is Null,IIf([DataF] Is Null,[ore],0),[ore2])"
+                    Format ="Standard"
+                    GUID = Begin
+                        0xd5a4db50f6f5954c982ab0677ae93c5a
+                    End
+
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =720
+            BreakLevel =3
+            Name ="PièDiPaginaGruppo3"
+            GUID = Begin
+                0xe6fd2253eae5d44eabf738ab660f2003
+            End
+            Begin
+                Begin TextBox
+                    DecimalPlaces =2
+                    OverlapFlags =81
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =6684
+                    Top =7
+                    Width =573
+                    Height =275
+                    Name ="Testo29"
+                    ControlSource ="=Sum([ore])"
+                    Format ="Standard"
+                    GUID = Begin
+                        0xd17784c9e717ba4180731dfa191189e6
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =81
+                            TextAlign =2
+                            Left =5610
+                            Width =1050
+                            Height =300
+                            Name ="Etichetta30"
+                            Caption ="Skup. ure"
+                            GUID = Begin
+                                0xdabfd83dc90f9c4893bee84f1daaf0ec
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =1317
+                    Top =7
+                    Width =659
+                    Height =285
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="Nomi"
+                    ControlSource ="=Count([nominativouc])"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x1c166990659f59428b1a3e3ea654b406
+                    End
+
+                    Begin
+                        Begin Label
+                            FontItalic = NotDefault
+                            OverlapFlags =81
+                            TextAlign =0
+                            Width =1275
+                            Height =270
+                            FontSize =10
+                            Name ="Etichetta38"
+                            Caption ="Skup. Uc."
+                            GUID = Begin
+                                0x84be0c1868898e41a098f428ad1ac179
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    DecimalPlaces =2
+                    OverlapFlags =83
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =9369
+                    Top =7
+                    Width =654
+                    Height =275
+                    TabIndex =2
+                    Name ="Testo49"
+                    ControlSource ="=Sum([ore2])"
+                    Format ="Standard"
+                    GUID = Begin
+                        0x0cc8101f4466904388e41ec747c24892
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =81
+                            TextAlign =2
+                            Left =8325
+                            Width =1050
+                            Height =300
+                            Name ="Etichetta50"
+                            Caption ="Skup. ure"
+                            GUID = Begin
+                                0xd5083e409f3b9246918b4d0cd4628231
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    DecimalPlaces =2
+                    OverlapFlags =81
+                    TextFontCharSet =204
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =10034
+                    Width =549
+                    Height =275
+                    FontWeight =700
+                    TabIndex =3
+                    Name ="Testo56"
+                    ControlSource ="=Sum(IIf([DataI2] Is Null,IIf([DataF] Is Null,[ore],0),[ore2]))"
+                    Format ="Standard"
+                    GUID = Begin
+                        0x2bb5bae0002d334daf62bf68d0f0a434
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =2
+                    OverlapFlags =81
+                    TextFontCharSet =204
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =7823
+                    Top =340
+                    Width =573
+                    Height =275
+                    FontWeight =700
+                    TabIndex =4
+                    Name ="Testo58"
+                    ControlSource ="=Sum([ore])-Sum([ore2])-Sum([ore]-[ore2])"
+                    Format ="Fixed"
+                    GUID = Begin
+                        0xead3a400074c714895bacd205bf3d469
+                    End
+
+                End
+                Begin Label
+                    OverlapFlags =81
+                    TextAlign =2
+                    Left =6689
+                    Top =340
+                    Width =1125
+                    Height =300
+                    Name ="Etichetta60"
+                    Caption ="Kontrol ure"
+                    GUID = Begin
+                        0x3a53658414c1bb4e9f135bf0d43539ac
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =510
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x6c4c428c6aa12c409f186771f813d5b6
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    OverlapFlags =81
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Width =4399
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo11"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xaf43e79df99b3b4fbbb187a6f83a65c3
+                    End
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    OverlapFlags =81
+                    TextAlign =3
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =6122
+                    Width =4399
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo12"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x2cb35b9242b34445a1885b6d7fc4e28a
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =640
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xcfb185711719594887a1b186c544e513
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =737
+                    Top =113
+                    Width =1529
+                    Height =330
+                    Name ="Testo52"
+                    ControlSource ="=Count([nominativouc])"
+                    GUID = Begin
+                        0x7da4c4fa3a00a84b9793668037afa7c4
+                    End
+
+                End
+            End
+        End
+    End
+End

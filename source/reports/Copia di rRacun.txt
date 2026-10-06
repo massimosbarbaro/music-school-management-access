@@ -1,0 +1,766 @@
+Version =21
+VersionRequired =20
+Checksum =-1405967740
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =126
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =15421
+    DatasheetFontHeight =10
+    ItemSuffix =53
+    Left =276
+    Top =600
+    Right =11544
+    Bottom =8592
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x0d92a14c52c2e440
+    End
+    GUID = Begin
+        0x5be4acfb42c649458e397ea61dff6103
+    End
+    RecordSource ="SELECT qPagati.*\015\012FROM qPagati\015\012WHERE ([IdP]=198);"
+    Caption ="Racuni"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x37020000370200003702000037020000000000003d3c00000d02000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+            BorderLineStyle =0
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Nominativo"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            ControlSource ="IdP"
+        End
+        Begin BreakLevel
+            SortOrder = NotDefault
+            ControlSource ="Ordina"
+        End
+        Begin BreakLevel
+            ControlSource ="IdC"
+        End
+        Begin BreakLevel
+            ControlSource ="Data"
+        End
+        Begin BreakLevel
+            ControlSource ="Causale"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =623
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x3cd51b9566c05b4590922cc805571d0d
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    OverlapFlags =81
+                    Left =60
+                    Top =60
+                    Width =4335
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta22"
+                    Caption ="Racuni GLASBENA ŠOLA"
+                    GUID = Begin
+                        0x20f76b4f161ce64a8c699e034e866c0b
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    OverlapFlags =83
+                    Top =57
+                    Width =15309
+                    BorderColor =12632256
+                    Name ="Linea25"
+                    GUID = Begin
+                        0x7190d0a118f3c6429f0be5aa926ac829
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =429
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x3c7e87ac6cea884bae5b2dd24b498bc7
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =81
+                    TextAlign =3
+                    Left =2565
+                    Top =60
+                    Width =840
+                    Height =300
+                    Name ="Data_Etichetta"
+                    Caption ="Datum"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x3cc8523aa29c5c44adc198253cc9a9c5
+                    End
+                End
+                Begin Label
+                    OverlapFlags =81
+                    TextAlign =3
+                    Left =3855
+                    Top =60
+                    Width =555
+                    Height =300
+                    Name ="SommaDiDovuto_Etichetta"
+                    Caption ="Cena"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xdb4dd88149f2984da6d658795a800f9e
+                    End
+                End
+                Begin Label
+                    OverlapFlags =81
+                    TextAlign =3
+                    Left =4755
+                    Top =56
+                    Width =825
+                    Height =300
+                    Name ="SommaDiPagato_Etichetta"
+                    Caption ="Placano"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x74ae26960cf772429988bd527439308d
+                    End
+                End
+                Begin Label
+                    OverlapFlags =81
+                    TextAlign =3
+                    Left =5794
+                    Top =56
+                    Width =1095
+                    Height =300
+                    Name ="Resto_Etichetta"
+                    Caption ="Preostanek"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x2e7207c8e7fc7740b8c7867636d6fea8
+                    End
+                End
+                Begin Label
+                    OverlapFlags =81
+                    Left =9132
+                    Top =60
+                    Width =840
+                    Height =300
+                    Name ="Nota_Etichetta"
+                    Caption ="Opomba"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x2db5dbfdd0b62645b7c981122051921f
+                    End
+                End
+                Begin Label
+                    OverlapFlags =81
+                    Left =13833
+                    Top =56
+                    Width =465
+                    Height =300
+                    Name ="Stampa_Etichetta"
+                    Caption ="Tisk"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x0e2f3e40b391c1489a64a7694dd046b2
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    OverlapFlags =81
+                    Width =15309
+                    Name ="Linea26"
+                    GUID = Begin
+                        0x6348f0faa3431945b82bfec6e40baacb
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    OverlapFlags =81
+                    Top =414
+                    Width =15309
+                    Name ="Linea27"
+                    GUID = Begin
+                        0x7d39899a6619e449a974ec08a1400d3a
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =355
+            Name ="IntestazioneGruppo1"
+            GUID = Begin
+                0x0f27afac0033734ba59ebabaa1363dbc
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    DecimalPlaces =0
+                    OverlapFlags =81
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =57
+                    Width =567
+                    Height =330
+                    FontSize =11
+                    ForeColor =8388608
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x9fd8239c9c145b439c9905445aa246ef
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =737
+                    Width =4809
+                    Height =270
+                    FontSize =11
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="Cognome"
+                    ControlSource ="Nominativo"
+                    GUID = Begin
+                        0xad80ffd34856bf49b86ddbc6a54584f5
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =5669
+                    Top =5
+                    Width =1938
+                    Height =270
+                    TabIndex =2
+                    Name ="tel"
+                    ControlSource ="tel"
+                    GUID = Begin
+                        0x6f0a7a32b1a6904a8139c9b7d76d04e8
+                    End
+
+                End
+                Begin Line
+                    OverlapFlags =83
+                    Top =340
+                    Width =15206
+                    Name ="Linea41"
+                    GUID = Begin
+                        0x0670ca0deda1f14c926a5fa6ce8be9a4
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            BreakLevel =1
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0xf3a89aac3172eb40a29bbf8bc093199d
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =525
+            Name ="Corpo"
+            GUID = Begin
+                0xb572f097548ceb4b9db762aae92baa87
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Top =56
+                    Width =2829
+                    Height =270
+                    ColumnWidth =2280
+                    Name ="Causale"
+                    ControlSource ="Causale"
+                    GUID = Begin
+                        0x949b929df881294c9d0caa306a319962
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =83
+                    TextFontCharSet =177
+                    IMESentenceMode =3
+                    Left =2835
+                    Top =60
+                    Width =897
+                    Height =270
+                    FontSize =7
+                    TabIndex =1
+                    Name ="Data"
+                    ControlSource ="Data"
+                    GUID = Begin
+                        0x60768f549fc44b42a8d19f5ecd6c1fb8
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =3855
+                    Top =60
+                    Width =841
+                    Height =270
+                    TabIndex =2
+                    Name ="SommaDiDovuto"
+                    ControlSource ="SommaDiDovuto"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0x7d83a4dd83a0a6478a132453d4ee8108
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =4819
+                    Top =60
+                    Width =841
+                    Height =270
+                    TabIndex =3
+                    Name ="SommaDiPagato"
+                    ControlSource ="SommaDiPagato"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0x3c3407079564234799562c5bef67af64
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =5794
+                    Top =60
+                    Width =841
+                    Height =270
+                    TabIndex =4
+                    Name ="Resto"
+                    ControlSource ="Resto"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0x8e2ceab55ae2714cb970f09e7bd5ed36
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    TextFontCharSet =177
+                    TextAlign =2
+                    BackStyle =1
+                    IMESentenceMode =3
+                    Left =6689
+                    Top =56
+                    Width =5550
+                    Height =450
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =5
+                    BackColor =967423
+                    Name ="Nota"
+                    ControlSource ="Nota"
+                    GUID = Begin
+                        0xae2b3965336c5549843dccc2aa9d7ab4
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =12364
+                    Top =56
+                    Width =2889
+                    Height =450
+                    TabIndex =6
+                    Name ="Stampa"
+                    ControlSource ="Stampa"
+                    GUID = Begin
+                        0x2c6c0b24bcc5804fa22ca9abf201c18b
+                    End
+
+                End
+                Begin Line
+                    OverlapFlags =81
+                    Left =56
+                    Top =510
+                    Width =15206
+                    Name ="Linea28"
+                    GUID = Begin
+                        0xcc5d3f78b354e54fabb9d6275150df68
+                    End
+                End
+                Begin Line
+                    OverlapFlags =83
+                    Left =3750
+                    Width =0
+                    Height =516
+                    Name ="Linea38"
+                    GUID = Begin
+                        0x565cee36a54963488db7d4990d849341
+                    End
+                End
+                Begin Line
+                    OverlapFlags =83
+                    Left =4771
+                    Width =0
+                    Height =516
+                    Name ="Linea39"
+                    GUID = Begin
+                        0xf79d71b915e3dd40968b721580e55f2e
+                    End
+                End
+                Begin Line
+                    OverlapFlags =83
+                    Left =5734
+                    Width =0
+                    Height =516
+                    Name ="Linea40"
+                    GUID = Begin
+                        0xf2cc3ee0cb28d7488b1ee7da3a4b82a9
+                    End
+                End
+                Begin Line
+                    OverlapFlags =83
+                    Left =6689
+                    Width =0
+                    Height =516
+                    Name ="Linea42"
+                    GUID = Begin
+                        0x6cf5dfcad4ccb945b7a50cc769ec7674
+                    End
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            ForceNewPage =2
+            Height =3732
+            BreakLevel =1
+            Name ="PièDiPaginaGruppo1"
+            GUID = Begin
+                0x081f268b9cd6f14ea92227120a96a23c
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =81
+                    TextFontCharSet =177
+                    BackStyle =1
+                    IMESentenceMode =3
+                    Left =6689
+                    Width =8505
+                    Height =852
+                    FontSize =12
+                    FontWeight =700
+                    TabIndex =3
+                    BackColor =967423
+                    Name ="Placano"
+                    ControlSource ="Placano"
+                    GUID = Begin
+                        0xab9772ef714ce3479925d5040add2ef1
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =3855
+                    Width =841
+                    Height =270
+                    Name ="TotDovuto"
+                    ControlSource ="=Sum([SommaDiDovuto])"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0xb29aa52e0ea7fe40878ec3d100d8f778
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =81
+                    IMESentenceMode =3
+                    Left =4818
+                    Width =841
+                    Height =270
+                    TabIndex =1
+                    Name ="TotPagato"
+                    ControlSource ="=Sum([SommaDiPagato])"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0x3c64594cd65a174e8ab818436b41ffe4
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    IMESentenceMode =3
+                    Left =5725
+                    Width =1033
+                    Height =270
+                    TabIndex =2
+                    Name ="TotResto"
+                    ControlSource ="=[TotPagato]-[TotDovuto]"
+                    Format ="€ #,##0.00;-€ #,##0.00"
+                    GUID = Begin
+                        0x15dde62ae0684945ba2bf18866bcaa06
+                    End
+
+                End
+                Begin Label
+                    OverlapFlags =81
+                    Width =1455
+                    Height =345
+                    Name ="Etichetta37"
+                    Caption ="Skupaj dijak"
+                    GUID = Begin
+                        0x97102aaaaecfe64298ca06403ffea85b
+                    End
+                End
+                Begin Line
+                    OverlapFlags =81
+                    Left =3750
+                    Width =0
+                    Height =341
+                    Name ="Linea43"
+                    GUID = Begin
+                        0x0d42c91ed473b4448c8e454835d90f21
+                    End
+                End
+                Begin Line
+                    OverlapFlags =81
+                    Left =4771
+                    Width =0
+                    Height =341
+                    Name ="Linea44"
+                    GUID = Begin
+                        0x6149ad576d63eb4396d0e330e0fa2e7b
+                    End
+                End
+                Begin Line
+                    OverlapFlags =115
+                    Left =5734
+                    Width =0
+                    Height =341
+                    Name ="Linea45"
+                    GUID = Begin
+                        0x8a6537a6009f324fab8ab0083280c9e2
+                    End
+                End
+                Begin Line
+                    OverlapFlags =115
+                    Left =6689
+                    Width =0
+                    Height =341
+                    Name ="Linea46"
+                    GUID = Begin
+                        0xe417bdc2c3b3094aa87ceaaec78fcb1e
+                    End
+                End
+                Begin Line
+                    OverlapFlags =115
+                    Top =345
+                    Width =15206
+                    Name ="Linea47"
+                    GUID = Begin
+                        0x6aa1b3119395ce4bbd5014dbb53b8f36
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OldBorderStyle =1
+                    OverlapFlags =81
+                    Left =3514
+                    Top =1020
+                    Width =8268
+                    Height =2712
+                    FontSize =10
+                    Name ="Etichetta28"
+                    Caption ="        \015\012                      ZA ZNESKE VIŠJE OD 77,47€ JE POTREBEN TUDI"
+                        " KOLEK (2,00€)\015\012                                               ZAPADLOSTI "
+                        "PLACIL:\015\012\015\012                                        OB VPISU:      \011"
+                        "Clanarina\015\012                                        OB VPISU:      \011Akon"
+                        "tacija I. obrok\015\012                                        DO 30.09.:       "
+                        "Saldo I obrok\015\012                                        DO 31.12.:\011     "
+                        "  II. obrok\015\012                                        DO 31.03.: \011      "
+                        "III. obrok\015\012\015\012        IBAN: IT00X0000000000000000000000 BANCA"
+                    GUID = Begin
+                        0xe80faf8cbef6e64eb3bf7108f6cabd7e
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =356
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x012b7f9743924048bb75b49c5be430eb
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    OverlapFlags =81
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =56
+                    Top =56
+                    Width =1695
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo23"
+                    ControlSource ="=Now()"
+                    Format ="Short Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x357f3f87029a984d94d9e33c4bbc8ae4
+                    End
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    OverlapFlags =81
+                    TextAlign =3
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =7868
+                    Top =56
+                    Width =7383
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo24"
+                    ControlSource ="=\"Stran \" & [Page] & \" / \" & [Pages]"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x86fa9549eb9f334eb24b5c595fa1ffae
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xf54b0af7004c7641a1421485ea15ef93
+            End
+        End
+    End
+End

@@ -1,0 +1,354 @@
+Version =21
+VersionRequired =20
+Checksum =919313815
+Begin Form
+    RecordSelectors = NotDefault
+    NavigationButtons = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =124
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =5555
+    DatasheetFontHeight =10
+    ItemSuffix =6
+    Left =5235
+    Top =2430
+    Right =12690
+    Bottom =6165
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x04f30724d2a3e440
+    End
+    GUID = Begin
+        0xa0a79b12ff41244cb37d53022fe619b7
+    End
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a00500000000000025160000c007000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+            BorderLineStyle =0
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+            AsianLineBreak =255
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+        End
+        Begin FormHeader
+            Height =1134
+            BackColor =13421619
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0x335c857ec6216f4298d796e33b4c3243
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =1360
+                    Top =226
+                    Width =3270
+                    Height =600
+                    FontSize =24
+                    BackColor =-2147483633
+                    ForeColor =-2147483630
+                    Name ="Etichetta42"
+                    Caption ="Geslo Profesor"
+                    FontName ="MS Sans Serif"
+                    GUID = Begin
+                        0x1925f3c0f874b145b270e0d510baa3b5
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =1984
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                0x76365dad7419cd4aa4a61b2a86b8cb03
+            End
+            Begin
+                Begin ComboBox
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =2880
+                    Left =831
+                    Top =283
+                    Width =3201
+                    Height =340
+                    FontSize =11
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"0\""
+                    GUID = Begin
+                        0x91bcd3d9bea8e24286127a75d7b3494b
+                    End
+                    Name ="cmbIdPr"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Prof.IdPr, [Cognome] & \" \" & [Nome] AS Nominativo FROM Prof; "
+                    ColumnWidths ="0;1441"
+                    AfterUpdate ="[Event Procedure]"
+                    BaseInfo ="\"SELECT Prof.IdPr, [Cognome] & \"\" \"\" & [Nome] AS Nominativo FROM Prof; \";\""
+                        "Prof\";\"\";\"IdPr\";\"Cognome] & \"\" \"\" & [Nome\";\"PrimaryKey\""
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =396
+                            Top =283
+                            Width =435
+                            Height =240
+                            Name ="Cognome_Etichetta"
+                            Caption ="Prof."
+                            GUID = Begin
+                                0x0027bf7f594444458f4303b1cf039322
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1190
+                    Top =1020
+                    Width =2211
+                    Height =397
+                    FontSize =11
+                    TabIndex =1
+                    Name ="txtGeslo"
+                    GUID = Begin
+                        0xfbf7d69c5bfc6f4bb40364e7fd2cdc4f
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =623
+                            Top =1020
+                            Width =525
+                            Height =240
+                            Name ="Etichetta3"
+                            Caption ="Geslo:"
+                            GUID = Begin
+                                0xdcbd8f8217e50640a79b27ddade171f0
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =1134
+            BackColor =13421619
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0xc488ea5d6d5f85448e32cec051d0d6b1
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =2891
+                    Top =340
+                    Width =576
+                    Height =576
+                    Name ="cmdOpen"
+                    Caption ="Comando4"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadada00dadadadaddada0ff00adadada ,
+                        0xada0f00ff00dadadda0f0ff00ff00adaa0f0fffff00ff00dda0ff00ffff00ff0 ,
+                        0xa0ff0ff00ffff00dda00fffff00ffff0ad0ffff44ff00f0dd0ffff4444fff00a ,
+                        0xad00f444444ffff0dada07f44fffff0aadadad044ffff0addadadad447ff0ada ,
+                        0xadadada44d00adad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="kontol geslo"
+                    GUID = Begin
+                        0x40b646838664e14b8e631a363dd49665
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4535
+                    Top =340
+                    Width =576
+                    Height =576
+                    TabIndex =1
+                    Name ="cmdEsci"
+                    Caption ="Comando5"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0x3141bcee35cefb40b7be660261c7427e
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+
+Private Sub cmbIdPr_AfterUpdate()
+sIdPr = cmbIdPr
+End Sub
+
+Private Sub cmdOpen_Click()
+On Error GoTo Err_cmdOpen_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+    
+    Dim sqlc As String
+    Dim rsT As Recordset, db As Database
+
+        Set db = CurrentDb
+        sqlc = "SELECT IdPr, Pass  " & _
+                "FROM Prof " & _
+                "WHERE IdPr=" & sIdPr
+        
+    Set rsT = db.OpenRecordset(sqlc, dbOpenDynaset)
+
+    If Not rsT.EOF Then
+        If Not txtGeslo <> rsT("pass") Then
+              stDocName = "fProfGumb"
+                DoCmd.OpenForm stDocName, , , stLinkCriteria
+        Else
+                MsgBox "Geslo?"
+        End If
+        
+    End If
+    
+    
+    
+    
+    
+    
+  
+
+Exit_cmdOpen_Click:
+    Exit Sub
+
+Err_cmdOpen_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdOpen_Click
+    
+End Sub
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
+Sub Controllo()
+Dim sqlc As String
+Dim rsT As Recordset, db As Database
+
+Set db = CurrentDb
+sqlc = "SELECT IdPr, Pass  " & _
+            "FROM Prof " & _
+            "WHERE IdPr=" & sIdPr
+        
+Set rsT = db.OpenRecordset(sqlc, dbOpenDynaset)
+
+If Not rsT.EOF Then
+    If Not txtGeslo <> rsT("pass") Then
+        
+        Else
+        MsgBox "Geslo?"
+    End If
+    
+    
+  
+    
+End If
+
+
+
+
+End Sub

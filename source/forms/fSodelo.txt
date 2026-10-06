@@ -1,0 +1,644 @@
+Version =21
+VersionRequired =20
+Checksum =-484599670
+Begin Form
+    AutoCenter = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularFamily =124
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =13833
+    DatasheetFontHeight =10
+    ItemSuffix =36
+    Left =1440
+    Top =2175
+    Right =18285
+    Bottom =8775
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x02275103cd9fe440
+    End
+    GUID = Begin
+        0x82825b51536c2840b4c5eff42e74e318
+    End
+    RecordSource ="qSodeloNew"
+    Caption ="fSodelovanje"
+    BeforeInsert ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a005000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =300
+            BackColor =6723891
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0x91a7c8c33c827b4bb301210060587a5c
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =1884
+                    Top =60
+                    Width =972
+                    Height =240
+                    Name ="Tekma_Etichetta"
+                    Caption ="Organizator"
+                    GUID = Begin
+                        0x2fd5ee45624ead41adbcd5a759c62a42
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =450
+                    Top =45
+                    Width =567
+                    Height =255
+                    Name ="Solsko_Etichetta"
+                    Caption ="Solsko"
+                    GUID = Begin
+                        0xd8edc6b7dfccc045adf49e563514e685
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =9360
+                    Top =70
+                    Width =1410
+                    Height =230
+                    Name ="Comune_Etichetta"
+                    Caption ="Kraj"
+                    GUID = Begin
+                        0x01f205a92f6af245adb03c1908357922
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =56
+                    Top =45
+                    Width =330
+                    Height =255
+                    ColumnWidth =900
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0x1bcbd0e17197e242869315e8e008c4c6
+                    End
+
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =4815
+                    Top =60
+                    Width =1215
+                    Height =240
+                    Name ="Etichetta31"
+                    Caption ="Pobude:"
+                    GUID = Begin
+                        0x4bfe69a05363ae4fab337c905450c4cd
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =7204
+                    Top =75
+                    Width =1305
+                    Height =225
+                    Name ="Etichetta32"
+                    Caption ="TipPobude:"
+                    GUID = Begin
+                        0x326eb7d3e410ff4c85dbd4fcbe571bec
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =1020
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                0xd3ce68fb20f3cb43ba7529f1fa416a44
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =56
+                    Top =113
+                    Width =336
+                    Height =225
+                    ColumnWidth =1701
+                    Name ="Ids"
+                    ControlSource ="IdS"
+                    GUID = Begin
+                        0x2361147dc3652f44a061bfbde68148b8
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =396
+                    Top =510
+                    Width =990
+                    Height =225
+                    ColumnWidth =1035
+                    TabIndex =7
+                    Name ="Da"
+                    ControlSource ="Da"
+                    Format ="Short Date"
+                    InputMask ="00/00/00;0;_"
+                    GUID = Begin
+                        0x7f1bb948636f4d44a0a32861a1f5811a
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1870
+                    Top =510
+                    Width =990
+                    Height =225
+                    ColumnWidth =1035
+                    TabIndex =8
+                    Name ="A"
+                    ControlSource ="A"
+                    Format ="Short Date"
+                    InputMask ="00/00/00;0;_"
+                    GUID = Begin
+                        0xec5cae283a576b42a337af7758d5a99a
+                    End
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =469
+                    Top =113
+                    Width =1179
+                    Height =225
+                    ColumnWidth =2310
+                    TabIndex =1
+                    ColumnInfo ="\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0x588d41e2d824c94ba1dbdef830152600
+                    End
+                    Name ="Solsko"
+                    ControlSource ="Solsko"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Tekma.Solsko FROM Tekma GROUP BY Tekma.Solsko ORDER BY Tekma.Solsko; "
+                    StatusBarText ="Leto"
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =11460
+                    Top =113
+                    Width =2145
+                    Height =225
+                    ColumnWidth =2310
+                    TabIndex =4
+                    ColumnInfo ="\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0x8b20f5e07e8eb0409fbe021440ebeba2
+                    End
+                    Name ="Sede"
+                    ControlSource ="Kraj"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Sodelo.Kraj FROM Sodelo GROUP BY Sodelo.Kraj ORDER BY Sodelo.Kraj; "
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =3
+                    ListWidth =2880
+                    Left =10258
+                    Top =510
+                    Width =1841
+                    Height =210
+                    TabIndex =11
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"\";\"\";\"10\";\"0\""
+                    GUID = Begin
+                        0x147f8c8c77b3524b9b23b70b8fc7f57c
+                    End
+                    Name ="CasellaCombinata25"
+                    ControlSource ="IdPr"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Prof.IdPr, [Prof.Cognome] & \" \" & [Prof.Nome] AS NominativoPr FROM Prof"
+                        "; "
+                    ColumnWidths ="0;1440;1440"
+                    BaseInfo ="\"SELECT Prof.IdPr, [Prof.Cognome] & \"\" \"\" & [Prof.Nome] AS NominativoPr FRO"
+                        "M Prof; \";\"Prof\";\"\";\"IdPr\";\"Cognome] & \"\" \"\" & [Prof.Nome]\";\"Prima"
+                        "ryKey\""
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =3
+                    ListWidth =2880
+                    Left =9428
+                    Top =113
+                    Width =1834
+                    Height =210
+                    TabIndex =3
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0xcbbc06f6cf20d64ca0a186a7ca4cf984
+                    End
+                    Name ="CasellaCombinata27"
+                    ControlSource ="IdC"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Comuni.IdC, Comuni.Comune, Comuni.Slov FROM Comuni; "
+                    ColumnWidths ="0;1440;1440"
+                    BaseInfo ="\"SELECT Comuni.IdC, Comuni.Comune, Comuni.Slov FROM Comuni; \";\"Comuni\";\"\";"
+                        "\"IdC\";\"Comune\";\"PrimaryKey\""
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1695
+                    Top =120
+                    Width =3186
+                    Height =225
+                    ColumnWidth =3000
+                    TabIndex =5
+                    ColumnInfo ="\"\";\"\";\"10\";\"500\""
+                    GUID = Begin
+                        0x7f8b50dacb1f1845be749d6b2e71eca6
+                    End
+                    Name ="Organizator"
+                    ControlSource ="Organizator"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Sodelo.Organizator FROM Tekma, Sodelo GROUP BY Sodelo.Organizator ORDER B"
+                        "Y Sodelo.Organizator; "
+
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Top =510
+                    Width =285
+                    Height =240
+                    Name ="Da_Etichetta"
+                    Caption ="Od"
+                    GUID = Begin
+                        0x3063ff325809d7479bce228df672a133
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =1485
+                    Top =510
+                    Width =276
+                    Height =240
+                    Name ="A_Etichetta"
+                    Caption ="Do"
+                    GUID = Begin
+                        0x77079bd01954af4998e7eec4ae99dc53
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =4980
+                    Top =120
+                    Width =2151
+                    ColumnWidth =5565
+                    TabIndex =6
+                    ColumnInfo ="\"\";\"\";\"10\";\"500\""
+                    GUID = Begin
+                        0xbac9e1069ef20a419a91fb777aad5f12
+                    End
+                    Name ="Sodelo.Pobude"
+                    ControlSource ="Sodelo.Pobude"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Sodelo.Pobude FROM Sodelo GROUP BY Sodelo.Pobude ORDER BY Sodelo.Pobude; "
+                    EventProcPrefix ="Sodelo_Pobude"
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =7200
+                    Top =113
+                    Width =2106
+                    Height =225
+                    TabIndex =2
+                    ColumnInfo ="\"\";\"\";\"10\";\"500\""
+                    GUID = Begin
+                        0xbd4228b6e1974942b959991a0c972ab1
+                    End
+                    Name ="TipPobude"
+                    ControlSource ="TipPobude"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Sodelo.TipPobude FROM Sodelo GROUP BY Sodelo.TipPobude ORDER BY Sodelo.Ti"
+                        "pPobude; "
+                    StatusBarText ="Tipologia pobude - srecanje - zakljucna"
+
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =9525
+                    Top =510
+                    Width =630
+                    Height =225
+                    Name ="IdPr_Etichetta"
+                    Caption ="Profesor"
+                    GUID = Begin
+                        0x90b3d42a2d24864ca0927d1b06678733
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =1440
+                    Left =7429
+                    Top =510
+                    Width =1859
+                    Height =227
+                    TabIndex =10
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0xe05943338166dd4096b44338458a0e74
+                    End
+                    Name ="CasellaCombinata34"
+                    ControlSource ="IdM"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Materia.IdM, Materia.Materia FROM Materia; "
+                    ColumnWidths ="0;1440"
+                    BaseInfo ="\"SELECT Materia.IdM, Materia.Materia FROM Materia; \";\"Materia\";\"\";\"IdM\";"
+                        "\"Materia\";\"PrimaryKey\""
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =6690
+                            Top =510
+                            Width =660
+                            Height =240
+                            Name ="pREDMET_Etichetta"
+                            Caption ="Predmet"
+                            GUID = Begin
+                                0xb4a44004cc12274bbfc77517d1557f70
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3793
+                    Top =510
+                    Width =2796
+                    Height =225
+                    TabIndex =9
+                    ColumnInfo ="\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0x80c0471948a8044a9a62d2e9189a149c
+                    End
+                    Name ="Skupine"
+                    ControlSource ="Skupine"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT LSPPr.Skupine FROM LSPPr GROUP BY LSPPr.Skupine ORDER BY LSPPr.Skupine; "
+                    StatusBarText ="Ime skupine"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3000
+                            Top =510
+                            Width =705
+                            Height =240
+                            Name ="Etichetta33"
+                            Caption ="Skupine:"
+                            GUID = Begin
+                                0x9dcf6457f66f464586d205c1a512f7e3
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =793
+            BackColor =6723891
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0xaf22669cac79a74e8b878198d92564c4
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =13039
+                    Top =56
+                    Width =576
+                    Height =576
+                    Name ="cmdEsci"
+                    Caption ="Comando30"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0xe42216bd5cf9304b97f7f71904a97962
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Private sOpen As String
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+If sOpen <> "" Then
+    IdP = sOpen
+    
+Else
+    'txtIdConservazione.Enabled = True
+End If
+
+End Sub
+
+Private Sub Form_Load()
+ Dim f As Form
+
+ Set f = Forms(Me.Name)
+    If Not IsNull(f.OpenArgs) Then
+        sOpen = f.OpenArgs
+      
+        
+    Else
+       sOpen = ""
+    End If
+
+End Sub
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub

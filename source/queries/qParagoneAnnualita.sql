@@ -1,0 +1,4 @@
+SELECT Go.Sede, [Prof]![Cognome] & " " & [Prof]![Nome] AS NominativoProf, Materia.Materia, Podruzica.Dove, [Go]![Cognome] & " " & [Go]![Nome] AS Ucenec, Go.DataN, DateDiff("yyyy",[Go.DataN],Date())+(Format(Date(),"mmdd")<Format([Go.DataN],"mmdd")) AS Starost, Go.mail, Go.tel, Go.cel, Scuola.AnnoS, Scuola.Posk, Scuola.Razred, Scuola.DataI, Scuola.DataF, Scuola.Razred2, Scuola.DataI2, Scuola.DataF2, Scuola.Data, Scuola.Livello
+FROM (Materia INNER JOIN (Prof INNER JOIN ([Go] INNER JOIN Scuola ON Go.IdP=Scuola.IdP) ON Prof.IdPr=Scuola.IdPr) ON Materia.IdM=Scuola.IdM) INNER JOIN Podruzica ON Scuola.IdD=Podruzica.IdD
+WHERE (((Scuola.AnnoS) Like [Inserire annualitÃ ]) AND ((Scuola.Posk)=0))
+ORDER BY [Prof]![Cognome] & " " & [Prof]![Nome], Materia.Materia, Podruzica.Dove, [Go]![Cognome] & " " & [Go]![Nome];

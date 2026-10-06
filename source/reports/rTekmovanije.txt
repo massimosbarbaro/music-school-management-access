@@ -1,0 +1,587 @@
+Version =21
+VersionRequired =20
+Checksum =129885034
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =126
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =15132
+    DatasheetFontHeight =10
+    ItemSuffix =30
+    Left =6540
+    Top =375
+    Right =14505
+    Bottom =7425
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xf77835485ba0e440
+    End
+    GUID = Begin
+        0x9eb840745f0ff74fb1a47592a3c06cc2
+    End
+    RecordSource ="qTekmovanije"
+    Caption ="qTekmovanije"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x37020000370200003702000037020000000000001c3b00002703000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupFooter = NotDefault
+            ControlSource ="Solsko"
+        End
+        Begin BreakLevel
+            ControlSource ="Go.Sede"
+        End
+        Begin BreakLevel
+            ControlSource ="Tekma"
+        End
+        Begin BreakLevel
+            ControlSource ="Nominativo"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =909
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x11cf794046156b48b43feac3cfededa0
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =57
+                    Top =57
+                    Width =2400
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta24"
+                    Caption ="Tekmovanije"
+                    GUID = Begin
+                        0x62c5649c50a6324ab8f7aa4117e86700
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =396
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x161a37071393e145834f08728b57cd69
+            End
+            Begin
+                Begin Label
+                    Left =57
+                    Top =57
+                    Width =675
+                    Height =300
+                    Name ="Solsko_Etichetta"
+                    Caption ="Solsko"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xe7938f332d65d4419d9a45e8a01e0717
+                    End
+                End
+                Begin Label
+                    Left =963
+                    Top =56
+                    Width =585
+                    Height =300
+                    Name ="Go.Sede_Etichetta"
+                    Caption ="Sedeš"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Go_Sede_Etichetta"
+                    GUID = Begin
+                        0x1b3cfd1a39e7f0448d43082830d2a1cb
+                    End
+                End
+                Begin Label
+                    Left =2777
+                    Top =56
+                    Width =1290
+                    Height =300
+                    Name ="Tekma_Etichetta"
+                    Caption ="Tekmovanije"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xc9e2d703b71c2e47afba0db5380138f7
+                    End
+                End
+                Begin Label
+                    Left =5716
+                    Top =57
+                    Width =1140
+                    Height =300
+                    Name ="Nominativo_Etichetta"
+                    Caption ="Nominativo"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xe5e9c55392bc9c46a240121842094158
+                    End
+                End
+                Begin Label
+                    Left =8380
+                    Top =56
+                    Width =495
+                    Height =300
+                    Name ="Slov_Etichetta"
+                    Caption ="Kraj"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xe5ebb78df53fc24690e4bc49f25a83e9
+                    End
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =10431
+                    Top =56
+                    Width =720
+                    Height =300
+                    Name ="Da_Etichetta"
+                    Caption ="Datum"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x34e14ca0340e044c8145f26929d3a4f9
+                    End
+                End
+                Begin Label
+                    Left =11850
+                    Top =61
+                    Width =390
+                    Height =300
+                    Name ="Kat_Etichetta"
+                    Caption ="Kat"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x5817cdac68069c4dbb2d4b63ff66ca3f
+                    End
+                End
+                Begin Label
+                    Left =12982
+                    Top =56
+                    Width =870
+                    Height =300
+                    Name ="Nagrada_Etichetta"
+                    Caption ="Nagrada"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x5fc68a2672805241a96da5ab83c3e160
+                    End
+                End
+                Begin Label
+                    TextAlign =3
+                    Left =14625
+                    Top =61
+                    Width =420
+                    Height =300
+                    Name ="Toc_Etichetta"
+                    Caption ="Toc"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xe261b708aa9dda4090248fa329916172
+                    End
+                End
+                Begin Line
+                    LineSlant = NotDefault
+                    BorderWidth =2
+                    Top =361
+                    Width =15075
+                    Name ="Linea27"
+                    GUID = Begin
+                        0x4dcb97949b09a64383ade2992e649f59
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =807
+            Name ="Corpo"
+            GUID = Begin
+                0x1ee00ba598bfcf488edd479e6907c790
+            End
+            Begin
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =57
+                    Top =57
+                    Width =906
+                    Height =270
+                    Name ="Solsko"
+                    ControlSource ="Solsko"
+                    StatusBarText ="Leto"
+                    GUID = Begin
+                        0xd876d00f23489042a31e460ef674e55b
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =1020
+                    Top =57
+                    Width =471
+                    Height =270
+                    TabIndex =1
+                    Name ="Go.Sede"
+                    ControlSource ="Go.Sede"
+                    EventProcPrefix ="Go_Sede"
+                    GUID = Begin
+                        0x4e5ca2dfd34ccd4589e6a4b63dbb4e07
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =1530
+                    Top =56
+                    Width =3735
+                    Height =675
+                    TabIndex =2
+                    Name ="Tekma"
+                    ControlSource ="Tekma"
+                    GUID = Begin
+                        0x960b3e9c6d4d0b4f8800b2cffe011e26
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5325
+                    Top =56
+                    Width =2166
+                    Height =675
+                    ColumnWidth =3300
+                    TabIndex =3
+                    Name ="Nominativo"
+                    ControlSource ="Nominativo"
+                    GUID = Begin
+                        0x29fb438c5a5ded408d703d0edce6bf4d
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =7530
+                    Top =56
+                    Width =2310
+                    Height =675
+                    ColumnWidth =1800
+                    TabIndex =4
+                    Name ="Slov"
+                    ControlSource ="Slov"
+                    GUID = Begin
+                        0xd9a482dfa41daf428513ba606e0c82ce
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =9870
+                    Top =60
+                    Width =921
+                    Height =285
+                    TabIndex =5
+                    Name ="Da"
+                    ControlSource ="Da"
+                    GUID = Begin
+                        0x22666c2d09931249922da572b4e6ffcc
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =10830
+                    Top =60
+                    Width =921
+                    Height =285
+                    TabIndex =6
+                    Name ="A"
+                    ControlSource ="A"
+                    GUID = Begin
+                        0x05826550e8771745af3f872996732cc1
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =11850
+                    Top =61
+                    Width =441
+                    Height =270
+                    TabIndex =7
+                    Name ="Kat"
+                    ControlSource ="Kat"
+                    GUID = Begin
+                        0x5334cfc58e844a488ddf86e2549e491d
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =12400
+                    Top =60
+                    Width =2166
+                    Height =675
+                    TabIndex =8
+                    Name ="Nagrada"
+                    ControlSource ="Nagrada"
+                    GUID = Begin
+                        0x555bc07c75f8db49b0da543efb55f253
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =14625
+                    Top =61
+                    Width =420
+                    Height =270
+                    TabIndex =9
+                    Name ="Toc"
+                    ControlSource ="Toc"
+                    StatusBarText ="tocke tekma"
+                    GUID = Begin
+                        0x8e6bbea276846e4e8ff7b8933510a249
+                    End
+
+                End
+                Begin Line
+                    LineSlant = NotDefault
+                    BorderWidth =1
+                    Top =795
+                    Width =15075
+                    Name ="Linea29"
+                    GUID = Begin
+                        0x745251eb624fd140bd59fd6dd59eab9d
+                    End
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =510
+            Name ="PièDiPaginaGruppo0"
+            GUID = Begin
+                0x2bf003e635245d4d9f1d6826d82f6e8d
+            End
+            Begin
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =2154
+                    Top =116
+                    Width =508
+                    Height =284
+                    Name ="txtCogn"
+                    ControlSource ="=Count([Nominativo])"
+                    GUID = Begin
+                        0x2e21417ab714734390022a1a99b0e5c1
+                    End
+
+                End
+                Begin Label
+                    Top =100
+                    Width =1125
+                    Height =300
+                    Name ="Etichetta27"
+                    Caption ="Št. Uc. Let "
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x9d23885d816abd438afd07a492be3dc7
+                    End
+                End
+                Begin TextBox
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =1133
+                    Top =130
+                    Width =909
+                    Height =270
+                    TabIndex =1
+                    Name ="Testo29"
+                    ControlSource ="Solsko"
+                    GUID = Begin
+                        0x7706f0da25df664980b760bcf25c565d
+                    End
+
+                End
+                Begin Rectangle
+                    Top =60
+                    Width =2777
+                    Height =385
+                    Name ="Casella30"
+                    GUID = Begin
+                        0xc98306c54369554a9aab3451533e838f
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =528
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x018862bf804eed40abdc04e0ddbe39fd
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =57
+                    Top =228
+                    Width =5040
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo25"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xd6d8a62fd26f234b938179c42698ce3b
+                    End
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =13092
+                    Top =228
+                    Width =2040
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo26"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x512d07d73ed16741a0b653dafb7611a3
+                    End
+
+                End
+                Begin Line
+                    LineSlant = NotDefault
+                    BorderWidth =3
+                    Left =57
+                    Top =228
+                    Width =15075
+                    BorderColor =12632256
+                    Name ="Linea28"
+                    GUID = Begin
+                        0xae9a27e43389044ba2316804102529b2
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x83a47cc984c6c446adf8224054f5afac
+            End
+        End
+    End
+End

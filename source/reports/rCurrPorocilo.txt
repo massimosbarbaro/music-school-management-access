@@ -1,0 +1,406 @@
+Version =21
+VersionRequired =20
+Checksum =1365544392
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =126
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9082
+    DatasheetFontHeight =10
+    ItemSuffix =21
+    Left =270
+    Top =600
+    Right =18690
+    Bottom =9435
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0xd7148d4359a0e440
+    End
+    GUID = Begin
+        0xb22aa312ec9e3741854b76e289c1fe52
+    End
+    RecordSource ="LPPrVal"
+    Caption ="Porocilo"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a0050000000000007a2300008905000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =255
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Solsko"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="IdM"
+        End
+        Begin BreakLevel
+            ControlSource ="IdPr"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =909
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x6a0cc9ed46394c42bc79e5ed03a8b698
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    Left =60
+                    Top =60
+                    Width =1545
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta12"
+                    Caption ="Porocilo"
+                    GUID = Begin
+                        0x73857ba33d36f8489fdc0d5c74508564
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Top =57
+                    Width =9026
+                    BorderColor =12632256
+                    Name ="Linea15"
+                    GUID = Begin
+                        0x0a2e98d0e73a4346b754116f1c3335a7
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =226
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0xb0e341a5d5cc084b84eab893b7614ef3
+            End
+            Begin
+                Begin Line
+                    BorderWidth =2
+                    Width =9026
+                    Name ="Linea16"
+                    GUID = Begin
+                        0xda87d71c3c1f6242bfa3c67c644bcf28
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =417
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0xd6b77a68305f244cb44b0d1a529a886a
+            End
+            Begin
+                Begin TextBox
+                    DecimalPlaces =0
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =57
+                    Width =1938
+                    Height =360
+                    FontSize =12
+                    FontWeight =700
+                    BackColor =12632256
+                    Name ="Solsko"
+                    ControlSource ="Solsko"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xcc36ad5b90f91b41b9168c4344771957
+                    End
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =2381
+                    Top =56
+                    Width =741
+                    Height =270
+                    TabIndex =1
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0xabce82e918f6274a88c54347723c450a
+                    End
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =3401
+                    Top =56
+                    Width =366
+                    Height =225
+                    TabIndex =2
+                    Name ="IdV"
+                    ControlSource ="IdV"
+                    GUID = Begin
+                        0x584e7395ead529499b377d818af6acbf
+                    End
+
+                End
+                Begin Line
+                    BorderWidth =2
+                    Top =390
+                    Width =9026
+                    Name ="Linea18"
+                    GUID = Begin
+                        0x3130d37e5055944991635fdc386cb448
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =387
+            BreakLevel =1
+            Name ="IntestazioneGruppo1"
+            GUID = Begin
+                0xabdc9c041fb7a249a6edf3b26547b916
+            End
+            Begin
+                Begin ComboBox
+                    TextFontFamily =18
+                    DecimalPlaces =0
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =56
+                    Width =4083
+                    Height =330
+                    FontSize =12
+                    ForeColor =8388608
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0x2214b039317ecd469b96f98b586cfc6d
+                    End
+                    Name ="IdM"
+                    ControlSource ="IdM"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Materia.IdM, Materia.Materia FROM Materia; "
+                    ColumnWidths ="0;2268"
+                    FontName ="Times New Roman"
+                    BaseInfo ="\"SELECT Materia.IdM, Materia.Materia FROM Materia; \";\"Materia\";\"\";\"IdM\";"
+                        "\"Materia\";\"PrimaryKey\""
+
+                End
+                Begin ComboBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =4251
+                    Width =4476
+                    Height =330
+                    FontSize =12
+                    TabIndex =1
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"0\""
+                    GUID = Begin
+                        0xc5532594f52ccc4e9332077d60f33eb0
+                    End
+                    Name ="IdPr"
+                    ControlSource ="IdPr"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Prof.IdPr, [Cognome] & \" \" & [Nome] AS Nominativo FROM Prof; "
+                    ColumnWidths ="0;2268"
+                    FontName ="Times New Roman"
+                    BaseInfo ="\"SELECT Prof.IdPr, [Cognome] & \"\" \"\" & [Nome] AS Nominativo FROM Prof; \";\""
+                        "Prof\";\"\";\"IdPr\";\"Cognome] & \"\" \"\" & [Nome\";\"PrimaryKey\""
+
+                End
+                Begin Line
+                    BorderWidth =1
+                    Top =345
+                    Width =9026
+                    Name ="Linea19"
+                    GUID = Begin
+                        0x286d4540ede9964d87892e026253f67c
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =1417
+            Name ="Corpo"
+            GUID = Begin
+                0x7b3611a16d24994bbde5ff97c1148f8c
+            End
+            Begin
+                Begin TextBox
+                    CanGrow = NotDefault
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =56
+                    Top =58
+                    Width =8843
+                    Height =1200
+                    Name ="Valutazione"
+                    ControlSource ="Valutazione"
+                    GUID = Begin
+                        0xd9c4f44ac2ea8142a9406e2297cfeb74
+                    End
+
+                End
+                Begin Line
+                    Left =56
+                    Top =1378
+                    Width =9026
+                    Name ="Linea20"
+                    GUID = Begin
+                        0xefb910da0f749649a21c87de21439a9a
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =528
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x60e604f97f860b489d7ff774ab8cae68
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =57
+                    Top =228
+                    Width =4399
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo13"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x2978269f71542d4eb1fc273570e0aaaf
+                    End
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =4570
+                    Top =228
+                    Width =4399
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo14"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xe92d5d68d9155045a9278f672d4f69e6
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xd057de3ef48c84479d80fe6a31b96fe2
+            End
+        End
+    End
+End

@@ -1,0 +1,663 @@
+Version =21
+VersionRequired =20
+Checksum =-1308522048
+Begin Form
+    AllowFilters = NotDefault
+    RecordSelectors = NotDefault
+    ShortcutMenu = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =7740
+    DatasheetFontHeight =11
+    ItemSuffix =22
+    DatasheetGridlinesColor =15062992
+    RecSrcDt = Begin
+        0xe23b313b6c57e540
+    End
+    GUID = Begin
+        0xb4121f6d8af5db429582761f6b6ce26b
+    End
+    RecordSource ="Switchboard Items"
+    Caption ="Pannello comandi"
+    OnCurrent ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =15062992
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BorderColor =16777215
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin Section
+            Height =5952
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                0xe1525a45f8878443a4165a465f9f6f0a
+            End
+            Begin
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Left =2355
+                    Width =378
+                    Height =4770
+                    BackColor =8421504
+                    Name ="VerticalShadowBox"
+                    GUID = Begin
+                        0xd9a1a8fb43b86e4bbb60d16e44225083
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3030
+                    Top =1305
+                    Width =259
+                    Height =259
+                    FontSize =10
+                    TabIndex =1
+                    Name ="Option1"
+                    OnClick ="=HandleButtonClick(1)"
+                    FontName ="System"
+                    GUID = Begin
+                        0xc4d97c50d86913479c43b4fcd305c22c
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =3390
+                            Top =1305
+                            Width =3990
+                            Height =240
+                            FontSize =8
+                            ForeColor =-2147483630
+                            Name ="OptionLabel1"
+                            FontName ="Tahoma"
+                            OnClick ="=HandleButtonClick(1)"
+                            GUID = Begin
+                                0xa420a02ed0cecb4199564fa72f64b107
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    Left =3030
+                    Top =1725
+                    Width =259
+                    Height =259
+                    FontSize =10
+                    TabIndex =2
+                    Name ="Option2"
+                    OnClick ="=HandleButtonClick(2)"
+                    FontName ="System"
+                    GUID = Begin
+                        0x01af2cd67ddf834eae96f58a81debaa2
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =3390
+                            Top =1725
+                            Width =3990
+                            Height =240
+                            FontSize =8
+                            ForeColor =-2147483630
+                            Name ="OptionLabel2"
+                            FontName ="Tahoma"
+                            OnClick ="=HandleButtonClick(2)"
+                            GUID = Begin
+                                0x955f2569f5af6d49a0cf4eabe6446600
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    Left =3030
+                    Top =2145
+                    Width =259
+                    Height =259
+                    FontSize =10
+                    TabIndex =3
+                    Name ="Option3"
+                    OnClick ="=HandleButtonClick(3)"
+                    FontName ="System"
+                    GUID = Begin
+                        0xc035fe97f5defb41a0f03341646987fa
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =3390
+                            Top =2145
+                            Width =3990
+                            Height =240
+                            FontSize =8
+                            ForeColor =-2147483630
+                            Name ="OptionLabel3"
+                            FontName ="Tahoma"
+                            OnClick ="=HandleButtonClick(3)"
+                            GUID = Begin
+                                0xee240d456e490a46bfb70b076ec1357c
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    Left =3030
+                    Top =2565
+                    Width =259
+                    Height =259
+                    FontSize =10
+                    TabIndex =4
+                    Name ="Option4"
+                    OnClick ="=HandleButtonClick(4)"
+                    FontName ="System"
+                    GUID = Begin
+                        0x1393b7b566ad9a4297e472393b659316
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =3390
+                            Top =2565
+                            Width =3990
+                            Height =240
+                            FontSize =8
+                            ForeColor =-2147483630
+                            Name ="OptionLabel4"
+                            FontName ="Tahoma"
+                            OnClick ="=HandleButtonClick(4)"
+                            GUID = Begin
+                                0xf9cdff820ee1304791ddfd73ee6dcfb6
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    Left =3030
+                    Top =2985
+                    Width =259
+                    Height =259
+                    FontSize =10
+                    TabIndex =5
+                    Name ="Option5"
+                    OnClick ="=HandleButtonClick(5)"
+                    FontName ="System"
+                    GUID = Begin
+                        0x36d68115fa10724b92382b591822dd77
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =3390
+                            Top =2985
+                            Width =3990
+                            Height =240
+                            FontSize =8
+                            ForeColor =-2147483630
+                            Name ="OptionLabel5"
+                            FontName ="Tahoma"
+                            OnClick ="=HandleButtonClick(5)"
+                            GUID = Begin
+                                0xeebebeae7b1a3f4c83f435032527e384
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    Left =3030
+                    Top =3405
+                    Width =259
+                    Height =259
+                    FontSize =10
+                    TabIndex =6
+                    Name ="Option6"
+                    OnClick ="=HandleButtonClick(6)"
+                    FontName ="System"
+                    GUID = Begin
+                        0x1e088f57488b9b46ac44bc36eef54bb2
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =3390
+                            Top =3405
+                            Width =3990
+                            Height =240
+                            FontSize =8
+                            ForeColor =-2147483630
+                            Name ="OptionLabel6"
+                            FontName ="Tahoma"
+                            OnClick ="=HandleButtonClick(6)"
+                            GUID = Begin
+                                0x94a2f9245cb34f43b3a251c527631513
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    Left =3030
+                    Top =3825
+                    Width =259
+                    Height =259
+                    FontSize =10
+                    TabIndex =7
+                    Name ="Option7"
+                    OnClick ="=HandleButtonClick(7)"
+                    FontName ="System"
+                    GUID = Begin
+                        0xc4856fb63e2af94b88852b06d0a5afab
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =3390
+                            Top =3825
+                            Width =3990
+                            Height =240
+                            FontSize =8
+                            ForeColor =-2147483630
+                            Name ="OptionLabel7"
+                            FontName ="Tahoma"
+                            OnClick ="=HandleButtonClick(7)"
+                            GUID = Begin
+                                0xce63c5e3928b8b42928689b1fead9d58
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    Left =3030
+                    Top =4245
+                    Width =259
+                    Height =259
+                    FontSize =10
+                    TabIndex =8
+                    Name ="Option8"
+                    OnClick ="=HandleButtonClick(8)"
+                    FontName ="System"
+                    GUID = Begin
+                        0x53ae10182fd3a9448e84522687cd4c3b
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =85
+                            Left =3390
+                            Top =4245
+                            Width =3990
+                            Height =240
+                            FontSize =8
+                            ForeColor =-2147483630
+                            Name ="OptionLabel8"
+                            FontName ="Tahoma"
+                            OnClick ="=HandleButtonClick(8)"
+                            GUID = Begin
+                                0x19cf9191b747194a9c9674381865e8ac
+                            End
+                        End
+                    End
+                End
+                Begin Rectangle
+                    SpecialEffect =0
+                    BackStyle =1
+                    OverlapFlags =215
+                    Width =7380
+                    Height =660
+                    BackColor =8421376
+                    BorderColor =8421376
+                    Name ="HorizontalHeaderBox"
+                    GUID = Begin
+                        0x784143021997b34b90a6634a7c30d17d
+                    End
+                End
+                Begin Line
+                    OverlapFlags =87
+                    SpecialEffect =1
+                    Left =2685
+                    Top =1155
+                    Width =4698
+                    Name ="HorizontalDividingLine"
+                    GUID = Begin
+                        0xcfdf09bf6d0aa04c917b321e7650ffe4
+                    End
+                End
+                Begin Label
+                    OverlapFlags =215
+                    Left =2997
+                    Top =215
+                    Width =4410
+                    Height =450
+                    FontSize =18
+                    ForeColor =8421504
+                    Name ="Label2"
+                    Caption ="Sola 128SP"
+                    FontName ="Segoe UI"
+                    GUID = Begin
+                        0x94d8e77034226c4cb37e42951e1aa1d6
+                    End
+                End
+                Begin Label
+                    OverlapFlags =215
+                    Left =2955
+                    Top =170
+                    Width =4410
+                    Height =450
+                    FontSize =18
+                    ForeColor =16777215
+                    Name ="Label1"
+                    Caption ="Sola 128SP"
+                    FontName ="Segoe UI"
+                    GUID = Begin
+                        0x9c85592a93b72e4d904b92f118b6c71b
+                    End
+                End
+                Begin Image
+                    BackStyle =1
+                    SizeMode =1
+                    Width =2685
+                    Height =4770
+                    BackColor =8421376
+                    BorderColor =0
+                    Name ="Picture"
+                    GUID = Begin
+                        0x9033667993debf46a8c099259c874d84
+                    End
+
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub Form_Open(Cancel As Integer)
+' Minimize the database window and initialize the form.
+
+    ' Move to the switchboard page that is marked as the default.
+    Me.Filter = "[ItemNumber] = 0 AND [Argument] = 'Predefinita' "
+    Me.FilterOn = True
+    
+End Sub
+
+Private Sub Form_Current()
+' Update the caption and fill in the list of options.
+
+    Me.Caption = Nz(Me![ItemText], "")
+    FillOptions
+    
+End Sub
+
+Private Sub FillOptions()
+' Fill in the options for this switchboard page.
+
+    ' The number of buttons on the form.
+    Const conNumButtons = 8
+    
+    Dim con As Object
+    Dim rs As Object
+    Dim stSql As String
+    Dim intOption As Integer
+    
+    ' Set the focus to the first button on the form,
+    ' and then hide all of the buttons on the form
+    ' but the first.  You can't hide the field with the focus.
+    Me![Option1].SetFocus
+    For intOption = 2 To conNumButtons
+        Me("Option" & intOption).Visible = False
+        Me("OptionLabel" & intOption).Visible = False
+    Next intOption
+    
+    ' Open the table of Switchboard Items, and find
+    ' the first item for this Switchboard Page.
+    Set con = Application.CurrentProject.Connection
+    stSql = "SELECT * FROM [Switchboard Items]"
+    stSql = stSql & " WHERE [ItemNumber] > 0 AND [SwitchboardID]=" & Me![SwitchboardID]
+    stSql = stSql & " ORDER BY [ItemNumber];"
+    Set rs = CreateObject("ADODB.Recordset")
+    rs.Open stSql, con, 1   ' 1 = adOpenKeyset
+    
+    ' If there are no options for this Switchboard Page,
+    ' display a message.  Otherwise, fill the page with the items.
+    If (rs.EOF) Then
+        Me![OptionLabel1].Caption = "Nessuna voce per questa pagina pannello di comandi"
+    Else
+        While (Not (rs.EOF))
+            Me("Option" & rs![ItemNumber]).Visible = True
+            Me("OptionLabel" & rs![ItemNumber]).Visible = True
+            Me("OptionLabel" & rs![ItemNumber]).Caption = rs![ItemText]
+            rs.MoveNext
+        Wend
+    End If
+
+    ' Close the recordset and the database.
+    rs.Close
+    Set rs = Nothing
+    Set con = Nothing
+
+End Sub
+
+Private Function HandleButtonClick(intBtn As Integer)
+' This function is called when a button is clicked.
+' intBtn indicates which button was clicked.
+
+    ' Constants for the commands that can be executed.
+    Const conCmdGotoSwitchboard = 1
+    Const conCmdOpenFormAdd = 2
+    Const conCmdOpenFormBrowse = 3
+    Const conCmdOpenReport = 4
+    Const conCmdCustomizeSwitchboard = 5
+    Const conCmdExitApplication = 6
+    Const conCmdRunMacro = 7
+    Const conCmdRunCode = 8
+    Const conCmdOpenPage = 9
+
+    ' An error that is special cased.
+    Const conErrDoCmdCancelled = 2501
+    
+    Dim con As Object
+    Dim rs As Object
+    Dim stSql As String
+
+On Error GoTo HandleButtonClick_Err
+
+    ' Find the item in the Switchboard Items table
+    ' that corresponds to the button that was clicked.
+    Set con = Application.CurrentProject.Connection
+    Set rs = CreateObject("ADODB.Recordset")
+    stSql = "SELECT * FROM [Switchboard Items] "
+    stSql = stSql & "WHERE [SwitchboardID]=" & Me![SwitchboardID] & " AND [ItemNumber]=" & intBtn
+    rs.Open stSql, con, 1    ' 1 = adOpenKeyset
+    
+    ' If no item matches, report the error and exit the function.
+    If (rs.EOF) Then
+        MsgBox "Errore durante la lettura della tabella delle voci di pannello comandi."
+        rs.Close
+        Set rs = Nothing
+        Set con = Nothing
+        Exit Function
+    End If
+    
+    Select Case rs![Command]
+        
+        ' Go to another switchboard.
+        Case conCmdGotoSwitchboard
+            Me.Filter = "[ItemNumber] = 0 AND [SwitchboardID]=" & rs![Argument]
+            
+        ' Open a form in Add mode.
+        Case conCmdOpenFormAdd
+            DoCmd.OpenForm rs![Argument], , , , acAdd
+
+        ' Open a form.
+        Case conCmdOpenFormBrowse
+            DoCmd.OpenForm rs![Argument]
+
+        ' Open a report.
+        Case conCmdOpenReport
+            DoCmd.OpenReport rs![Argument], acPreview
+
+        ' Customize the Switchboard.
+        Case conCmdCustomizeSwitchboard
+            ' Handle the case where the Switchboard Manager
+            ' is not installed (e.g. Minimal Install).
+            On Error Resume Next
+            Application.Run "ACWZMAIN.sbm_Entry"
+            If (Err <> 0) Then MsgBox "Comando non disponibile."
+            On Error GoTo 0
+            ' Update the form.
+            Me.Filter = "[ItemNumber] = 0 AND [Argument] = 'Predefinita' "
+            Me.Caption = Nz(Me![ItemText], "")
+            FillOptions
+
+        ' Exit the application.
+        Case conCmdExitApplication
+            CloseCurrentDatabase
+
+        ' Run a macro.
+        Case conCmdRunMacro
+            DoCmd.RunMacro rs![Argument]
+
+        ' Run code.
+        Case conCmdRunCode
+            Application.Run rs![Argument]
+
+        ' Open a Data Access Page
+        Case conCmdOpenPage
+            DoCmd.OpenDataAccessPage rs![Argument]
+
+        ' Any other command is unrecognized.
+        Case Else
+            MsgBox "Opzione sconosciuta."
+    
+    End Select
+
+    ' Close the recordset and the database.
+    rs.Close
+    
+HandleButtonClick_Exit:
+On Error Resume Next
+    Set rs = Nothing
+    Set con = Nothing
+    Exit Function
+
+HandleButtonClick_Err:
+    ' If the action was cancelled by the user for
+    ' some reason, don't display an error message.
+    ' Instead, resume on the next line.
+    If (Err = conErrDoCmdCancelled) Then
+        Resume Next
+    Else
+        MsgBox "Errore durante l'esecuzione del comando.", vbCritical
+        Resume HandleButtonClick_Exit
+    End If
+    
+End Function

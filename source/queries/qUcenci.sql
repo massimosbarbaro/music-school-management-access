@@ -1,0 +1,3 @@
+SELECT Go.IdP, Go.Sede, Go.Cognome, Go.Nome, Go.DataN, Comuni.Comune & " / " & Comuni.Slov AS Comune, Go.[davcna koda], Go.Via, Comuni_1.Comune & "/ " & Comuni_1.Slov AS ComuneR, Comuni_1.CAP, Go.tel, Go.mail, Go.cel, Go.PIscr, Scuola.AnnoS, Materia.Materia, Scuola.Ore, Scuola.Razred, Scuola.Voto, Scuola.Data, Prof.Cognome, Prof.Nome, Konservatori.Konservatori
+FROM (Materia RIGHT JOIN (Prof RIGHT JOIN ((([Go] LEFT JOIN Comuni ON Go.IdCN=Comuni.IdC) LEFT JOIN Comuni AS Comuni_1 ON Go.IdCR=Comuni_1.IdC) LEFT JOIN Scuola ON Go.IdP=Scuola.IdP) ON Prof.IdPr=Scuola.IdPr) ON Materia.IdM=Scuola.IdM) LEFT JOIN Konservatori ON Scuola.IdK=Konservatori.IdK
+ORDER BY Go.Cognome, Go.Nome;

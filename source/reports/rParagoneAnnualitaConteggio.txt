@@ -1,0 +1,464 @@
+Version =21
+VersionRequired =20
+Checksum =1257031852
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularCharSet =161
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =11184
+    DatasheetFontHeight =11
+    ItemSuffix =18
+    Top =600
+    Right =15990
+    Bottom =9480
+    RecSrcDt = Begin
+        0x107caad6d2cfe440
+    End
+    GUID = Begin
+        0xefe282d406491442bcb8f412e0c8d02b
+    End
+    RecordSource ="qParagoneAnnualitaConteggio"
+    Caption ="rParagoneAnnualitaConteggio"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000b02b00003602000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontCharSet =161
+            FontSize =9
+            FontWeight =700
+            BorderColor =5066944
+            ForeColor =11830108
+            FontName ="Calibri"
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin Line
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =5066944
+        End
+        Begin Image
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin CommandButton
+            TextFontCharSet =161
+            Width =1701
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            OldBorderStyle =0
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =5066944
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =5066944
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            TextFontCharSet =161
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            TextFontCharSet =161
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontCharSet =161
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin ToggleButton
+            TextFontCharSet =161
+            Width =283
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            TextFontCharSet =161
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontSize =9
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            KeepTogether =1
+            ControlSource ="NominativoProf"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Materia"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Dove"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="AnnoS"
+        End
+        Begin BreakLevel
+            ControlSource ="Ucenec"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =0
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x8ec749663d05b441a3a29b56ae11168a
+            End
+        End
+        Begin PageHeader
+            Height =1247
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x2a494a376b6a8d4ab2f27ab3647fc061
+            End
+            Begin
+                Begin Label
+                    TextFontCharSet =0
+                    TextFontFamily =18
+                    Left =3405
+                    Top =285
+                    Width =4635
+                    Height =525
+                    FontSize =20
+                    ForeColor =5054976
+                    Name ="Etichetta12"
+                    Caption ="2015/2016 - 2016/2017"
+                    FontName ="Cambria"
+                    GUID = Begin
+                        0x78a5f7e83b09bc418ca29735a5044618
+                    End
+                End
+                Begin Line
+                    OldBorderStyle =1
+                    BorderWidth =2
+                    Left =855
+                    Top =915
+                    Width =9411
+                    Name ="Linea17"
+                    GUID = Begin
+                        0x863837ce6f62334b9edb0ac6887ae91a
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0xd5ba4b840cc75b4ca23ba6494c0c63b5
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            BreakLevel =1
+            Name ="IntestazioneGruppo1"
+            GUID = Begin
+                0x82c292ec093e5d4288e45a743922114d
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            BreakLevel =2
+            Name ="IntestazioneGruppo2"
+            GUID = Begin
+                0xe9375654bb3ea242bf7e3b1d11601f07
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            BreakLevel =3
+            Name ="IntestazioneGruppo3"
+            GUID = Begin
+                0x60659b9fa8f1be4c8c340efb24231c31
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =566
+            Name ="Corpo"
+            GUID = Begin
+                0xe90d38e9795b9c4d9e64b3ddb6f67035
+            End
+            Begin
+                Begin TextBox
+                    DecimalPlaces =0
+                    IMESentenceMode =3
+                    Left =8434
+                    Top =60
+                    Width =1035
+                    Height =270
+                    FontWeight =700
+                    ForeColor =11830108
+                    Name ="AnnoS"
+                    ControlSource ="AnnoS"
+                    GUID = Begin
+                        0x51a0253c4c90c146b6c1a5c0929cd83f
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    IMESentenceMode =3
+                    Left =1536
+                    Top =56
+                    Width =2385
+                    Height =270
+                    TabIndex =1
+                    Name ="NominativoProf"
+                    ControlSource ="NominativoProf"
+                    GUID = Begin
+                        0x595fe6bf4f93a945ab4185749742ceb4
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    IMESentenceMode =3
+                    Left =4024
+                    Top =60
+                    Width =2445
+                    Height =270
+                    FontWeight =700
+                    TabIndex =2
+                    ForeColor =5054976
+                    Name ="Materia"
+                    ControlSource ="Materia"
+                    GUID = Begin
+                        0x2de3a9818c82674fb27cd7e6f3fdac69
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    IMESentenceMode =3
+                    Left =6529
+                    Top =60
+                    Width =1830
+                    Height =270
+                    FontWeight =700
+                    TabIndex =3
+                    ForeColor =5054976
+                    Name ="Dove"
+                    ControlSource ="Dove"
+                    StatusBarText =" Dove fanno lezione"
+                    GUID = Begin
+                        0x1c582dcc309b6849ae5c5917f9043627
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =9589
+                    Top =60
+                    Width =450
+                    Height =270
+                    TabIndex =4
+                    Name ="Ucenec"
+                    ControlSource ="Ucenec"
+                    GUID = Begin
+                        0xc8d6a5455b334446a61c7efaea2d3938
+                    End
+
+                End
+                Begin Line
+                    OldBorderStyle =1
+                    Left =855
+                    Top =453
+                    Width =9411
+                    Name ="Linea15"
+                    GUID = Begin
+                        0x62efa58e89fb804c87b850eaef2387fc
+                    End
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =859
+                    Top =60
+                    Width =570
+                    Height =270
+                    TabIndex =5
+                    Name ="Sede"
+                    ControlSource ="Sede"
+                    GUID = Begin
+                        0x6ece2b2fe06e9248a4a8fd801dfa211e
+                    End
+
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =283
+            Name ="PièDiPaginaGruppo4"
+            GUID = Begin
+                0xef862e470d5b5a4f951fd31e747e9f45
+            End
+            Begin
+                Begin Line
+                    OldBorderStyle =1
+                    BorderWidth =2
+                    Left =859
+                    Width =9411
+                    Name ="Linea16"
+                    GUID = Begin
+                        0x99293e3620f35b46a4e6b8186c49c695
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =483
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x5d63338194dad84eb1292fd9c8d51ece
+            End
+            Begin
+                Begin TextBox
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =856
+                    Top =228
+                    Width =5040
+                    Height =255
+                    FontSize =8
+                    Name ="Testo13"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    GUID = Begin
+                        0xc142bd923363e943ad82abc4008eeac2
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =6087
+                    Top =228
+                    Width =5040
+                    Height =255
+                    FontSize =8
+                    TabIndex =1
+                    Name ="Testo14"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    GUID = Begin
+                        0xd017cd2327ccfb4f87d86260bb275c0a
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x7dd96544c0e89444a9db9b6a84ced3e5
+            End
+        End
+    End
+End

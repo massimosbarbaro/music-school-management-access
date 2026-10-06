@@ -1,0 +1,665 @@
+Version =21
+VersionRequired =20
+Checksum =939334404
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =124
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9694
+    DatasheetFontHeight =10
+    ItemSuffix =58
+    Left =4530
+    Top =255
+    Right =14970
+    Bottom =5295
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x176100a56ca4e440
+    End
+    GUID = Begin
+        0xa373df282bb053428b58c624b375811f
+    End
+    Caption ="Prof/Uc"
+    BeforeInsert ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a005000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =1077
+            BackColor =6723891
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0x80e86abaa73abe4f9dcc1cff439947b2
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =3741
+                    Top =226
+                    Width =1950
+                    Height =600
+                    FontSize =24
+                    Name ="Etichetta42"
+                    Caption ="Prof./Uc."
+                    GUID = Begin
+                        0xaa3b6098d56db246b9cc198a5d230a11
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =737
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                0x5d991ed36b678949b375f1c570fd1f05
+            End
+            Begin
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =4320
+                    Left =2953
+                    Top =226
+                    Width =3339
+                    Height =227
+                    TabIndex =1
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"0\""
+                    GUID = Begin
+                        0x7da8220911d74d41b1a5dbdacd547a96
+                    End
+                    Name ="cmbIdPr"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Prof.IdPr, [Cognome] & \" \" & [Nome] AS Nominativo FROM Prof ORDER BY [C"
+                        "ognome] & \" \" & [Nome]; "
+                    ColumnWidths ="0;2009"
+                    AfterUpdate ="[Event Procedure]"
+                    BaseInfo ="\"SELECT Prof.IdPr, [Cognome] & \"\" \"\" & [Nome] AS Nominativo FROM Prof ORDER"
+                        " BY [Cognome] & \"\" \"\" & [Nome]; \";\"Prof\";\"\";\"IdPr\";\"Cognome] & \"\" "
+                        "\"\" & [Nome\";\"PrimaryKey\""
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2437
+                            Top =226
+                            Width =405
+                            Height =245
+                            Name ="IdPr_Etichetta"
+                            Caption ="Prof"
+                            GUID = Begin
+                                0x987aacfca050334f8c21ed9186f4a38e
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ListWidth =1440
+                    Left =509
+                    Top =226
+                    Width =1531
+                    Height =227
+                    ColumnInfo ="\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0x23e7ae681ab00f48a1ed614efc14b159
+                    End
+                    Name ="cmdSolsko"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Scuola.AnnoS FROM Scuola GROUP BY Scuola.AnnoS; "
+                    ColumnWidths ="1440"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =56
+                            Top =226
+                            Width =360
+                            Height =240
+                            Name ="AnnoS_Etichetta"
+                            Caption ="S.L."
+                            GUID = Begin
+                                0x8c87d0a1ee071a428eadd9df87203f2a
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =1440
+                    Left =7366
+                    Top =226
+                    Width =2265
+                    Height =227
+                    TabIndex =2
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0x82e7b89309bbff48a10207699ebecffc
+                    End
+                    Name ="cmdPredmet"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Materia.IdM, Materia.Materia, Scuola.IdPr FROM Materia INNER JOIN Scuola "
+                        "ON Materia.IdM=Scuola.IdM GROUP BY Materia.IdM, Materia.Materia, Scuola.IdPr HAV"
+                        "ING (((Scuola.IdPr)=Forms!fMail!cmbIdPr)); "
+                    ColumnWidths ="0;1440"
+                    BaseInfo ="\"SELECT Materia.IdM, Materia.Materia, Scuola.IdPr FROM Materia INNER JOIN Scuol"
+                        "a ON Materia.IdM=Scuola.IdM GROUP BY Materia.IdM, Materia.Materia, Scuola.IdPr H"
+                        "AVING (((Scuola.IdPr)=Forms!fMail!cmbIdPr)); \";\"Materia\";\"Scuola\";\"\""
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =6576
+                            Top =226
+                            Width =705
+                            Height =245
+                            Name ="Predmet_Etichetta"
+                            Caption ="Predmet"
+                            GUID = Begin
+                                0x6a60b8b645f39f49b222015aead4ac19
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =737
+            BackColor =6723891
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x671e9f79de424748ba775ed01d35cc00
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =9070
+                    Top =56
+                    Width =576
+                    Height =576
+                    Name ="cmdEsci"
+                    Caption ="Comando30"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0xe1c33a27220eb844b03cd952c4aced08
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =566
+                    Top =113
+                    Width =810
+                    Height =405
+                    TabIndex =1
+                    Name ="cmdMail"
+                    Caption ="Mail"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x3b1c420814daa346aa1b61e90ce69fb2
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4705
+                    Top =113
+                    Width =810
+                    Height =405
+                    TabIndex =2
+                    Name ="cmdProfUc"
+                    Caption ="Prof/Uc"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xdd69e07d5b0a524cbd1664e500200b87
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =1650
+                    Top =120
+                    Width =810
+                    Height =405
+                    TabIndex =3
+                    Name ="cmdKoledar"
+                    Caption ="Koledar"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x294eb41536e7ab428ac8fd26196a0a71
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Private sOpen As String
+
+Private Sub cmbIdPr_AfterUpdate()
+'cmdPredmet.Column(3) = Me!cmbIdPr
+Me.Refresh
+
+
+
+End Sub
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+If sOpen <> "" Then
+    IdP = sOpen
+    
+Else
+    'txtIdConservazione.Enabled = True
+End If
+
+End Sub
+
+Private Sub Form_Load()
+ Dim f As Form
+
+ Set f = Forms(Me.Name)
+    If Not IsNull(f.OpenArgs) Then
+        sOpen = f.OpenArgs
+      
+        
+    Else
+       sOpen = ""
+    End If
+
+End Sub
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
+Private Sub cmdProf_Click()
+On Error GoTo Err_cmdProf_Click
+    Dim sOpen As String
+    Dim SWhere As String
+    
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "rMail"
+    'sOpen = Me.cmbIdPr
+ '   sTekma = ""
+    
+     SWhere = "[IdPr]=" & sIdPr
+  
+
+        
+    
+    '     DoCmd.OutputTo acReport, stDocName, , , , , , sWhere
+         
+         
+      '  DoCmd.OpenReport stRepName, acPreview, , sWhere
+         
+    
+    
+    
+  
+Exit_cmdProf_Click:
+    Exit Sub
+
+Err_cmdProf_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdProf_Click
+    
+End Sub
+Private Sub cmdMail_Click()
+On Error GoTo Err_cmdMail_Click
+
+
+    Dim stDocName As String
+ 
+    stDocName = "rMail"
+    
+   If Not IsNull(cmdSolsko) Then
+        If Not IsNull(cmbIdPr) Then
+            If Not IsNull(cmdPredmet) Then
+                DoCmd.OutputTo acReport, stDocName
+            Else
+                MsgBox "Insert predmet!"
+            End If
+            
+        Else
+            MsgBox "Insert professor!"
+        End If
+         
+    
+    Else
+        MsgBox "Insert year"
+    End If
+    
+   
+   
+    
+    
+    
+
+Exit_cmdMail_Click:
+    Exit Sub
+
+Err_cmdMail_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdMail_Click
+    
+End Sub
+Private Sub cmdProfUc_Click()
+On Error GoTo Err_cmdProfUc_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fInstrumentGroup"
+    stLinkCriteria = "[IdPr]=" & Me![cmbIdPr] & " AND [AnnoS]='" & Me![cmdSolsko] & "'" & " AND (Scuola.IdM)=" & Me![cmdPredmet]
+
+       If Not IsNull(cmdSolsko) Then
+        If Not IsNull(cmbIdPr) Then
+            If Not IsNull(cmdPredmet) Then
+                DoCmd.OpenForm stDocName, , , stLinkCriteria
+            Else
+                stLinkCriteria = "[IdPr]=" & Me![cmbIdPr] & " AND [AnnoS]='" & Me![cmdSolsko] & "'"
+                DoCmd.OpenForm stDocName, , , stLinkCriteria
+                
+               ' MsgBox "Insert predmet!"
+            End If
+             
+             
+             
+        Else
+            MsgBox "Insert professor!"
+        End If
+    Else
+        MsgBox "Insert year"
+    End If
+
+    
+    
+
+    
+
+    
+   
+
+Exit_cmdProfUc_Click:
+    Exit Sub
+
+Err_cmdProfUc_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdProfUc_Click
+    
+End Sub
+Private Sub cmdKoledar_Click()
+On Error GoTo Err_cmdKoledar_Click
+
+    Dim stDocName As String
+
+   stDocName = "rIstrGroupPrintKoledar"
+    
+   If Not IsNull(cmdSolsko) Then
+        If Not IsNull(cmbIdPr) Then
+            If Not IsNull(cmdPredmet) Then
+               DoCmd.OutputTo acReport, stDocName
+'                DoCmd.OpenReport stDocName, acPreview
+            Else
+                MsgBox "Insert predmet!"
+'                cmdPredmet = "*"
+'                  DoCmd.OutputTo acReport, stDocName
+'                DoCmd.OpenReport stDocName, acPreview
+            End If
+            
+        Else
+            MsgBox "Insert professor!"
+        End If
+    Else
+        MsgBox "Insert year"
+    End If
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+
+Exit_cmdKoledar_Click:
+    Exit Sub
+
+Err_cmdKoledar_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdKoledar_Click
+    
+End Sub
+Private Sub cmdRazred_Click()
+On Error GoTo Err_cmdRazred_Click
+
+    Dim stDocName As String
+
+   'Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "InstrGroupTotInstrument"
+    stLinkCriteria = "[IdPr]=" & Me![cmbIdPr] & " AND [AnnoS]='" & Me![cmdSolsko] & "'"
+
+       If Not IsNull(cmdSolsko) Then
+        If Not IsNull(cmbIdPr) Then
+             If Not IsNull(cmdPredmet) Then
+                DoCmd.OpenReport stDocName, acPreview, , stLinkCriteria
+            Else
+                MsgBox "Insert predmet!"
+            End If
+            
+
+        Else
+            MsgBox "Insert professor!"
+        End If
+    Else
+        MsgBox "Insert year"
+    End If
+
+    
+
+
+
+
+
+
+
+   
+  '  DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdRazred_Click:
+    Exit Sub
+
+Err_cmdRazred_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdRazred_Click
+    
+End Sub

@@ -1,0 +1,170 @@
+Version =21
+VersionRequired =20
+Checksum =-884124652
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =7868
+    DatasheetFontHeight =11
+    ItemSuffix =11
+    Left =390
+    Top =6165
+    Right =10020
+    Bottom =7905
+    DatasheetGridlinesColor =15132391
+    RecSrcDt = Begin
+        0x64339a6f0b30e640
+    End
+    GUID = Begin
+        0xd6b8bf5b3263154793170852f42a48b4
+    End
+    RecordSource ="qPreAFAM"
+    Caption ="rPreAFAM"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000b02b0000bc01000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =15132391
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =0
+            BackColor =15064278
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x12008399677f96409c2a0dea1a2d7183
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x3f707ed02bc7df47b4a4fd1d5142c12b
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =444
+            Name ="Corpo"
+            GUID = Begin
+                0xb799b0b676f8a34eb01fe5b7c9733a0c
+            End
+            Begin
+                Begin TextBox
+                    Visible = NotDefault
+                    OldBorderStyle =0
+                    IMESentenceMode =3
+                    Left =113
+                    Top =56
+                    Width =450
+                    Height =330
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0x11e493b69c5af2418b828a0ffdeb1a6a
+                    End
+
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    IMESentenceMode =3
+                    Left =226
+                    Top =56
+                    Width =1185
+                    Height =330
+                    TabIndex =1
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="AnnoS"
+                    ControlSource ="AnnoS"
+                    GUID = Begin
+                        0x94dd98eb5ef3494cad9e9bd276f933a6
+                    End
+
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    IMESentenceMode =3
+                    Left =3173
+                    Top =56
+                    Width =4695
+                    Height =330
+                    ColumnWidth =3735
+                    TabIndex =2
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Materia"
+                    ControlSource ="Materia"
+                    GUID = Begin
+                        0x3967bd809db3d14eb2c880d1dd2ebdfe
+                    End
+
+                End
+                Begin TextBox
+                    OldBorderStyle =0
+                    OverlapFlags =4
+                    IMESentenceMode =3
+                    Left =1474
+                    Top =56
+                    Width =1587
+                    Height =315
+                    TabIndex =3
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Testo12"
+                    ControlSource ="=IIf([Posk]=True,\"PreAFAM\",\"Corso Libero\")"
+                    GUID = Begin
+                        0x34bc3b4431b2444e8c06a4011f768b83
+                    End
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x8c57fe74857487439a4b6806db4ecc6c
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xe19ffd5220cffd45800a3f3d977242d4
+            End
+        End
+    End
+End

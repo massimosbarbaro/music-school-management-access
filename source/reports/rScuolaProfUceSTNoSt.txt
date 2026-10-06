@@ -1,0 +1,1174 @@
+Version =21
+VersionRequired =20
+Checksum =-1118670910
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularCharSet =162
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =31680
+    DatasheetFontHeight =11
+    ItemSuffix =86
+    Top =600
+    Right =16575
+    Bottom =5940
+    DatasheetGridlinesColor =15062992
+    RecSrcDt = Begin
+        0x7664bf210c30e640
+    End
+    GUID = Begin
+        0xa9246e8f71ace843b8a4dc532f7bcb07
+    End
+    RecordSource ="qScuolaProfUceSTNoSt"
+    Caption ="rScuolaProfUceSTNoSt"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000906600009e01000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =15062992
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontCharSet =161
+            FontSize =9
+            FontWeight =700
+            BorderColor =5066944
+            ForeColor =11830108
+            FontName ="Calibri"
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin Line
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =5066944
+        End
+        Begin Image
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin CommandButton
+            TextFontCharSet =161
+            Width =1701
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            OldBorderStyle =0
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =5066944
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =5066944
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            TextFontCharSet =161
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            TextFontCharSet =161
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontCharSet =161
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin ToggleButton
+            TextFontCharSet =161
+            Width =283
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            TextFontCharSet =161
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontSize =9
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin EmptyCell
+            Height =240
+        End
+        Begin BreakLevel
+            ControlSource ="Sede"
+        End
+        Begin BreakLevel
+            ControlSource ="Stejemo"
+        End
+        Begin BreakLevel
+            ControlSource ="NominativoUc"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =924
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0xadd98b88a3f1c449891b6e8a75835459
+            End
+            Begin
+                Begin Label
+                    TextFontCharSet =163
+                    TextFontFamily =18
+                    Left =57
+                    Top =57
+                    Width =4245
+                    Height =525
+                    FontSize =20
+                    ForeColor =5054976
+                    Name ="Etichetta32"
+                    Caption ="rScuolaProfUceSTNoSt"
+                    FontName ="Cambria"
+                    GUID = Begin
+                        0xadfbd2f2b082654bb97941ebbf240ea1
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =406
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x1ece8c361294064a941ae3c58c80423f
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =1995
+                    Top =30
+                    Width =450
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Sede_Etichetta"
+                    Caption ="Sede"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x3aac890db9a6824baadd6c7e2a5b8925
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =21945
+                    Top =30
+                    Width =1590
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Stejemo_Etichetta"
+                    Caption ="Stejemo"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x6a32e6020b934f4f8e37a9c3bb8106f5
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =4275
+                    Top =30
+                    Width =1590
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="NominativoUc_Etichetta"
+                    Caption ="NominativoUc"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x49f39818aa134342bc483b4584f11a8f
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =855
+                    Top =30
+                    Width =1080
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="AnnoS_Etichetta"
+                    Caption ="AnnoS"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xa6a054533b92874597c5585167f8ccb9
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =3
+                    Left =11190
+                    Top =30
+                    Width =750
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="DataN_Etichetta"
+                    Caption ="DataN"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x04151c1ff12bfc4ab8a5402a9eaafc15
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =3
+                    Left =12000
+                    Top =30
+                    Width =690
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Starost_Etichetta"
+                    Caption ="Starost"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x16adc6c0bd72b244bda1fafb9140cc14
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =14505
+                    Top =30
+                    Width =1590
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="tel_Etichetta"
+                    Caption ="tel"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x7aff63459c457544adc4dc661526a68d
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =17145
+                    Top =30
+                    Width =3090
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="mail_Etichetta"
+                    Caption ="mail"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x90c697a417cb2b49ad0037b8865b0135
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =20295
+                    Top =30
+                    Width =1590
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="cel_Etichetta"
+                    Caption ="cel"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xd0c9619f7d39eb4fb51197a6795d12cc
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =25350
+                    Top =30
+                    Width =1605
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Scuola.Razred_Etichetta"
+                    Caption ="Scuola.Razred"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Scuola_Razred_Etichetta"
+                    GUID = Begin
+                        0x30345a3bf9d4154fa1e344afd0184fcb
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =3
+                    Left =27015
+                    Top =30
+                    Width =690
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Ore_Etichetta"
+                    Caption ="Ore"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x9d5acad59c55594d9139c8bdb9ad14f6
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =28560
+                    Top =30
+                    Width =3090
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Dove_Etichetta"
+                    Caption ="Dove"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xdffb343b85bd3047a55ef16259af233e
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =31365
+                    Top =30
+                    Width =285
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Posk_Etichetta"
+                    Caption ="Posk"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xc73f881897771a49ac42e10b7b8cfc12
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =28560
+                    Top =30
+                    Width =3090
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Sola_Etichetta"
+                    Caption ="Sola"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x0de467a5c25a724d8e0fc387771403bb
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =29670
+                    Top =30
+                    Width =1980
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Sola.Razred_Etichetta"
+                    Caption ="Sola.Razred"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Sola_Razred_Etichetta"
+                    GUID = Begin
+                        0x4c0a4cb36e17d149a1f8f41b6aec0c15
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =30300
+                    Top =30
+                    Width =1350
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Sek_Etichetta"
+                    Caption ="Sek"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x1b047d1d4d79bd4b8dab67612197eb2b
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =16155
+                    Top =30
+                    Width =930
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Etichetta36"
+                    Caption ="Etichetta35"
+                    GUID = Begin
+                        0xd804eeb98cfbac41b231846e495e0d3c
+                    End
+                End
+                Begin Label
+                    Left =27325
+                    Top =56
+                    Width =492
+                    Height =252
+                    Name ="Etichetta37"
+                    Caption ="Note:"
+                    GUID = Begin
+                        0xf7dc769a2c36a54bbfdea9150595d1b2
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =2505
+                    Top =30
+                    Width =1710
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Etichetta39"
+                    Caption ="NominativoProf"
+                    GUID = Begin
+                        0x71305860c277a4499d1ef70ce7cacc73
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =3
+                    Left =29940
+                    Top =30
+                    Width =1710
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Etichetta41"
+                    Caption ="Note"
+                    GUID = Begin
+                        0x31338c862453f84da30d7ddfc52f0455
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =1
+                    Left =5925
+                    Top =30
+                    Width =1701
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Etichetta47"
+                    Caption ="Via"
+                    GUID = Begin
+                        0x1b4751173d626846bffcf4f9326f3182
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =1
+                    Left =7680
+                    Top =30
+                    Width =1701
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Etichetta54"
+                    Caption ="Comune"
+                    GUID = Begin
+                        0x082ed271eb0033438132938fcbdf62bc
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =1
+                    Left =9435
+                    Top =30
+                    Width =1701
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Etichetta61"
+                    Caption ="CAP"
+                    GUID = Begin
+                        0x4614bf8363b78d43a569856d5059f8bf
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =3
+                    Left =12750
+                    Top =30
+                    Width =1701
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Etichetta68"
+                    Caption ="ComuneN"
+                    GUID = Begin
+                        0xd366d597f4b0f5429d8466de855f7073
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextFontCharSet =0
+                    TextAlign =3
+                    Left =23595
+                    Top =30
+                    Width =1701
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Etichetta75"
+                    Caption ="preAFAM"
+                    GUID = Begin
+                        0x74ad14cdff51e24686ccc082e7bb3cba
+                    End
+                End
+                Begin EmptyCell
+                    Left =27765
+                    Top =30
+                    Width =1695
+                    Height =270
+                    Name ="CellaVuota85"
+                    GUID = Begin
+                        0x1c0bd59e4f63ce408cb34c12fa21c289
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =3710
+            Name ="Corpo"
+            GUID = Begin
+                0x836e6b747d04884daf93a85f757e1567
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1995
+                    Top =60
+                    Width =450
+                    Height =276
+                    TabIndex =1
+                    Name ="Sede"
+                    ControlSource ="Sede"
+                    GUID = Begin
+                        0xa9114be5f6ff5848857e162374f65727
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =21945
+                    Top =60
+                    Width =1590
+                    Height =276
+                    ColumnWidth =3120
+                    TabIndex =13
+                    Name ="Stejemo"
+                    ControlSource ="Stejemo"
+                    GUID = Begin
+                        0xf12c53c43f71b0489c57ed110e60e098
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =4275
+                    Top =60
+                    Width =1590
+                    Height =276
+                    ColumnWidth =2088
+                    TabIndex =3
+                    Name ="NominativoUc"
+                    ControlSource ="NominativoUc"
+                    GUID = Begin
+                        0x06a63577e44aca488d0dc3d282687f0b
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =855
+                    Top =60
+                    Width =1080
+                    Height =276
+                    Name ="AnnoS"
+                    ControlSource ="AnnoS"
+                    GUID = Begin
+                        0xe2187117d2e9fd4d80fbc34d9ce11c4d
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =11190
+                    Top =60
+                    Width =750
+                    Height =276
+                    TabIndex =7
+                    Name ="DataN"
+                    ControlSource ="DataN"
+                    GUID = Begin
+                        0xcd27880fddb6e54a8e478da105f07c2c
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =12000
+                    Top =60
+                    Width =690
+                    Height =276
+                    TabIndex =8
+                    Name ="Starost"
+                    ControlSource ="Starost"
+                    GUID = Begin
+                        0x9f24fce2be24b94b9be3e3fc06e3b017
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =14505
+                    Top =60
+                    Width =1590
+                    Height =276
+                    TabIndex =10
+                    Name ="tel"
+                    ControlSource ="tel"
+                    GUID = Begin
+                        0x31ab15c12e01ff4596f2f47a9894636f
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =17145
+                    Top =60
+                    Width =3090
+                    Height =276
+                    TabIndex =11
+                    Name ="mail"
+                    ControlSource ="mail"
+                    GUID = Begin
+                        0xfedf560aaf96284da920df90ef40e807
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =20295
+                    Top =60
+                    Width =1590
+                    Height =276
+                    TabIndex =12
+                    Name ="cel"
+                    ControlSource ="cel"
+                    GUID = Begin
+                        0xc665b64176b85b4ba11069cde9c8af8e
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =25350
+                    Top =60
+                    Width =1605
+                    Height =276
+                    TabIndex =15
+                    Name ="Scuola.Razred"
+                    ControlSource ="Scuola.Razred"
+                    EventProcPrefix ="Scuola_Razred"
+                    GUID = Begin
+                        0x5eff91967e072c4fa7ebfe5a1d02c024
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =27015
+                    Top =60
+                    Width =690
+                    Height =276
+                    TabIndex =16
+                    Name ="Ore"
+                    ControlSource ="Ore"
+                    GUID = Begin
+                        0x683a21ea2a47f04da1add372dcb94edd
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =28560
+                    Top =60
+                    Width =3090
+                    Height =276
+                    TabIndex =17
+                    Name ="Dove"
+                    ControlSource ="Dove"
+                    StatusBarText =" Dove fanno lezione"
+                    GUID = Begin
+                        0x4a27b0d26f75d04cb76500e7375e588d
+                    End
+
+                End
+                Begin CheckBox
+                    Left =31365
+                    Top =60
+                    Width =285
+                    Height =276
+                    TabIndex =18
+                    Name ="Posk"
+                    ControlSource ="preAFAM"
+                    GUID = Begin
+                        0x49868f132df0984883f5a6ecb56599b5
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =28560
+                    Top =60
+                    Width =3090
+                    Height =276
+                    ColumnWidth =3945
+                    TabIndex =19
+                    Name ="Sola"
+                    ControlSource ="Sola"
+                    GUID = Begin
+                        0x3fbc9836a032a74a9f93b7b33eff5268
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =29670
+                    Top =60
+                    Width =1980
+                    Height =276
+                    TabIndex =20
+                    Name ="Sola.Razred"
+                    ControlSource ="Sola.Razred"
+                    EventProcPrefix ="Sola_Razred"
+                    GUID = Begin
+                        0x521f830ec3810247a2065809a5b3cf28
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =30300
+                    Top =60
+                    Width =1350
+                    Height =276
+                    TabIndex =21
+                    Name ="Sek"
+                    ControlSource ="Sek"
+                    GUID = Begin
+                        0x5130dc874c9f014aa695e2002fa7e331
+                    End
+
+                End
+                Begin Label
+                    Left =16155
+                    Top =60
+                    Width =930
+                    Height =276
+                    FontWeight =400
+                    ForeColor =0
+                    Name ="Etichetta35"
+                    Caption ="Note:"
+                    GUID = Begin
+                        0x0c5c34eec4d2b549a5e11ca52bcfe85e
+                    End
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =2505
+                    Top =60
+                    Width =1710
+                    Height =276
+                    TabIndex =2
+                    Name ="NominativoProf"
+                    ControlSource ="NominativoProf"
+                    GUID = Begin
+                        0x00736b6c30910645913497967a45d17b
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =29940
+                    Top =60
+                    Width =1710
+                    Height =276
+                    TabIndex =22
+                    Name ="Testo40"
+                    ControlSource ="Note"
+                    GUID = Begin
+                        0x23987cdf372a8d4ca5a9cbab893f3393
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1757
+                    Top =2437
+                    Height =252
+                    TabIndex =24
+                    Name ="DataI"
+                    ControlSource ="DataI"
+                    GUID = Begin
+                        0xfb200e1462a5154d86161ac708ab74c7
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =56
+                            Top =2437
+                            Width =528
+                            Height =252
+                            Name ="Etichetta42"
+                            Caption ="DataI:"
+                            GUID = Begin
+                                0xca059a6b281f72479b3ff6b2abe8910c
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1757
+                    Top =2777
+                    Height =252
+                    TabIndex =25
+                    Name ="DataF"
+                    ControlSource ="DataF"
+                    GUID = Begin
+                        0xa2a7df47b94aa74bae071955c1608c25
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =56
+                            Top =2777
+                            Width =564
+                            Height =252
+                            Name ="Etichetta43"
+                            Caption ="DataF:"
+                            GUID = Begin
+                                0x356eb2fe4e74b74f880f8cba1f0a8466
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1757
+                    Top =3118
+                    Height =252
+                    TabIndex =26
+                    Name ="DataI2"
+                    ControlSource ="DataI2"
+                    GUID = Begin
+                        0x29a99cd46a650941a0db997e8ede1406
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =56
+                            Top =3118
+                            Width =624
+                            Height =252
+                            Name ="Etichetta44"
+                            Caption ="DataI2:"
+                            GUID = Begin
+                                0x6a6b45065c38744087583c2dc42d6adb
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1757
+                    Top =3458
+                    Height =252
+                    TabIndex =27
+                    Name ="DataF2"
+                    ControlSource ="DataF2"
+                    GUID = Begin
+                        0x51492faa3c27274da4fcc44aadb48dac
+                    End
+
+                    Begin
+                        Begin Label
+                            Left =56
+                            Top =3458
+                            Width =648
+                            Height =252
+                            Name ="Etichetta45"
+                            Caption ="DataF2:"
+                            GUID = Begin
+                                0xb7a810a99d3852409852557631f5e392
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =226
+                    Top =56
+                    Width =576
+                    Height =270
+                    TabIndex =23
+                    Name ="PIscr"
+                    ControlSource ="PIscr"
+                    GUID = Begin
+                        0x3cd8e3bd19f206429b62ed78eadc0b21
+                    End
+
+                    Begin
+                        Begin Label
+                            Top =56
+                            Width =480
+                            Height =270
+                            Name ="Etichetta46"
+                            Caption ="PIscr:"
+                            GUID = Begin
+                                0xf01a2e432c2d124f90225aafbf15be51
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    IMESentenceMode =3
+                    Left =5925
+                    Top =60
+                    Height =276
+                    ColumnWidth =2835
+                    TabIndex =4
+                    Name ="Via"
+                    ControlSource ="Via"
+                    GUID = Begin
+                        0x863092b9f6b7764fae0ec91b64d153c1
+                    End
+
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    IMESentenceMode =3
+                    Left =7680
+                    Top =60
+                    Height =276
+                    ColumnWidth =2130
+                    TabIndex =5
+                    Name ="Comune"
+                    ControlSource ="Comune"
+                    GUID = Begin
+                        0x0fef8b9fe1d8d748ae426842cff9d74c
+                    End
+
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    IMESentenceMode =3
+                    Left =9435
+                    Top =60
+                    Height =276
+                    TabIndex =6
+                    Name ="CAP"
+                    ControlSource ="CAP"
+                    GUID = Begin
+                        0x874581e48e76464490044ca79044a4b0
+                    End
+
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    IMESentenceMode =3
+                    Left =12750
+                    Top =60
+                    Height =276
+                    ColumnWidth =2130
+                    TabIndex =9
+                    Name ="ComuneN"
+                    ControlSource ="ComuneN"
+                    GUID = Begin
+                        0x46b907d17138e64d84704fb21e47a19c
+                    End
+
+                End
+                Begin TextBox
+                    TextFontCharSet =0
+                    IMESentenceMode =3
+                    Left =23595
+                    Top =60
+                    Height =276
+                    TabIndex =14
+                    Name ="preAFAM"
+                    ControlSource ="preAFAM"
+                    Format ="Yes/No"
+                    GUID = Begin
+                        0x4bd0b4410c3b054aa0645add92af95ef
+                    End
+
+                End
+                Begin EmptyCell
+                    Left =27765
+                    Top =60
+                    Width =1695
+                    Height =276
+                    Name ="CellaVuota82"
+                    GUID = Begin
+                        0xda67b18377be6a4f93c951ff36a92224
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =483
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x1466f5621ab92f438b09da692c6a9283
+            End
+            Begin
+                Begin TextBox
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =57
+                    Top =228
+                    Width =5040
+                    Height =255
+                    FontSize =8
+                    Name ="Testo33"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    GUID = Begin
+                        0x90fa2b3ab4184141a61709d834d11b1b
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =21135
+                    Top =225
+                    Width =5040
+                    Height =255
+                    FontSize =8
+                    TabIndex =1
+                    Name ="Testo34"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    GUID = Begin
+                        0xd435546ca3eab94fb915893c11e8cb05
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xc47b94b7319a6c4b8c2cf6e4ad8353e5
+            End
+        End
+    End
+End

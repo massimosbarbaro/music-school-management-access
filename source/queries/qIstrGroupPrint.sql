@@ -1,0 +1,3 @@
+SELECT Scuola.AnnoS, Scuola.IdPr, Scuola.IdM, Scuola.Razred, Scuola.Voto, Scuola.IdD, Scuola.IdP, Scuola.IdK, Scuola.Ore, Scuola.Note, Scuola.Spric, Scuola.Potrd, Scuola.Data, Scuola.Livello, Go!Cognome & " " & Go!Nome AS Nominativo, Materia.Materia, Podruzica.Dove, Prof!Cognome & " " & Prof!Nome AS NominativoP, Go.tel, Go.mail, Go.cel, Go.DataN, Scuola.Razred2, Scuola.Ore2, Scuola.DataI, Scuola.DataF, Scuola.DataI2, Scuola.DataF2
+FROM (((Scuola LEFT JOIN Materia ON Scuola.IdM=Materia.IdM) LEFT JOIN Podruzica ON Scuola.IdD=Podruzica.IdD) LEFT JOIN Prof ON Scuola.IdPr=Prof.IdPr) INNER JOIN [Go] ON Scuola.IdP=Go.IdP
+ORDER BY Scuola.IdM, Scuola.IdD;

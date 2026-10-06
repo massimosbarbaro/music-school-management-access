@@ -1,0 +1,254 @@
+Version =21
+VersionRequired =20
+Checksum =-111707870
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =124
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10771
+    DatasheetFontHeight =10
+    ItemSuffix =62
+    Left =705
+    Top =645
+    Right =6405
+    Bottom =8610
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x561182dd8f72e440
+    End
+    GUID = Begin
+        0x1e7ce5dc0a137e4f91942b7e7b262376
+    End
+    RecordSource ="qClanarina"
+    Caption ="qClanarina"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x3702000053030000f0000000f000000000000000132a00000000000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            ControlSource ="IdP"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="NominativoS"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =1530
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x7c415c0810e6064b940dced0eb942c39
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x35c58c5c472a7e4eacae74c21f9327fc
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0x5666ca2e2954a24bad0f9110fc86d010
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =737
+            BreakLevel =1
+            Name ="IntestazioneGruppo1"
+            GUID = Begin
+                0x4151151e1491834d81243c044b6af698
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =2145
+                    Width =3192
+                    Height =270
+                    FontSize =11
+                    FontWeight =700
+                    Name ="Starsi.Cognome"
+                    ControlSource ="Starsi.Cognome"
+                    EventProcPrefix ="Starsi_Cognome"
+                    GUID = Begin
+                        0x6e7063eee9b1ba4785a0f2c4974bc286
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =5377
+                    Width =4149
+                    Height =270
+                    FontSize =11
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="Starsi.Nome"
+                    ControlSource ="Starsi.Nome"
+                    EventProcPrefix ="Starsi_Nome"
+                    GUID = Begin
+                        0xec1b420c63942545801fedd4659c5baf
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =2160
+                    Top =288
+                    Width =2451
+                    FontSize =11
+                    FontWeight =700
+                    TabIndex =2
+                    Name ="Testo38"
+                    ControlSource ="Go.Cognome"
+                    GUID = Begin
+                        0x0da90ad147981d4c94327ac30c96062d
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =5165
+                    Top =288
+                    Width =2451
+                    FontSize =11
+                    FontWeight =700
+                    TabIndex =3
+                    Name ="Testo40"
+                    ControlSource ="Go.Nome"
+                    GUID = Begin
+                        0xb8cd98d4d6e07e47b1c06230b07a8081
+                    End
+
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =0
+            Name ="Corpo"
+            GUID = Begin
+                0xc7aa83104499024f80b3c3f3838188c3
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =9751
+            Name ="PièDiPaginaGruppo0"
+            GUID = Begin
+                0x62577c9a9b70434d8aab4775a5d401e8
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x88fd7fe226599c4692e6dc9fb620a764
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0xe01a2a185fa8224991137f531a3f7fb5
+            End
+        End
+    End
+End

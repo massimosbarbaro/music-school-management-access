@@ -1,0 +1,523 @@
+Version =21
+VersionRequired =20
+Checksum =-1428551518
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =11225
+    DatasheetFontHeight =11
+    ItemSuffix =24
+    Left =2430
+    Top =795
+    Right =8310
+    Bottom =9135
+    RecSrcDt = Begin
+        0xc1174da9d3cfe440
+    End
+    GUID = Begin
+        0x39a06b4714245f4e97fd769a6a833ede
+    End
+    RecordSource ="qClani"
+    Caption ="Clani p."
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000bb2c00008501000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =9
+            FontWeight =700
+            BorderColor =5066944
+            ForeColor =11830108
+            FontName ="Calibri"
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin Line
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =5066944
+        End
+        Begin Image
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            OldBorderStyle =0
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =5066944
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =5066944
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontSize =9
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin BreakLevel
+            ControlSource ="Nominativo"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =1626
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x592c367fa089d54d93c7dc5bd32838c3
+            End
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    BackStyle =1
+                    TextAlign =2
+                    TextFontFamily =18
+                    Left =849
+                    Width =9285
+                    Height =975
+                    FontSize =20
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="Etichetta12"
+                    Caption ="SEZNAM CLANOV VOLIVCEV GLASBENA ŠOLA "
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xa1d63aa0b2320e4ba84f853d2c834e3e
+                    End
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =6630
+                    Top =510
+                    Width =4308
+                    Height =456
+                    FontSize =18
+                    FontWeight =700
+                    ForeColor =10040879
+                    Name ="TextCausale"
+                    ControlSource ="=Right$([Causale],4)"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x99e8cf0ec4045747adf1f4f6319a8403
+                    End
+
+                End
+            End
+        End
+        Begin PageHeader
+            Height =340
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x12a6b082e9ebbe41a8ccbe002b3979e8
+            End
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =738
+                    Width =1539
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="Nominativo_Etichetta"
+                    Caption ="Clan"
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xa7b87ddc061a51438c2c755fef215bfe
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    Left =4473
+                    Top =3
+                    Width =909
+                    Height =285
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="DataN_Etichetta"
+                    Caption ="Datum r."
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x3bc774676c61054f8bf454ada49ae814
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =3
+                    Width =564
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="St_Etichetta"
+                    Caption ="Št."
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x19b866dfef8fd44d8e5b7e0be2860719
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =5433
+                    Width =1380
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="davcna koda_Etichetta"
+                    Caption ="Davcna koda"
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="davcna_koda_Etichetta"
+                    GUID = Begin
+                        0x33465bd96842e74492c738d3c03f7355
+                    End
+                End
+                Begin Line
+                    LineSlant = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =2
+                    Top =285
+                    Width =10652
+                    BorderColor =8388608
+                    Name ="Linea15"
+                    GUID = Begin
+                        0x3cce3bbf14eee74b95eba844b57b4567
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    Left =8388
+                    Top =3
+                    Width =1665
+                    Height =300
+                    FontSize =11
+                    BorderColor =0
+                    ForeColor =8388608
+                    Name ="Etichetta19"
+                    Caption ="Prisotnost na o.z."
+                    FontName ="Times New Roman"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x6d0a1ac91fbb0a4596514f78ba4d9852
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =389
+            Name ="Corpo"
+            GUID = Begin
+                0xafc0c116580dd146978cac4de1ae6297
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =795
+                    Top =56
+                    Width =3684
+                    Height =285
+                    BorderColor =0
+                    Name ="Testo17"
+                    ControlSource ="Nominativo"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0xa85459bfd6483c4886b00e35cb50dff2
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =4530
+                    Top =59
+                    Width =909
+                    Height =285
+                    FontSize =8
+                    TabIndex =1
+                    BorderColor =0
+                    Name ="Testo18"
+                    ControlSource ="DataN"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0xde60a7a0a187674ab07d11507d7d2a91
+                    End
+
+                End
+                Begin TextBox
+                    BorderWidth =1
+                    IMESentenceMode =3
+                    Left =60
+                    Top =56
+                    Width =669
+                    Height =285
+                    FontSize =8
+                    TabIndex =2
+                    BorderColor =0
+                    Name ="Testo19"
+                    ControlSource ="St"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0x56c7617f2b21ff4ba7daff18ba68457b
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =5490
+                    Top =56
+                    Width =1734
+                    Height =225
+                    FontSize =8
+                    TabIndex =3
+                    BorderColor =0
+                    Name ="Testo20"
+                    ControlSource ="davcna koda"
+                    FontName ="Arial"
+                    GUID = Begin
+                        0x87eee7b3a7f8914eb2041968ab4a3f58
+                    End
+
+                End
+                Begin Line
+                    LineSlant = NotDefault
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    Top =374
+                    Width =10652
+                    BorderColor =8388608
+                    Name ="Linea17"
+                    GUID = Begin
+                        0x0fbdd49c85191842a652c9c5b058ce5f
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =918
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x2bdc67df2e04124bb7d22e2a93369003
+            End
+            Begin
+                Begin TextBox
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =60
+                    Top =690
+                    Width =5040
+                    Height =228
+                    FontSize =8
+                    Name ="Testo15"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    GUID = Begin
+                        0xe38a95631a42ad4893df8ba424198057
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =6090
+                    Top =690
+                    Width =5040
+                    Height =228
+                    FontSize =8
+                    TabIndex =1
+                    Name ="Testo16"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    GUID = Begin
+                        0x19105ccb7d5eb0489971b6b91d9b0587
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =623
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x8692f24b917ca64390ee993d016a4d72
+            End
+            Begin
+                Begin Rectangle
+                    SpecialEffect =1
+                    Left =113
+                    Top =56
+                    Width =2664
+                    Height =454
+                    BackColor =16777215
+                    BorderColor =0
+                    Name ="Casella23"
+                    GUID = Begin
+                        0x09939ae80921dd448cf9485aaa760d61
+                    End
+                End
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =1190
+                    Top =113
+                    Width =1418
+                    Height =330
+                    FontSize =12
+                    FontWeight =700
+                    Name ="txtConta"
+                    ControlSource ="=Count([Nominativo])"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xe357d80838c82f49a85a20421f6409ea
+                    End
+
+                    Begin
+                        Begin Label
+                            TextFontFamily =18
+                            Left =170
+                            Top =113
+                            Width =930
+                            Height =330
+                            FontSize =12
+                            ForeColor =8388608
+                            Name ="Etichetta22"
+                            Caption ="Clani št."
+                            FontName ="Times New Roman"
+                            GUID = Begin
+                                0xbdbf786fc4e52c45a8274987823b2613
+                            End
+                        End
+                    End
+                End
+            End
+        End
+    End
+End

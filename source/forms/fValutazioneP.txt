@@ -1,0 +1,369 @@
+Version =21
+VersionRequired =20
+Checksum =498221527
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =124
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =7143
+    DatasheetFontHeight =10
+    ItemSuffix =50
+    Left =4560
+    Top =510
+    Right =14145
+    Bottom =4605
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x7e99152f7e9fe440
+    End
+    GUID = Begin
+        0xa2609bd208a0234391760c12e8bd1c37
+    End
+    Caption ="fPorocilo"
+    BeforeInsert ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a005000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =1077
+            BackColor =6723891
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0x094c06d6fe6d1443ba99a3b34399f813
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =1587
+                    Top =283
+                    Width =1815
+                    Height =600
+                    FontSize =24
+                    Name ="Etichetta42"
+                    Caption ="Porocilo"
+                    GUID = Begin
+                        0xcea3ae57c9ebfa45abfe5dd1174a21a3
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =907
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                0x842d0c5f31d66049adfa6b4ccf25ffe6
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4818
+                    Top =113
+                    Width =525
+                    Height =405
+                    Name ="cmdProf"
+                    Caption ="Prof"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x5df36e677cae0140af568d872b354231
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =3
+                    ListWidth =4320
+                    Left =686
+                    Top =227
+                    Width =3339
+                    Height =227
+                    TabIndex =1
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x57367a421087f440859e80b9da803954
+                    End
+                    Name ="cmbIdPr"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Prof.IdPr, Prof.Cognome, Prof.Nome FROM Prof ORDER BY Prof.Cognome; "
+                    ColumnWidths ="0;1441;1441"
+                    BaseInfo ="\"SELECT Prof.IdPr, Prof.Cognome, Prof.Nome FROM Prof ORDER BY Prof.Cognome; \";"
+                        "\"Prof\";\"\";\"IdPr\";\"Cognome\";\"PrimaryKey\""
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =170
+                            Top =227
+                            Width =405
+                            Height =245
+                            Name ="IdPr_Etichetta"
+                            Caption ="Prof"
+                            GUID = Begin
+                                0xe0ad94b4f98d9941bfeba73598b9d75e
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =737
+            BackColor =6723891
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0xf7b2aedcb9fdde42b511f61b27ccae7a
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =6406
+                    Top =113
+                    Width =576
+                    Height =576
+                    Name ="cmdEsci"
+                    Caption ="Comando30"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0xad41e6d947f2b347b5331f974469db3f
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Private sOpen As String
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+If sOpen <> "" Then
+    IdP = sOpen
+    
+Else
+    'txtIdConservazione.Enabled = True
+End If
+
+End Sub
+
+Private Sub Form_DataChange(ByVal Reason As Long)
+cmbIdPr = ""
+
+End Sub
+
+Private Sub Form_Load()
+ Dim f As Form
+
+ Set f = Forms(Me.Name)
+    If Not IsNull(f.OpenArgs) Then
+        sOpen = f.OpenArgs
+      
+        
+    Else
+       sOpen = ""
+    End If
+
+End Sub
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
+Private Sub cmdProf_Click()
+On Error GoTo Err_cmdProf_Click
+    Dim sOpen As String
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fValutazioneProf"
+    sOpen = Me.cmbIdPr
+    'sSodelo = ""
+    
+       
+    
+    
+    
+    
+   ' stLinkCriteria = "[IdS]=" & Me![IdS]
+    'sSodelo = Me.IdS
+    
+    
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog, sOpen
+    cmbIdPr = ""
+Exit_cmdProf_Click:
+    Exit Sub
+
+Err_cmdProf_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdProf_Click
+    
+End Sub

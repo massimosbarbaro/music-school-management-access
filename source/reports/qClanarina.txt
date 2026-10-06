@@ -1,0 +1,383 @@
+Version =21
+VersionRequired =20
+Checksum =150346705
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =124
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10261
+    DatasheetFontHeight =10
+    ItemSuffix =58
+    Left =705
+    Top =645
+    Right =6585
+    Bottom =8985
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x400b1ce34e93e440
+    End
+    GUID = Begin
+        0x179ad98501c89d42b83a5ba6f793fc77
+    End
+    RecordSource ="qClanarina"
+    Caption ="Clanarina"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x5303000053030000f20000001b01000000000000152800000000000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =255
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            ControlSource ="IdP"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="NominativoS"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =3401
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0xa3ee1f1be240a947ab8d6673ec200b87
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x29cf128535c9ed42946d9c10aaed837f
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =13606
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0x8b1db426cff8eb4bafc4b4409666eae2
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1128
+                    Width =3396
+                    Height =345
+                    FontSize =11
+                    FontWeight =700
+                    Name ="Go.Cognome"
+                    ControlSource ="NominativoU"
+                    EventProcPrefix ="Go_Cognome"
+                    GUID = Begin
+                        0xf12040959e814b429ca3074be1aa8a1b
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =5208
+                    Top =108
+                    Width =2322
+                    FontSize =10
+                    TabIndex =1
+                    Name ="LuogoN"
+                    ControlSource ="Comuni_2.Slov"
+                    GUID = Begin
+                        0xc2e38f6745f0604eb7f073dd637b7320
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7884
+                    Top =108
+                    Width =1329
+                    FontSize =10
+                    TabIndex =2
+                    Name ="DataN"
+                    ControlSource ="Go.DataN"
+                    Format ="dd\\.mm\\.yyyy"
+                    GUID = Begin
+                        0x8d1488c85018f84dbb20a6dc2a34f583
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7536
+                    Top =396
+                    Width =1653
+                    Height =270
+                    FontSize =10
+                    TabIndex =3
+                    Name ="tel"
+                    ControlSource ="tel"
+                    GUID = Begin
+                        0x8ae31e418488fd43b12fcbb2435873f2
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =4260
+                    Top =672
+                    Width =4368
+                    Height =270
+                    FontSize =10
+                    TabIndex =4
+                    Name ="mail"
+                    ControlSource ="mail"
+                    GUID = Begin
+                        0xebf8bbad9a9bb04c9b969fc46bde82a7
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1524
+                    Top =672
+                    Width =2103
+                    Height =270
+                    FontSize =10
+                    TabIndex =5
+                    Name ="cel"
+                    ControlSource ="cel"
+                    GUID = Begin
+                        0x8de40dd609cc8a47b8fa75d6b3e2f241
+                    End
+
+                End
+                Begin TextBox
+                    OverlapFlags =243
+                    IMESentenceMode =3
+                    Left =2268
+                    Top =396
+                    Width =3696
+                    ColumnWidth =3555
+                    TabIndex =6
+                    Name ="ComR"
+                    ControlSource ="ComR"
+                    GUID = Begin
+                        0x3178a7720700f84d93cbea4c7def0a00
+                    End
+
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            CanShrink = NotDefault
+            Height =737
+            BreakLevel =1
+            Name ="IntestazioneGruppo1"
+            GUID = Begin
+                0x8b81134234edd64597a1cf6e77201833
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1133
+                    Width =7488
+                    Height =345
+                    FontSize =11
+                    FontWeight =700
+                    Name ="Starsi.Cognome"
+                    ControlSource ="NominativoS"
+                    EventProcPrefix ="Starsi_Cognome"
+                    GUID = Begin
+                        0x4b0301e3bf957044b6519ca54c1eb62a
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1584
+                    Top =336
+                    Width =7089
+                    Height =285
+                    FontSize =11
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="Testo38"
+                    ControlSource ="NominativoU"
+                    GUID = Begin
+                        0x5612948673238949a7343f04d18a95fe
+                    End
+
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =0
+            Name ="Corpo"
+            GUID = Begin
+                0xc7cf027ce10c81429ae1e793cd035fed
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =12812
+            Name ="PièDiPaginaGruppo0"
+            GUID = Begin
+                0xfaa358fb69743049951f2f470eeef383
+            End
+            Begin
+                Begin Label
+                    FontItalic = NotDefault
+                    Left =680
+                    Top =11281
+                    Width =1701
+                    Height =511
+                    FontSize =14
+                    ForeColor =0
+                    Name ="Etichetta55"
+                    Caption ="Za tajništvo"
+                    GUID = Begin
+                        0x7d042cd92076684fb853f860c98c03b4
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Left =56
+                    Top =11735
+                    Width =10148
+                    Name ="Linea56"
+                    GUID = Begin
+                        0x5c67b664737e0144a78e864e3ad58ad9
+                    End
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    Left =390
+                    Top =12075
+                    Width =9480
+                    Height =300
+                    FontSize =12
+                    ForeColor =0
+                    Name ="Etichetta57"
+                    Caption ="Sprejeto datum:_____________________                                            "
+                        "                 Podpis"
+                    GUID = Begin
+                        0x22171f2c101d1844a6cf3ee57cc54af4
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =0
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0xd63fb476c0934748b6bdea0f166d7993
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x0c1bc08cfb53f34e94fe5aebbfb9ea41
+            End
+        End
+    End
+End

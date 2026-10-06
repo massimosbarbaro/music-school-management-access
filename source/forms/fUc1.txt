@@ -1,0 +1,2675 @@
+Version =21
+VersionRequired =20
+Checksum =-1485986311
+Begin Form
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    TabularFamily =124
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =13436
+    DatasheetFontHeight =10
+    ItemSuffix =81
+    Left =3645
+    Right =17085
+    Bottom =9450
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x5e48739c9172e440
+    End
+    GUID = Begin
+        0xb302e25be44c444cb03895d4a15e9422
+    End
+    RecordSource ="Go"
+    Caption ="Ucenci"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0xa0050000a0050000a0050000a0050000000000007c340000e51d000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontName ="Tahoma"
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+            BorderLineStyle =0
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Tahoma"
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Tahoma"
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =623
+            BackColor =8511064
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0x8b2faac91f9b9a4a80804fe6ffda5874
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =5612
+                    Top =56
+                    Width =1245
+                    Height =480
+                    FontSize =18
+                    Name ="Etichetta21"
+                    Caption ="Ucenci"
+                    GUID = Begin
+                        0x02b589c7e48e704b938860d69b203dfd
+                    End
+                End
+            End
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =7653
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                0x5158a715af950641a10d898177b91875
+            End
+            Begin
+                Begin Rectangle
+                    SpecialEffect =2
+                    BackStyle =1
+                    OverlapFlags =93
+                    Left =10770
+                    Top =60
+                    Width =2551
+                    Height =2650
+                    BackColor =13434828
+                    Name ="Casella52"
+                    GUID = Begin
+                        0xd7589124abad0243918c583c1605ac73
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =223
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =428
+                    Top =113
+                    Width =531
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0x57c48e69224bfd4bb4eafb9f70fb89f0
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =2
+                            Left =105
+                            Top =120
+                            Width =345
+                            Height =240
+                            Name ="Etichetta1"
+                            Caption ="Št."
+                            GUID = Begin
+                                0xb41159fdcaf3304586489024adffd91b
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =3187
+                    Top =113
+                    Width =3405
+                    Height =330
+                    FontSize =11
+                    FontWeight =700
+                    TabIndex =2
+                    Name ="Cognome"
+                    ControlSource ="Cognome"
+                    GUID = Begin
+                        0xd41d9d3b72c5f54f8a9bcb876233f611
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =2
+                            Left =2400
+                            Top =120
+                            Width =795
+                            Height =240
+                            Name ="Etichetta5"
+                            Caption ="Priimek"
+                            GUID = Begin
+                                0x081d85c0038bdf4faa9bdf27a87dcea3
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =7181
+                    Top =120
+                    Width =3465
+                    Height =330
+                    FontSize =11
+                    FontWeight =700
+                    TabIndex =3
+                    Name ="Nome"
+                    ControlSource ="Nome"
+                    GUID = Begin
+                        0xe2c1528d772cb44d84da4f67ee7acbfc
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =2
+                            Left =6690
+                            Top =127
+                            Width =495
+                            Height =240
+                            Name ="Etichetta7"
+                            Caption ="Ime"
+                            GUID = Begin
+                                0x3332b85bb2c4af41a1762cc7ca3f5838
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =5792
+                    Top =630
+                    Width =1335
+                    Height =285
+                    FontSize =10
+                    TabIndex =5
+                    Name ="DataN"
+                    ControlSource ="DataN"
+                    Format ="Short Date"
+                    InputMask ="00/00/00;0;_"
+                    GUID = Begin
+                        0x310a8374f9214f44a0a6e1d7040ae010
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =2
+                            Left =5040
+                            Top =630
+                            Width =735
+                            Height =240
+                            Name ="Etichetta11"
+                            Caption ="Datum R."
+                            GUID = Begin
+                                0x9a8607e4e59ddf4dbb8add865028fe91
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =8216
+                    Top =630
+                    Width =2430
+                    Height =285
+                    ColumnWidth =2280
+                    FontSize =10
+                    TabIndex =6
+                    Name ="davcna koda"
+                    ControlSource ="davcna koda"
+                    EventProcPrefix ="davcna_koda"
+                    GUID = Begin
+                        0x6ffee439256da54582b839cfa4b09885
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =2
+                            Left =7245
+                            Top =635
+                            Width =915
+                            Height =240
+                            Name ="Etichetta13"
+                            Caption ="dav.koda"
+                            GUID = Begin
+                                0xac8d524ebe5c634eadee1a8d6739a805
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =93
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =741
+                    Top =1080
+                    Width =5055
+                    ColumnWidth =2835
+                    TabIndex =10
+                    Name ="Via"
+                    ControlSource ="Via"
+                    GUID = Begin
+                        0x8c21c8aae6634043835f6dad6c782efc
+                    End
+
+                End
+                Begin ComboBox
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    TextAlign =2
+                    IMESentenceMode =3
+                    ColumnCount =4
+                    ListWidth =5670
+                    Left =6008
+                    Top =1080
+                    Width =4638
+                    ColumnWidth =2550
+                    TabIndex =11
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"\";\"\";\"\";\"\";\"10\";\"0\""
+                    GUID = Begin
+                        0xe6759e3b65d6c0408ac37d56f96932fd
+                    End
+                    Name ="Citta"
+                    ControlSource ="IdCR"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Comuni.IdC, [Comune] & \" \" & [Slov] AS kom, Comuni.Slov, Comuni.CAP FRO"
+                        "M Comuni GROUP BY Comuni.IdC, [Comune] & \" \" & [Slov], Comuni.Slov, Comuni.CAP"
+                        "; "
+                    ColumnWidths ="0;2268;1701;567;567"
+                    OnDblClick ="[Event Procedure]"
+                    BaseInfo ="\"SELECT Comuni.IdC, [Comune] & \"\" \"\" & [Slov] AS kom, Comuni.Slov, Comuni.C"
+                        "AP FROM Comuni GROUP BY Comuni.IdC, [Comune] & \"\" \"\" & [Slov], Comuni.Slov, "
+                        "Comuni.CAP; \";\"Comuni\";\"\";\"IdC\";\"Comune] & \"\" \"\" & [Slov\";\"Primary"
+                        "Key\""
+
+                End
+                Begin ComboBox
+                    OldBorderStyle =0
+                    OverlapFlags =223
+                    TextAlign =2
+                    IMESentenceMode =3
+                    ColumnCount =5
+                    ListWidth =8505
+                    Left =686
+                    Top =630
+                    Width =4230
+                    Height =285
+                    FontSize =10
+                    TabIndex =4
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"\";\"\";\"\";\"\";\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x604a84c95d7a0b4aa6aaacdbdd2ea27b
+                    End
+                    Name ="LuogoN"
+                    ControlSource ="IdCN"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Comuni.IdC, Comuni.Comune, Comuni.Slov, Comuni.Provincia, Comuni.CAP FROM"
+                        " Comuni GROUP BY Comuni.IdC, Comuni.Comune, Comuni.Slov, Comuni.Provincia, Comun"
+                        "i.CAP ORDER BY Comuni.Comune; "
+                    ColumnWidths ="0;2268;2268;567;567"
+                    OnDblClick ="[Event Procedure]"
+                    BaseInfo ="\"SELECT Comuni.IdC, Comuni.Comune, Comuni.Slov, Comuni.Provincia, Comuni.CAP FR"
+                        "OM Comuni GROUP BY Comuni.IdC, Comuni.Comune, Comuni.Slov, Comuni.Provincia, Com"
+                        "uni.CAP ORDER BY Comuni.Comune; \";\"Comuni\";\"\";\"IdC\";\"Comune\";\"PrimaryK"
+                        "ey\""
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =2
+                            Left =60
+                            Top =635
+                            Width =645
+                            Height =240
+                            Name ="Etichetta9"
+                            Caption ="Kraj R."
+                            GUID = Begin
+                                0xfacc37810e74c049845df62e2199540f
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OldBorderStyle =0
+                    OverlapFlags =223
+                    TextAlign =2
+                    IMESentenceMode =3
+                    Left =1568
+                    Top =113
+                    Width =585
+                    TabIndex =1
+                    ColumnInfo ="\"\";\"\";\"10\";\"100\""
+                    GUID = Begin
+                        0x4663d94d7b825b4f977770d45d71db16
+                    End
+                    Name ="Sede"
+                    ControlSource ="Sede"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Go.Sede FROM [Go] GROUP BY Go.Sede ORDER BY Go.Sede; "
+                    DefaultValue ="\"Go\""
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =2
+                            Left =1125
+                            Top =120
+                            Width =465
+                            Height =240
+                            Name ="Etichetta3"
+                            Caption ="Sed."
+                            GUID = Begin
+                                0x2a32ea72ff2eef48a2afcf8f4892d685
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =907
+                    Top =283
+                    Width =696
+                    TabIndex =12
+                    Name ="Testo30"
+                    ControlSource ="Citta"
+                    GUID = Begin
+                        0xa65fecc9823a3f48b1b2c3deea95c08a
+                    End
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =4421
+                    Top =857
+                    Width =630
+                    TabIndex =7
+                    Name ="IdCN"
+                    ControlSource ="IdCN"
+                    GUID = Begin
+                        0x0c0bac23f9be024aa0db59c05a0f57ce
+                    End
+
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =255
+                            Left =3926
+                            Top =857
+                            Width =495
+                            Height =240
+                            Name ="Etichetta34"
+                            Caption ="IdCN:"
+                            GUID = Begin
+                                0xbcbc64859f92d540ad31c894bde5b101
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =5854
+                    Top =857
+                    Width =735
+                    TabIndex =8
+                    Name ="IdCR"
+                    ControlSource ="IdCR"
+                    GUID = Begin
+                        0x2dbc774d2ff014488959bc0bfba64f4f
+                    End
+
+                    Begin
+                        Begin Label
+                            Visible = NotDefault
+                            OverlapFlags =255
+                            Left =5359
+                            Top =857
+                            Width =495
+                            Height =240
+                            Name ="Etichetta35"
+                            Caption ="IdCR:"
+                            GUID = Begin
+                                0x2e800c529f8d264ab5a22f391229a614
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =247
+                    IMESentenceMode =3
+                    Left =1644
+                    Top =283
+                    Width =681
+                    TabIndex =9
+                    Name ="Testo37"
+                    ControlSource ="LuogoN"
+                    GUID = Begin
+                        0xb466ec7decc2d447bf7463eff82698c0
+                    End
+
+                End
+                Begin Label
+                    OverlapFlags =215
+                    Left =60
+                    Top =1080
+                    Width =675
+                    Height =240
+                    Name ="Etichetta39"
+                    Caption ="Bivališce"
+                    GUID = Begin
+                        0xc300bd268953394b94a0944555c354b9
+                    End
+                End
+                Begin Subform
+                    OverlapFlags =87
+                    Left =56
+                    Top =2791
+                    Width =13260
+                    Height =4800
+                    TabIndex =23
+                    Name ="fRicevuta"
+                    SourceObject ="Form.fRicevuta"
+                    LinkChildFields ="IdP"
+                    LinkMasterFields ="IdP"
+                    GUID = Begin
+                        0x44e8c76e9d078743b8df9a198de70ad8
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =2551
+                            Width =765
+                            Height =240
+                            Name ="Etichetta45"
+                            Caption ="fRicevuta"
+                            GUID = Begin
+                                0x8e5964f66b56704c996b4e704f5e3d3c
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =11168
+                    Top =169
+                    Width =2091
+                    TabIndex =13
+                    Name ="tel"
+                    ControlSource ="tel"
+                    GUID = Begin
+                        0x4de142b1c166e84e8951a06bc5e8a090
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            Left =10828
+                            Top =169
+                            Width =315
+                            Height =240
+                            Name ="Etichetta49"
+                            Caption ="tel:"
+                            GUID = Begin
+                                0x75e205707456e74ab56ab2e2ec08b918
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =11225
+                    Top =962
+                    Width =2046
+                    TabIndex =15
+                    Name ="mail"
+                    ControlSource ="mail"
+                    GUID = Begin
+                        0x289984cb57d3554e8b4cfa1cbe4f7e1a
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =223
+                            Left =10828
+                            Top =962
+                            Width =405
+                            Height =240
+                            Name ="Etichetta50"
+                            Caption ="mail:"
+                            GUID = Begin
+                                0x304f159edb4e5d45b3bdcadc2a83b91f
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =11168
+                    Top =565
+                    Width =2091
+                    TabIndex =14
+                    Name ="cel"
+                    ControlSource ="cel"
+                    GUID = Begin
+                        0x3bfa839334f11e4a82a33d254f42c2be
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =223
+                            Left =10828
+                            Top =565
+                            Width =330
+                            Height =240
+                            Name ="Etichetta51"
+                            Caption ="cel:"
+                            GUID = Begin
+                                0x400d6bad51d96542a37b5492f676e79e
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =10832
+                    Top =1607
+                    Width =951
+                    TabIndex =16
+                    Name ="PIscr"
+                    ControlSource ="PIscr"
+                    Format ="Short Date"
+                    GUID = Begin
+                        0x4c23beed684d954ca806991b55e2d439
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            Left =10830
+                            Top =1260
+                            Width =945
+                            Height =240
+                            Name ="Etichetta53"
+                            Caption ="SL I iscrz."
+                            GUID = Begin
+                                0x5e339af02bf6984ca86576a7961f1d1b
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =10830
+                    Top =2141
+                    Width =2376
+                    Height =510
+                    TabIndex =18
+                    Name ="Note"
+                    ControlSource ="Note"
+                    GUID = Begin
+                        0xac60e8729469f34d8b1ab500d2a2d034
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            Left =10830
+                            Top =1860
+                            Width =735
+                            Height =240
+                            Name ="Etichetta63"
+                            Caption ="Opombe:"
+                            GUID = Begin
+                                0x6cc7a07f6f8bce4aadb7cfaa803c039a
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =12302
+                    Top =1607
+                    Width =951
+                    TabIndex =17
+                    Name ="txtDataS"
+                    ControlSource ="DataS"
+                    Format ="Short Date"
+                    InputMask ="00/00/00;0;_"
+                    GUID = Begin
+                        0xe133190d27141347846dc5487d523208
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            Left =12300
+                            Top =1260
+                            Width =945
+                            Height =240
+                            Name ="Etichetta67"
+                            Caption ="Data S.Dock."
+                            GUID = Begin
+                                0xb7dea89f2952244e96f685339577f0d9
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =570
+                    Top =1542
+                    Width =966
+                    TabIndex =19
+                    Name ="DataD"
+                    ControlSource ="DataD"
+                    Format ="Short Date"
+                    StatusBarText ="Data accettazione"
+                    InputMask ="00/00/00;0;_"
+                    GUID = Begin
+                        0x8c7410f8975e6c44a586fefb0469e897
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =60
+                            Top =1542
+                            Width =450
+                            Height =240
+                            Name ="Etichetta77"
+                            Caption ="Proš."
+                            GUID = Begin
+                                0x243cfc02e6d390448caa8997e2cdbad7
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =570
+                    Top =1939
+                    Width =966
+                    TabIndex =20
+                    Name ="DataA"
+                    ControlSource ="DataA"
+                    Format ="Short Date"
+                    StatusBarText ="Data domanda"
+                    InputMask ="00/00/00;0;_"
+                    GUID = Begin
+                        0x1641a81f182b154ea4daec7cddff7a50
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =60
+                            Top =1939
+                            Width =510
+                            Height =240
+                            Name ="Etichetta78"
+                            Caption ="Sprej."
+                            GUID = Begin
+                                0x319517d26a64b94d8a2d6163b6ddf43e
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =2331
+                    Top =1542
+                    Width =966
+                    TabIndex =21
+                    Name ="DataE"
+                    ControlSource ="DataE"
+                    Format ="Short Date"
+                    StatusBarText ="Data Espulsione"
+                    InputMask ="00/00/00;0;_"
+                    GUID = Begin
+                        0xe2db54eb363dd94a8c706d61a4a58de7
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =1590
+                            Top =1545
+                            Width =945
+                            Height =240
+                            Name ="Etichetta79"
+                            Caption ="Izguba cl."
+                            GUID = Begin
+                                0xd24eca7bc09ce94785917b532f9bf325
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3515
+                    Top =1485
+                    Width =7131
+                    Height =1245
+                    TabIndex =22
+                    Name ="Motiv"
+                    ControlSource ="Motiv"
+                    StatusBarText ="Motivazione"
+                    GUID = Begin
+                        0x995fb8259c1ffc4c8a51e7554b8e6058
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2555
+                            Top =1939
+                            Width =525
+                            Height =240
+                            Name ="Etichetta80"
+                            Caption ="Zakaj"
+                            GUID = Begin
+                                0x04458c458b72c94d9f1ac51f8e2b2fd9
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =1426
+            BackColor =8511064
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x2a49a0573a2715489d30755d2ade5760
+            End
+            Begin
+                Begin Rectangle
+                    SpecialEffect =2
+                    BackStyle =1
+                    OverlapFlags =93
+                    Left =2385
+                    Top =120
+                    Width =3573
+                    Height =522
+                    BackColor =6723891
+                    Name ="Casella57"
+                    GUID = Begin
+                        0xf6ca0e80261c264c99b4de9668d5a8e4
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =12699
+                    Top =680
+                    Width =576
+                    Height =576
+                    Name ="cmdEsci"
+                    Caption ="Comando20"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0x7943121af06f8a4bbb474ce2a2e01ef7
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =93
+                    Left =1587
+                    Top =113
+                    Width =645
+                    Height =405
+                    TabIndex =1
+                    Name ="cmdStar"
+                    Caption ="Starši"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xedf252cc52d2b4499efdacb7292e81c1
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =93
+                    Left =113
+                    Top =113
+                    Width =675
+                    Height =405
+                    TabIndex =2
+                    Name ="cmdObcina"
+                    Caption ="Obcina"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xb6f94d77bf18bb4bb8385e903ae78a50
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =60
+                    Top =120
+                    Width =795
+                    Height =405
+                    TabIndex =3
+                    Name ="cmdStar2"
+                    Caption ="star/gen"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x6e4c87ff6d377b479c467b6ea2d17512
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =5273
+                    Top =177
+                    Width =615
+                    Height =405
+                    TabIndex =4
+                    Name ="cmdRicev"
+                    Caption ="Ric."
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x0f00822ba128bd44823f9d3d831081ab
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =223
+                    Left =2438
+                    Top =177
+                    Width =855
+                    Height =405
+                    TabIndex =5
+                    Name ="cmdClanarina"
+                    Caption ="Clanarina"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xb452fad4d97ade4788cba743241e60a7
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =3346
+                    Top =177
+                    Width =855
+                    Height =405
+                    TabIndex =6
+                    Name ="cmdVpisnina"
+                    Caption ="Vpisnina"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xe9c247a85c940549b24c3a4aaea3d210
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =4254
+                    Top =177
+                    Width =855
+                    Height =405
+                    TabIndex =7
+                    Name ="cmdPrivacy"
+                    Caption ="Privacy"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x4da87991971d114cb6dcbef2808ab951
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =9793
+                    Top =60
+                    Width =576
+                    Height =576
+                    TabIndex =8
+                    Name ="cmdDijak"
+                    Caption ="Comando58"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadadadadadadadaddadadadadadadada ,
+                        0xadadada000000000da0adad0fffffff0ad00ada0f00f00f000000ad0fffffff0 ,
+                        0x000000a0f00f00f000000ad0fffffff0ad00ada444444444da0adad4f44f44f4 ,
+                        0xadadada444444444dadadadadadadadaadadadadadadadaddadadadadadadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Print Ucenci"
+                    GUID = Begin
+                        0x64f51cd0a715c640a3fa76027c8ce67b
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =10595
+                    Top =60
+                    Width =576
+                    Height =576
+                    TabIndex =9
+                    Name ="cmdDiakStar"
+                    Caption ="Comando59"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100080000000000000400000000000000000000 ,
+                        0x0000000000000000000000000000bf0000bf000000bfbf00bf000000bf00bf00 ,
+                        0xbfbf0000c0c0c000c0dcc000f0c8a40000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0xf0fbff00a4a0a000808080000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070700000000000000000000000000000000000000 ,
+                        0x000000000707070707070707000000f807060706070607060706070607060706 ,
+                        0x070607000707070707070700fffb030000070607060706070607060706070607 ,
+                        0x060706000707070707070707000000f807060706070607060706070607060706 ,
+                        0x070607000707070707070707070000f806070607060706070607060706070607 ,
+                        0x060706000707070707070707000000f807060706070607060706070607060706 ,
+                        0x070607000707070707070700fffb030000070607060706070607060706070607 ,
+                        0x060706000707070707070707000000f807060706070607060706070607060706 ,
+                        0x070607000707070707070707070000f806070607060706070607060706070607 ,
+                        0x060706000707070707070707000000f807060706070607060706070607060706 ,
+                        0x070607000707070707070700fffb030000070607060706070607060706070607 ,
+                        0x060706000707070707070707000000f807060706070607060706070607060706 ,
+                        0x070607000707070707070707070000f806070607060706070607060706070607 ,
+                        0x060706000707070707070707000000f807060706070607060706070607060706 ,
+                        0x070607000707070707070700fffb030000070607060706070607060706070607 ,
+                        0x060706000707070707070707000000f807060706070607060706060607060706 ,
+                        0x070607000707070707070707070000f806070600000000000000000000000000 ,
+                        0x060706000707070707070707000000f807060700ffffffffffffffffffffff00 ,
+                        0x070607000707070707070700fffb030000070600ffffffffffffffffffffff00 ,
+                        0x060706000707070707070707000000f807060700ffffffffffffffffffffff00 ,
+                        0x070607000707070707070707070000f806070600000000000000000000000000 ,
+                        0x060706000707070707070707000000f807060706070607060706070607060706 ,
+                        0x070607000707070707070700fffb030000070607060706070607060706070607 ,
+                        0x060706000707070707070707000000f807060706070607060706070607060706 ,
+                        0x070607000707070707070707070000f806070607060706070607060706070607 ,
+                        0x0607060007070707070707070700000000000000000000000000000000000000 ,
+                        0x0000000007070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707000000000000000000000000000000000000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Print Starši"
+                    GUID = Begin
+                        0xe9cdb76b5328b746a6eb0ce18bfb9fe0
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =223
+                    Left =1920
+                    Top =120
+                    Width =630
+                    Height =330
+                    TabIndex =10
+                    Name ="cmdSblocca"
+                    Caption ="Sblocca "
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x63f19a238635ca4e820fca0a6631a188
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =215
+                    Left =1815
+                    Top =60
+                    Width =456
+                    Height =576
+                    TabIndex =11
+                    Name ="cmdDel"
+                    Caption ="Comando61"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100080000000000000400000000000000000000 ,
+                        0x0000000000000000000000000000bf0000bf000000bfbf00bf000000bf00bf00 ,
+                        0xbfbf0000c0c0c000c0dcc000f0c8a40000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0xf0fbff00a4a0a000808080000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00070707070707070707070707070707070000000000000000 ,
+                        0x0007070707070707070707070707070707070707070700000000000000000000 ,
+                        0x0000000707070707070707070707070707070707000000000000000000000000 ,
+                        0x0000000000070707070707070707070707000000f8f8f8f8f8f8000000000000 ,
+                        0x0000000000070707070707070707070700f8f8f80707070707f8f8f8f8000000 ,
+                        0x00000000000707070707070707070700f80707070700f80700f8f8f8f8f80000 ,
+                        0x00000000000707070707070707070700070700f80700f80700f8f800f8f80000 ,
+                        0x00000000000707070707070707070700070700f80700f80700f8f800f8f80000 ,
+                        0x00000000070707070707070707070700070700f80700f80700f8f800f8f80000 ,
+                        0x00000707070707070707070707070007070700f80700f80700f8f8f800f8f800 ,
+                        0x070707070707070707070707070700070700f8070000f8070000f8f800f8f800 ,
+                        0x070707070707070707070707070700070700f80700f807070700f8f800f8f800 ,
+                        0x070707070707070707070707070700070700f80700f807070700f8f800f8f800 ,
+                        0x070707070707070707070707070007070700070700f807070700f8f8f800f8f8 ,
+                        0x0007070707070707070707070700070700f8070700f807070700f8f8f800f8f8 ,
+                        0x0007070707070707070707070700070700f8070700f800070700f800f800f8f8 ,
+                        0x0007070707070707070707070700070700f807070000000707000000f800f8f8 ,
+                        0x00070707070707070707070707000700f8000707070707070707f8f8f800f8f8 ,
+                        0x0007070707070707070707070007070000070707f8f8f8f8f8f8f8f8f8f800f8 ,
+                        0xf800070707070707070707070007070707f8f8f8000000000000f8f8f8f8f800 ,
+                        0xf800070707070707070707070007f8f8f80000000707070707f8000000f8f8f8 ,
+                        0xf8000707070707070707070700f8000000070707000000000000f8f8f8000000 ,
+                        0xf800070707070707070707070000070707000000070707070707000000f8f8f8 ,
+                        0x00000707070707070707070700070700000707070707070707070707070000f8 ,
+                        0xf800070707070707070707000707000707070707070707070707070707070700 ,
+                        0xf8f8000707070707070707000700070707070000f8f8f8f8f8f8000007070707 ,
+                        0x00f8000707070707070707070007070707070000000000000000000007070707 ,
+                        0x0700070707070707070707070700000707070700000707070700000707070700 ,
+                        0x0007070707070707070707070707070000070707000000000000070707000007 ,
+                        0x0707070707070707070707070707070707000007070707070707070000070707 ,
+                        0x0707070707070707070707070707070707070700000000000000000707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Elimina record "
+                    GUID = Begin
+                        0x166c857a79af0b40be0c227c670e9648
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =8991
+                    Top =60
+                    Width =576
+                    Height =576
+                    TabIndex =12
+                    Name ="cmdInstrument"
+                    Caption ="Comando62"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadadadadadadadadda7adada7adadada ,
+                        0xa717ada717adadadda7adada7adadadaadadadadadadad00dadad7dadadad000 ,
+                        0xa7ad717dadad000d717ad7dadad000daa7adadadad000daddadadadad000dada ,
+                        0xada7adad000dadadda717ad000dadadaada7ad0b0dadadaddadad0b0dadadada ,
+                        0xadada70dadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Predmeti"
+                    GUID = Begin
+                        0xd00928b9bb04ad47b75842590bddaa1f
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =967
+                    Top =120
+                    Width =615
+                    Height =390
+                    TabIndex =13
+                    Name ="cmdStarSp"
+                    Caption ="StarSp"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x660a5be9fab7f84b91a26ce3495cb052
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =8189
+                    Top =60
+                    Width =576
+                    Height =576
+                    TabIndex =14
+                    ForeColor =0
+                    Name ="cmdDokUc"
+                    Caption ="Dokumenti"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadadadadadadadaddadadadadadadada ,
+                        0xadadad7007adadadd70000000000007aa07700777700770dd07707777770770a ,
+                        0xa07707877770770dd07707e87770770aa0ff00777700ff0dd0fff000000fff0a ,
+                        0xa00000000000000dda00d70ff07a00daadadad7007adadaddadadadadadadada ,
+                        0xadadadadadadadad
+                    End
+                    FontName ="MS Sans Serif"
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Dokumenti ucencij"
+                    GUID = Begin
+                        0x3c3acce3f1fbdf4b9214fc695f2758df
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =7387
+                    Top =60
+                    Width =576
+                    Height =576
+                    TabIndex =15
+                    Name ="cmdSola"
+                    Caption ="Sola"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadadadadadadadaddadadadadadadada ,
+                        0xadada44444adadad444444444444444a44444474f444444d44777774fffff44a ,
+                        0x44777774fffff44d44777774fffff44a44777774fffff44d44777774fffff44a ,
+                        0x44777774fffff44d44777774fffff44a4477774d4ffff44dd44444dad44444da ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Sola"
+                    GUID = Begin
+                        0x0ee34a2b458eb441875045bdb40ff70d
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =8167
+                    Top =735
+                    Width =576
+                    Height =576
+                    TabIndex =16
+                    Name ="cmdTekma"
+                    Caption ="Comando68"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100080000000000000400000000000000000000 ,
+                        0x0000000000000000000000000000bf0000bf000000bfbf00bf000000bf00bf00 ,
+                        0xbfbf0000c0c0c000c0dcc000f0c8a40000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0xf0fbff00a4a0a000808080000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707000007070707070707070707070707070707070707 ,
+                        0x070707070707070707070007f800000707070707070707070707070707070707 ,
+                        0x0707070707070707070007ff07fff80000070707070707070707070707070707 ,
+                        0x070707070707070707070007fff8ff07f8000007070707070707070707070707 ,
+                        0x070707070707070707070700f8fff8ff07fff800000707070707070707070707 ,
+                        0x0707070707070707070707070007fff8ff07ff07f80000070707070707070700 ,
+                        0x000000000007070707070707070007fff8ff07ff07fff80000070707000000f8 ,
+                        0xf8f8f8f80700000707070707070700f8fff8ff07ff07ff07f8000000f8f8f807 ,
+                        0x0707070707070700070707070707070007fff8ff07ff07ff07f8f8f80707ffff ,
+                        0xffffffff0707070007070707070707070007fff8ff07fff8f8070707ff04ffff ,
+                        0xfcfcfcffff0700070707070707070707070007ff07f8f8070707ff04ffffffff ,
+                        0xfffffffcff0700070707070707070707070000f8f80707ffff04ffffffffffff ,
+                        0xfffffffcff000707070707070707070000f8f80707ff04ffffffffffffffffff ,
+                        0xffffffff0007070707070707070000f8f80707ff04ffffffffffffffffffffff ,
+                        0xffff0000070707070700000700f8f80707ff04ffffffffffffffffffffffff00 ,
+                        0x000007070707070700ffff00000707ff04ffffffffffffffffffffff00000000 ,
+                        0x07070707070707070007ffffff0000ffffffffffffffffffff00000007ff0700 ,
+                        0x0707070707070707070007ffffffffffffffffffffff00000007ff07ff07f800 ,
+                        0x0707070707070707070000ffffffffffffffff000000070700fff8ff07ff0700 ,
+                        0x0707070707070707070007ffffff00ff00000007070707070007fff8ff07f800 ,
+                        0x0707070707070707070007ffff00ffff00070707070707070700f8ff07ff0700 ,
+                        0x0707070707070707070007ffff0007ff00070707070707070700fff8ff07f800 ,
+                        0x0707070707070707070007ff000700000707070707070707070700fff8ff0700 ,
+                        0x0707070707070707070007ff000707070707070707070707070700f8ff07f800 ,
+                        0x0707070707070707070000000707070707070707070707070707070007ff0700 ,
+                        0x07070707070707070707070707070707070707070707070707070700ff07f800 ,
+                        0x0707070707070707070707070707070707070707070707070707070700000007 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x070707070707070752415445a201104d434947455444524956455244415441c4
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Tekmovanje"
+                    GUID = Begin
+                        0x060ec49c8d86b041913146b56e563eb7
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =6585
+                    Top =60
+                    Width =576
+                    Height =576
+                    TabIndex =17
+                    Name ="cmdRacun"
+                    Caption ="Comando69"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100080000000000000400000000000000000000 ,
+                        0x0000000000000000000000000000bf0000bf000000bfbf00bf000000bf00bf00 ,
+                        0xbfbf0000c0c0c000c0dcc000f0c8a40000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0xf0fbff00a4a0a000808080000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707000700000000000000000000000000 ,
+                        0x0000070707070707070707070707070701f800ffffffffffffffffffffffffff ,
+                        0xffff000707070707070707000000000701f800ffffffffffffffffffffffffff ,
+                        0xffff000707070707070700f901f9010001f800f8f8f8f8f8f8f8f8f8fff800f8 ,
+                        0xffff0007070707070700f901f901000001f8000000000000ffffffff0000ffff ,
+                        0xffff00070707070700f901f9f900ffff0000ffffffffffff0000000001000707 ,
+                        0x070700070707070700f9f9f900ffffffffffffffffffffff0707070000ffffff ,
+                        0xffff00070707070700f9f9f900ffffffffffffffffff00000000000007070707 ,
+                        0x070700070707070700f9f9f900ffffffffffffffff0700ff00fb0000ffffffff ,
+                        0xfff80007070707070700f9f900ffffffffffffffff070000fb00070007070707 ,
+                        0x0707000707070707070700000000ffffffffffffff0700fb0007ff00fffffff8 ,
+                        0xf8f80007070707070707070707070000ffffffffff00fb0007ff000707070707 ,
+                        0x0707000707070707070707070707070700ffffff00fb0007ff00fffffff8f8f8 ,
+                        0xf8f8000707070707070707070707070701000000fb00ffff0007070707070707 ,
+                        0x0707000707070707070707070707070701f800fb00000000fffffff8f8f8f8f8 ,
+                        0xf8f800070707070707070707070707070100fb00070707070707070707070707 ,
+                        0x0707000707070707070707070707070700fb00fffffffffffff8f8f8f8f8f8f8 ,
+                        0xf8f80007070707070707070707070700fb000007070707070707070707070707 ,
+                        0x070700070707070707070707070700fb00f800ffffff00000000000000000000 ,
+                        0x0000000000000000070707070700fb0001f80007070700f9f9f9f9f9f9f9f9f9 ,
+                        0xf9f9f9f9f9f9f900070707070700000701f800ffff0005f905f905f905f905f9 ,
+                        0x05f905f905f90007070707070707070701f800070700f905f905f905f905f905 ,
+                        0xf905f905f9050007070707070707070701f800ff00f905f905f905f905f905f9 ,
+                        0x05f905f905000707070707070707070701f800070005f905f905f905f905f905 ,
+                        0xf905f905f9000707070707070707070701f8000005f905f905f905f905f905f9 ,
+                        0x05f905f900070707070707070707070701f80000f905f905f905f905f905f905 ,
+                        0xf905f905000707070707070707070707010700f905f905f905f905f905f905f9 ,
+                        0x05f9050007070707070707070707070707010005000001000001000001000001 ,
+                        0x0000010007070707070707070707070707010100f80000f80000f80000f80000 ,
+                        0xf800000707070707070707070707070707070707000007000007000007000007 ,
+                        0x0000070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707000000000000000000000000000000000000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Racun"
+                    GUID = Begin
+                        0x90b29019821793478b40b5abe8f80e7e
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =7365
+                    Top =735
+                    Width =576
+                    Height =576
+                    TabIndex =18
+                    Name ="cmdSodelo"
+                    Caption ="Comando70"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadadadadadadadad00000adada00000a ,
+                        0x0fbf0dadad0fbf0d0bfb0adada0bfb0a00000da0ad00000dda0ada0f0ada0ada ,
+                        0xad0da0fef0ad0dadda000fefef000adaadada0fef0adadaddadada0f0adadada ,
+                        0xadadada0adadadaddadad00000dadadaadada0fbf0adadaddadad0bfb0dadada ,
+                        0xadada00000adadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Sodelovanje"
+                    GUID = Begin
+                        0x9e1008a0ccfee64c8e7ba78b48ba53f6
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =8969
+                    Top =735
+                    Width =576
+                    Height =576
+                    TabIndex =19
+                    Name ="cmdNastop"
+                    Caption ="Comando71"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadada00000adadaddad00bbbbb00dada ,
+                        0xad0bbbbbbbbb0dadd0bbbbbbbbbbb0daa0bbb00000bbb0ad0bbb0bbbbb0bbb0a ,
+                        0x0bb0bbbbbbb0bb0d0bbbbbbbbbbbbb0a0bbbbbbbbbbbbb0d0bbb00bbb00bbb0a ,
+                        0xa0bb00bbb00bb0add0bbbbbbbbbbb0daad0bbbbbbbbb0daddad00bbbbb00dada ,
+                        0xadada00000adadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Nastop"
+                    GUID = Begin
+                        0x078d3b3e8aae204b8caf24434a1865c8
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =9771
+                    Top =735
+                    Width =576
+                    Height =576
+                    TabIndex =20
+                    Name ="cmdVal"
+                    Caption ="Comando72"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadada00dadadadaddada0ff00adadada ,
+                        0xada0f00ff00dadadda0f0ff00ff00adaa0f0fffff00ff00dda0ff00ffff00ff0 ,
+                        0xa0ff0ff00ffff00dda00fffff00ffff0ad0ffff44ff00f0dd0ffff4444fff00a ,
+                        0xad00f444444ffff0dada07f44fffff0aadadad044ffff0addadadad447ff0ada ,
+                        0xadadada44d00adad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Porocilo"
+                    GUID = Begin
+                        0x95f93268ee793646a4bd24332ee36b45
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =5270
+                    Top =793
+                    Width =870
+                    Height =405
+                    TabIndex =21
+                    Name ="cmdRNastop"
+                    Caption ="Nastop"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x2098a7e959e14a4690692570f4ed62cb
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4288
+                    Top =793
+                    Width =870
+                    Height =405
+                    TabIndex =22
+                    Name ="cmdPrintSodel"
+                    Caption ="Sodelov."
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x3bc35ff759c66642b4239bf59eeffa7d
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =3306
+                    Top =793
+                    Width =870
+                    Height =405
+                    TabIndex =23
+                    Name ="cmdPrintTekmo"
+                    Caption ="Tekmov."
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x6ada4cd64c69364d8cb70fc877e5119e
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =2324
+                    Top =793
+                    Width =870
+                    Height =405
+                    TabIndex =24
+                    Name ="cmdPrintPorocilo"
+                    Caption ="Porocilo"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x1541581305475a4bb11cb43b0e933475
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Public SWhere As String
+
+Private Sub Citta_DblClick(Cancel As Integer)
+On Error GoTo Err_Citta_DblClick
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fComune"
+    
+    stLinkCriteria = "[IdC]=" & Me![IdCR]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_Citta_DblClick:
+    Exit Sub
+
+Err_Citta_DblClick:
+    MsgBox Err.Description
+    Resume Exit_Citta_DblClick
+End Sub
+
+Private Sub cmdDokUc_Click()
+On Error GoTo Err_cmdDokUc_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fDokUc"
+    
+    stLinkCriteria = "[IdP]=" & Me![IdP]
+    sIdP = Me![IdP]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog
+    
+    
+    
+
+Exit_cmdDokUc_Click:
+    Exit Sub
+
+Err_cmdDokUc_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdDokUc_Click
+    
+End Sub
+
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
+
+Private Sub cmdSola_Click()
+On Error GoTo Err_cmdSola_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+
+
+
+    stDocName = "fSola"
+ 
+    stLinkCriteria = "[IdP]=" & Me![IdP]
+       
+       sOpen = Me![IdP]
+       sIdP = sOpen
+       
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog, sOpen
+    
+    
+
+    
+'    stLinkCriteria = "[IdP]=" & Me![IdP]
+'    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdSola_Click:
+    Exit Sub
+
+Err_cmdSola_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdSola_Click
+    
+
+
+End Sub
+
+Private Sub cmdStar_Click()
+On Error GoTo Err_cmdStar_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String, sOpen As String
+
+
+
+    stDocName = "FStarsi"
+'    sOpen = Me![IdP]
+ 
+'    DoCmd.OpenForm stDocName, , , , , acDialog, sOpen
+    
+
+  stLinkCriteria = "[IdP]=" & Me![IdP]
+       sOpen = Me![IdP]
+       sIdP = sOpen
+       
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog, sOpen
+    
+
+
+
+
+    
+  
+   ' DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdStar_Click:
+    Exit Sub
+
+Err_cmdStar_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdStar_Click
+    
+End Sub
+Private Sub cmdObcina_Click()
+On Error GoTo Err_cmdObcina_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fComune"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdObcina_Click:
+    Exit Sub
+
+Err_cmdObcina_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdObcina_Click
+    
+End Sub
+Private Sub cmdLl_Click()
+On Error GoTo Err_cmdLl_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fComune"
+    
+    stLinkCriteria = "[Comune]=" & "'" & Me![LuogoN] & "'"
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdLl_Click:
+    Exit Sub
+
+Err_cmdLl_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdLl_Click
+    
+End Sub
+Private Sub cmdLegato_Click()
+On Error GoTo Err_cmdLegato_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fComune"
+    
+    stLinkCriteria = "[IdC]=" & Me![IdCN]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdLegato_Click:
+    Exit Sub
+
+Err_cmdLegato_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdLegato_Click
+    
+End Sub
+
+Private Sub cmdStarSp_Click()
+On Error GoTo Err_cmdStarSp_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+      stDocName = "flspeter"
+ 
+    stLinkCriteria = "[IdP]=" & Me![IdP]
+       sOpen = Me![IdP]
+       sIdP = sOpen
+       
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog, sOpen
+    
+'    stDocName = "fLSPeter"
+'    DoCmd.OpenForm stDocName, , , stLinkCriteria
+Exit_cmdStarSp_Click:
+    Exit Sub
+
+Err_cmdStarSp_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdStarSp_Click
+    
+
+End Sub
+
+Private Sub LuogoN_DblClick(Cancel As Integer)
+On Error GoTo Err_LuogoN_DblClick
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fComune"
+    
+    stLinkCriteria = "[IdC]=" & Me![IdCN]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_LuogoN_DblClick:
+    Exit Sub
+
+Err_LuogoN_DblClick:
+    MsgBox Err.Description
+    Resume Exit_LuogoN_DblClick
+End Sub
+Private Sub cmdGenit_Click()
+On Error GoTo Err_cmdGenit_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "FStarsi"
+    
+    stLinkCriteria = "[IdP]=" & Me![IdP]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdGenit_Click:
+    Exit Sub
+
+Err_cmdGenit_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdGenit_Click
+    
+End Sub
+Private Sub cmdStar2_Click()
+On Error GoTo Err_cmdStar2_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String, sOpen As String
+
+    stDocName = "flsp2"
+    
+    stLinkCriteria = "[IdP]=" & Me![IdP]
+       sOpen = Me![IdP]
+       sIdP = sOpen
+       
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog, sOpen
+    
+    
+    
+'
+'      Dim stDocName As String
+'    Dim stLinkCriteria As String, sOpen As String
+
+
+
+'    stDocName = "FStarsi"
+'    sOpen = Me![IdP]
+ 
+'    DoCmd.OpenForm stDocName, , , , , acDialog, sOpen
+    
+    
+    
+
+Exit_cmdStar2_Click:
+    Exit Sub
+
+Err_cmdStar2_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdStar2_Click
+    
+End Sub
+Private Sub cmdRicev_Click()
+On Error GoTo Err_cmdRicev_Click
+    Dim sqlc As String
+    Dim rsRr As Recordset, db As Database
+    Dim stDocName As String
+    Dim stLinkCriteria As String, sOpen As String
+    Dim stRepName As String, SWhere As String
+    Dim sDR As String
+   
+   
+' Imposto la data di nascita come stringa globale per il controllo dei maggiorenni
+
+   sDataN = DataN
+    
+
+    stDocName = "fDataRicevuta"
+    
+    stLinkCriteria = "[IdP]=" & Me![IdP]
+       sOpen = Me![IdP]
+       sIdP = sOpen
+       
+   
+
+Set db = CurrentDb
+
+
+sqlc = "SELECT Ricevuta.IdR, Ricevuta.IdP, Ricevuta.IdRg " & _
+        "FROM Ricevuta " & _
+        "WHERE (((Ricevuta.IdP)=" & IdP & ") AND (not(Ricevuta.IdRg) Is Null) AND ((Ricevuta.Selezione)=-1))"
+'        WHERE (((Ricevuta.IdP) = " & IdP & ") And ((Ricevuta.IdRg) Is Null))
+'
+            
+Set rsRr = db.OpenRecordset(sqlc, dbOpenDynaset)
+
+If Not rsRr.EOF Then
+   
+   MsgBox "Sono già registrati ricevute a riguardo"
+   
+   ' Devo far partire la ristampa della ricevuta
+   
+        sDR = rsRr("IdRg")
+'        Inserimento
+        SWhere = "[IdP]=" & sIdP & " AND Ricevuta.IdRg=" & sDR
+    
+ ' Inserisco; il; controllo; dei; maggiorenni
+ '  Metto 216 perchè sono i mesi di maggiore età 12x18=216
+ 
+    If Not (DateDiff("m", sDataN, Date)) >= 216 Then
+ '      DATEDIFF("m", DataN, DATE())=216 OR ( DATEDIFF("m", DataN, DATE()) > 216
+        stRepName = "rRicevutaStarsi"
+    Else
+        stRepName = "rRicevutaMaggiorenni"
+    End If
+    
+        
+        
+        DoCmd.OpenReport stRepName, acPreview, , SWhere
+       
+   
+   'txtRicevuta = rsRr("SommaDiImporto")
+Else
+    DoCmd.OpenForm stDocName, , , , , acDialog
+    '
+    'Devo far aprire la maschera di inserimento data solo nuovo numero
+    '
+    '
+    '
+    '
+    
+    
+End If
+       
+       
+      
+'    DoCmd.OpenForm stDocName, , , , , acDialog
+    
+ 
+ '   Dim stDocName As String, sWhere As String
+    
+'    sWhere = "[IdP]=" & Me![IdP]
+    
+    'stDocName = "rRicevutaStarsi"
+'    DoCmd.OpenReport stDocName, acPreview, , sWhere
+
+Exit_cmdRicev_Click:
+    Exit Sub
+
+Err_cmdRicev_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdRicev_Click
+    
+End Sub
+Private Sub cmdClanarina_Click()
+On Error GoTo Err_cmdClanarina_Click
+
+    Dim stDocName As String, SWhere As String
+    
+    
+    SWhere = "[IdP]=" & Me![IdP]
+    stDocName = "qClanarina"
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+    
+
+Exit_cmdClanarina_Click:
+    Exit Sub
+
+Err_cmdClanarina_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdClanarina_Click
+    
+End Sub
+Private Sub cmdVpisnina_Click()
+On Error GoTo Err_cmdVpisnina_Click
+
+    Dim stDocName As String, SWhere As String
+      sDataN = DataN
+    
+    SWhere = "[IdP]=" & Me![IdP]
+
+ ' Inserisco; il; controllo; dei; maggiorenni
+ '  Metto 216 perchè sono i mesi di maggiore età 12x18=216
+ 
+    If Not (DateDiff("m", sDataN, Date)) >= 216 Then
+ '      DATEDIFF("m", DataN, DATE())=216 OR ( DATEDIFF("m", DataN, DATE()) > 216
+        stDocName = "rVpisna"
+    Else
+        stDocName = "rVpisnaMaggiorenni"
+    End If
+    
+        
+
+
+
+
+'    stDocName = "rVpisna"
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+    
+    
+'    Dim Msg, Style, Title, Help, Ctxt, Response, MyString
+'    Msg = "Vuoi stampare anche la Privacy?"
+'    Style = vbYesNo + vbCritical + vbDefaultButton2
+'    Title = "MsgBox Privacy"
+'    Help = "DEMO.HLP"
+'    Ctxt = 1000
+'    Response = MsgBox(Msg, Style, Title, Help, Ctxt)
+'    If Response = vbYes Then    ' User chose Yes.
+'        cmdPrivacy_Click
+'    Else    ' User chose No.
+'        MyString = "No"
+'        MsgBox "Uscita" ' Perform some action.
+'    End If
+    
+    
+    
+    
+    
+    
+    
+    
+'    MsgBox "Vuoi stampare anche la Privacy?"
+    
+'    cmdPrivacy_Click
+
+Exit_cmdVpisnina_Click:
+    Exit Sub
+
+Err_cmdVpisnina_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdVpisnina_Click
+    
+End Sub
+Private Sub cmdPrivacy_Click()
+On Error GoTo Err_cmdPrivacy_Click
+
+    Dim stDocName As String, SWhere As String
+    
+    
+    SWhere = "[IdP]=" & Me![IdP]
+
+
+    stDocName = "rPrivacy"
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+    
+
+Exit_cmdPrivacy_Click:
+    Exit Sub
+
+Err_cmdPrivacy_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdPrivacy_Click
+    
+End Sub
+Private Sub cmdDijak_Click()
+On Error GoTo Err_cmdDijak_Click
+
+    Dim stDocName As String, SWhere As String
+    
+    
+    SWhere = "[IdP]=" & Me![IdP]
+
+    stDocName = "rDijak"
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+
+Exit_cmdDijak_Click:
+    Exit Sub
+
+Err_cmdDijak_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdDijak_Click
+    
+End Sub
+Private Sub cmdDiakStar_Click()
+On Error GoTo Err_cmdDiakStar_Click
+
+    Dim stDocName As String, SWhere As String
+    
+    
+    SWhere = "[IdP]=" & Me![IdP]
+
+
+    stDocName = "rDijakSingoloStar"
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+
+Exit_cmdDiakStar_Click:
+    Exit Sub
+   
+   
+
+Err_cmdDiakStar_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdDiakStar_Click
+    
+End Sub
+
+
+Sub ControlloRicevuta()
+Dim sqlc As String
+Dim rsRr As Recordset, db As Database
+
+Set db = CurrentDb
+
+
+sqlc = "SELECT Ricevuta.IdR, Ricevuta.IdP, Ricevuta.IdRg " & _
+        "FROM Ricevuta " & _
+        "WHERE (((Ricevuta.IdP)=" & IdP & "))"
+'
+            
+Set rsRr = db.OpenRecordset(sqlc, dbOpenDynaset)
+
+If Not rsRr.EOF Then
+   MsgBox "Sono già registrati ricevute a riguardo"
+   
+   'txtRicevuta = rsRr("SommaDiImporto")
+    
+End If
+
+
+
+
+End Sub
+
+Sub DescTip()
+Dim sqlc As String
+Dim rsT As Recordset, db As Database
+
+Set db = CurrentDb
+sqlc = "SELECT IdC, Causale, Importo " & _
+            "FROM Causale " & _
+            "WHERE IdC=" & IdC
+        
+Set rsT = db.OpenRecordset(sqlc, dbOpenDynaset)
+
+If Not rsT.EOF Then
+    txtDovuto = rsT("Importo")
+    
+End If
+
+
+
+
+End Sub
+
+
+Private Sub cmdSblocca_Click()
+On Error GoTo Err_cmdSblocca_Click
+
+
+    DoCmd.DoMenuItem acFormBar, acRecordsMenu, 5, , acMenuVer70
+
+Exit_cmdSblocca_Click:
+    Exit Sub
+
+Err_cmdSblocca_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdSblocca_Click
+    
+End Sub
+Private Sub cmdDel_Click()
+On Error GoTo Err_cmdDel_Click
+
+
+    DoCmd.DoMenuItem acFormBar, acEditMenu, 8, , acMenuVer70
+    DoCmd.DoMenuItem acFormBar, acEditMenu, 6, , acMenuVer70
+
+Exit_cmdDel_Click:
+    Exit Sub
+
+Err_cmdDel_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdDel_Click
+    
+End Sub
+Private Sub cmdInstrument_Click()
+On Error GoTo Err_cmdInstrument_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+
+
+
+    stDocName = "fInstrument"
+ 
+    stLinkCriteria = "[IdP]=" & Me![IdP]
+       
+       sOpen = Me![IdP]
+       sIdP = sOpen
+       
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog, sOpen
+    
+    
+
+    
+'    stLinkCriteria = "[IdP]=" & Me![IdP]
+'    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdInstrument_Click:
+    Exit Sub
+
+Err_cmdInstrument_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdInstrument_Click
+    
+End Sub
+
+Private Sub cmdTekma_Click()
+On Error GoTo Err_cmdTekma_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+  
+'  stLinkCriteria = "[IdP]=" & Me![IdP]
+     stDocName = "fTekmap2"
+'       sOpen = Me![IdP]
+'       sIdP = sOpen
+       
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog, sOpen
+   
+    
+'    stLinkCriteria = "[IdP]=" & Me![IdP]
+'    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdTekma_Click:
+    Exit Sub
+
+Err_cmdTekma_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdTekma_Click
+    
+End Sub
+Private Sub cmdRacun_Click()
+On Error GoTo Err_cmdRacun_Click
+
+
+    Dim stDocName As String, SWhere As String
+    
+
+
+'    Dim stDocName As String
+    SWhere = "[IdP]=" & Me![IdP]
+    stDocName = "rRacun"
+
+    
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+   
+'    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdRacun_Click:
+    Exit Sub
+
+Err_cmdRacun_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdRacun_Click
+    
+End Sub
+Private Sub cmdSodelo_Click()
+On Error GoTo Err_cmdSodelo_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fSodelop"
+    
+   ' stLinkCriteria = "[IdP]=" & Me![IdP]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdSodelo_Click:
+    Exit Sub
+
+Err_cmdSodelo_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdSodelo_Click
+    
+End Sub
+Private Sub cmdNastop_Click()
+On Error GoTo Err_cmdNastop_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fNastopP"
+    
+'    stLinkCriteria = "[IdP]=" & Me![IdP]
+    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdNastop_Click:
+    Exit Sub
+
+Err_cmdNastop_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdNastop_Click
+    
+End Sub
+Private Sub cmdVal_Click()
+On Error GoTo Err_cmdVal_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fValutazione"
+    
+    stLinkCriteria = "[IdP]=" & Me![IdP]
+'     stLinkCriteria = "[IdP]=" & Me![IdP]
+'     stDocName = "fTekmap2"
+       sOpen = Me![IdP]
+       sIdP = sOpen
+       
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog, sOpen
+   
+    
+    
+    
+'    DoCmd.OpenForm stDocName, , , stLinkCriteria
+
+Exit_cmdVal_Click:
+    Exit Sub
+
+Err_cmdVal_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdVal_Click
+    
+End Sub
+Private Sub cmdRNastop_Click()
+On Error GoTo Err_cmdRNastop_Click
+
+    Dim stDocName As String
+
+    stDocName = "rCurrNastop"
+    SWhere = "[IdP]=" & Me![IdP]
+
+    'stDocName = "rDijak"
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+    
+    
+    
+    
+    
+    'DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdRNastop_Click:
+    Exit Sub
+
+Err_cmdRNastop_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdRNastop_Click
+    
+End Sub
+Private Sub cmdPrintSodel_Click()
+On Error GoTo Err_cmdPrintSodel_Click
+
+    Dim stDocName As String
+
+    stDocName = "rCurrSodelo"
+    
+      SWhere = "[IdP]=" & Me![IdP]
+
+    'stDocName = "rDijak"
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+    
+    'DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdPrintSodel_Click:
+    Exit Sub
+
+Err_cmdPrintSodel_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdPrintSodel_Click
+    
+End Sub
+Private Sub cmdPrintTekmo_Click()
+On Error GoTo Err_cmdPrintTekmo_Click
+
+    Dim stDocName As String
+
+    stDocName = "rCurrTekma"
+      SWhere = "[IdP]=" & Me![IdP]
+
+    'stDocName = "rDijak"
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+    
+'    DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdPrintTekmo_Click:
+    Exit Sub
+
+Err_cmdPrintTekmo_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdPrintTekmo_Click
+    
+End Sub
+Private Sub cmdPrintPorocilo_Click()
+On Error GoTo Err_cmdPrintPorocilo_Click
+
+    Dim stDocName As String
+
+    stDocName = "rCurrPorocilo"
+      SWhere = "[IdP]=" & Me![IdP]
+
+    'stDocName = "rDijak"
+    DoCmd.OpenReport stDocName, acPreview, , SWhere
+    
+    'DoCmd.OpenReport stDocName, acPreview
+
+Exit_cmdPrintPorocilo_Click:
+    Exit Sub
+
+Err_cmdPrintPorocilo_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdPrintPorocilo_Click
+    
+End Sub

@@ -1,0 +1,2 @@
+SELECT Go.IdP, [Go.Cognome] & " " & [go.Nome] AS NominativoP, Tekma.Solsko, LTPPr.Skupine, Materia_4.Materia, Tekma.Tekma, Tekma.Kraj, Tekma.Da, Tekma.A, LTPPr.Kat, LTPPr.Nagrada, LTPPr.Toc, [Prof.Cognome] & " " & [Prof.Nome] AS NominativoPr
+FROM ((([Go] INNER JOIN LTPPr ON Go.IdP=LTPPr.IdP) LEFT JOIN Tekma ON LTPPr.IdT=Tekma.IdT) LEFT JOIN Materia AS Materia_4 ON LTPPr.IdM=Materia_4.IdM) LEFT JOIN Prof ON LTPPr.IdPr=Prof.IdPr;

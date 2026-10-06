@@ -1,0 +1,3 @@
+SELECT Go.IdP, Go.Sede, Go.Cognome, Go.Nome, Go.Via, Comuni_1.Comune & "/ " & Comuni_1.Slov AS ComuneR, Comuni_1.CAP, Starsi.Cognome, Starsi.Nome, Starsi.DataN, Comuni.Comune & " / " & Comuni.Slov AS ComuneS, Starsi.davcna, Starsi.Via, comuni_2.comune & " / " & comuni_2.slov AS ComuneRS, Comuni_2.CAP, Starsi.Tel, Starsi.cel, Starsi.Mail
+FROM ((Starsi RIGHT JOIN (([Go] LEFT JOIN Comuni AS Comuni_1 ON Go.IdCR=Comuni_1.IdC) LEFT JOIN LSP ON Go.IdP=LSP.IdP) ON Starsi.IdS=LSP.IdS) LEFT JOIN Comuni ON Starsi.IdLN=Comuni.IdC) LEFT JOIN Comuni AS Comuni_2 ON Starsi.IdLR=Comuni_2.IdC
+ORDER BY Go.Cognome, Go.Nome;

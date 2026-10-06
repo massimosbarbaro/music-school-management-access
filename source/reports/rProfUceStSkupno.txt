@@ -1,0 +1,535 @@
+Version =21
+VersionRequired =20
+Checksum =-1383841150
+Begin Report
+    LayoutForPrint = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =126
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =9082
+    DatasheetFontHeight =10
+    ItemSuffix =27
+    Left =7680
+    Top =465
+    Right =17460
+    Bottom =8715
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x263075a82da8e440
+    End
+    GUID = Begin
+        0x1b63289e3ee265419fce42ce1ee4e328
+    End
+    RecordSource ="qProfUceStMedia"
+    Caption ="ProfUceStSkupno"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x53030000a005000053030000a0050000000000007a230000fe01000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            FontItalic = NotDefault
+            BackStyle =0
+            TextAlign =1
+            TextFontFamily =18
+            FontSize =11
+            FontWeight =700
+            ForeColor =8388608
+            FontName ="Times New Roman"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderWidth =1
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =8388608
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =8388608
+        End
+        Begin Image
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin BoundObjectFrame
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontName ="Arial"
+        End
+        Begin Subform
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            ControlSource ="AnnoS"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            GroupFooter = NotDefault
+            ControlSource ="NominativoProf"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Dove"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Stejemo"
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Razred"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =909
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x98c9f7d0234a994986efdcec2e976576
+            End
+            Begin
+                Begin Line
+                    BorderWidth =2
+                    Top =57
+                    Width =9026
+                    BorderColor =12632256
+                    Name ="Linea15"
+                    GUID = Begin
+                        0x38321dd79a631340bc3cbf7952ae0ad4
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    Left =285
+                    Top =165
+                    Width =7035
+                    Height =510
+                    FontSize =20
+                    Name ="Etichetta18"
+                    Caption ="Prof. Ucenci Stranski - skupinski - Skupno"
+                    GUID = Begin
+                        0xcd3674bb200b624f93699c19c974196f
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =15
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0xd5feb1cc5c69b4419f352fc6ccb3bc54
+            End
+            Begin
+                Begin Line
+                    BorderWidth =2
+                    Width =9026
+                    Name ="Linea16"
+                    GUID = Begin
+                        0x329b071aa2a02e4294210f59ecbd94d3
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =537
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0xfda6817d68218f4f8c3020f42343ed7d
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    DecimalPlaces =0
+                    TextFontFamily =18
+                    BackStyle =1
+                    IMESentenceMode =3
+                    Left =57
+                    Width =1881
+                    Height =480
+                    FontSize =18
+                    ForeColor =8388608
+                    Name ="AnnoS"
+                    ControlSource ="AnnoS"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x3e2a23d91b636e4590aa0ec36aca13c0
+                    End
+
+                End
+                Begin Line
+                    BorderWidth =2
+                    Top =510
+                    Width =9026
+                    Name ="Linea26"
+                    GUID = Begin
+                        0xc7427eaa1576c446a0ad2ac3d9ec69b5
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =15
+            BreakLevel =1
+            Name ="IntestazioneGruppo1"
+            GUID = Begin
+                0x3fd1b33ecb0c4f449a118683c973382b
+            End
+            Begin
+                Begin Line
+                    BorderWidth =2
+                    Left =56
+                    Width =9026
+                    Name ="Linea17"
+                    GUID = Begin
+                        0xd6f5488991b3ed4ba8fced6d68ce5e8e
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =510
+            BreakLevel =2
+            Name ="IntestazioneGruppo4"
+            GUID = Begin
+                0xb7aaa9552eb47f45ac38a689c9863ee8
+            End
+            Begin
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =3344
+                    Width =4191
+                    Height =375
+                    FontSize =14
+                    Name ="Dove"
+                    ControlSource ="Dove"
+                    StatusBarText =" Dove fanno lezione"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xf206eb57d1333940b488ce4d9dd6ac24
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Width =3114
+                    Height =375
+                    FontSize =14
+                    TabIndex =1
+                    Name ="Testo22"
+                    ControlSource ="NominativoProf"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x581c8eb7398ec24e92547894c62c4b1a
+                    End
+
+                End
+                Begin Line
+                    BorderWidth =2
+                    Top =450
+                    Width =9026
+                    Name ="Linea23"
+                    GUID = Begin
+                        0xe83a19538c67d14d8128b704afba1525
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            BreakLevel =3
+            Name ="IntestazioneGruppo2"
+            GUID = Begin
+                0xd00e711d5745524085fcb6a2b08cd9c0
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =0
+            BreakLevel =4
+            Name ="IntestazioneGruppo3"
+            GUID = Begin
+                0xfd17b8cc32eaac499bac399114e03697
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =510
+            Name ="Corpo"
+            GUID = Begin
+                0xcd8efc0c63f04a4ca825fd2f9db4576c
+            End
+            Begin
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =7911
+                    Width =875
+                    Height =270
+                    FontSize =10
+                    Name ="MediaDiOre"
+                    ControlSource ="MediaDiOre"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x1c582a09e7a18841b33c7a7e6ba7e0ff
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Width =5031
+                    Height =360
+                    ColumnWidth =3120
+                    FontSize =10
+                    TabIndex =1
+                    BackColor =12632256
+                    Name ="Stejemo"
+                    ControlSource ="Stejemo"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x244184495f17a54f85b54dbbc7b56f4e
+                    End
+
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =5159
+                    Width =2430
+                    Height =330
+                    FontSize =10
+                    TabIndex =2
+                    ForeColor =8388608
+                    Name ="Razred"
+                    ControlSource ="Razred"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x0bfd796c09229143ab991f25ab2740ca
+                    End
+
+                End
+                Begin Line
+                    Top =390
+                    Width =9026
+                    Name ="Linea24"
+                    GUID = Begin
+                        0x00c47a8f068f044e856d5d1acac4d8a7
+                    End
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =388
+            BreakLevel =1
+            Name ="PièDiPaginaGruppo5"
+            GUID = Begin
+                0xa0184849cb1dfe46b1c24bbc036b6e89
+            End
+            Begin
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =7532
+                    Width =1254
+                    Height =330
+                    FontSize =12
+                    FontWeight =700
+                    Name ="Testo18"
+                    ControlSource ="=Sum([MediaDiOre])"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x9ffc7630d9ddca4d841ca800928ee913
+                    End
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =6406
+                            Width =1095
+                            Height =330
+                            FontSize =12
+                            Name ="Etichetta19"
+                            Caption ="Ure prof."
+                            GUID = Begin
+                                0x55ebfefb63a39641b0c8412031e2460d
+                            End
+                        End
+                    End
+                End
+                Begin Line
+                    BorderWidth =2
+                    Top =345
+                    Width =9026
+                    Name ="Linea25"
+                    GUID = Begin
+                        0xd3b70921945ffe4cbb00cb9529194a8f
+                    End
+                End
+            End
+        End
+        Begin BreakFooter
+            KeepTogether = NotDefault
+            Height =375
+            Name ="PièDiPaginaGruppo6"
+            GUID = Begin
+                0x43940906653b5346ab248afdce94515c
+            End
+            Begin
+                Begin TextBox
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =7653
+                    Width =1134
+                    Height =375
+                    FontSize =14
+                    Name ="Testo20"
+                    ControlSource ="=Sum([MediaDiOre])"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0x938fe224248727428641af6f27521047
+                    End
+
+                    Begin
+                        Begin Label
+                            TextAlign =0
+                            Left =5952
+                            Width =1545
+                            Height =375
+                            FontSize =14
+                            FontWeight =400
+                            Name ="Etichetta21"
+                            Caption ="Skup. ure let"
+                            GUID = Begin
+                                0x99a51ce5da6b7347a3dc31cdaccb1e83
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin PageFooter
+            Height =528
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x657cce003daeb7469caa290b448fcf98
+            End
+            Begin
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =1
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =57
+                    Top =228
+                    Width =4399
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    ForeColor =8388608
+                    Name ="Testo13"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xdc65e736b44b09438503f0f345dba87d
+                    End
+
+                End
+                Begin TextBox
+                    FontItalic = NotDefault
+                    TextAlign =3
+                    TextFontFamily =18
+                    IMESentenceMode =3
+                    Left =4570
+                    Top =228
+                    Width =4399
+                    Height =300
+                    FontSize =9
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =8388608
+                    Name ="Testo14"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    FontName ="Times New Roman"
+                    GUID = Begin
+                        0xd57a23d9e2351742aadfecf81294165d
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x6cc285088966e4418a8de89a1ad9584a
+            End
+        End
+    End
+End

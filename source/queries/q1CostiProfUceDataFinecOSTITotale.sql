@@ -1,0 +1,5 @@
+SELECT Scuola.AnnoS, Go.Sede, Podruzica.Dove, [Prof.Cognome] & " " & [Prof.Nome] AS NominativoProf, [Go.Cognome] & " " & [Go.Nome] AS NominativoUc, Scuola.Ore, Materia.Stejemo, Causale.Causale, Sum(Ricevuta.Dovuto) AS SommaDiDovuto, Sum(Ricevuta.Pagato) AS SommaDiPagato INTO COSTI2016Totale
+FROM Causale INNER JOIN ((((Prof RIGHT JOIN ([Go] INNER JOIN Scuola ON Go.IdP=Scuola.IdP) ON Prof.IdPr=Scuola.IdPr) LEFT JOIN Materia ON Scuola.IdM=Materia.IdM) LEFT JOIN Podruzica ON Scuola.IdD=Podruzica.IdD) INNER JOIN Ricevuta ON Go.IdP=Ricevuta.IdP) ON Causale.IdC=Ricevuta.IdC
+GROUP BY Scuola.AnnoS, Go.Sede, Podruzica.Dove, [Prof.Cognome] & " " & [Prof.Nome], [Go.Cognome] & " " & [Go.Nome], Scuola.Ore, Materia.Stejemo, Causale.Causale, Scuola.Posk
+HAVING (((Scuola.AnnoS) Like [Inserire Anno Scolastico es 2017*]) AND ((Materia.Stejemo) Not Like "st*") AND ((Causale.Causale) Like [inserire anno causale es *2017*] And (Causale.Causale) Not Like "*bollo*") AND ((Scuola.Posk)=0))
+ORDER BY [Go.Cognome] & " " & [Go.Nome];

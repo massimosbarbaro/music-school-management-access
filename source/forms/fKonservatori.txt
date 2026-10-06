@@ -1,0 +1,404 @@
+Version =21
+VersionRequired =20
+Checksum =-255244657
+Begin Form
+    AutoCenter = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =6556
+    DatasheetFontHeight =10
+    ItemSuffix =12
+    Left =5970
+    Top =2190
+    Right =12810
+    Bottom =5505
+    DatasheetGridlinesColor =12632256
+    RecSrcDt = Begin
+        0x47504a6d517ce440
+    End
+    GUID = Begin
+        0x40985d304b88cf46931cdd61d664f923
+    End
+    RecordSource ="Konservatori"
+    Caption ="Konservatori"
+    DatasheetFontName ="Arial"
+    FilterOnLoad =255
+    DatasheetGridlinesColor12 =12632256
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =600
+            BackColor =16763904
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0x0e1c3fa1ce7d3d4baf763df6ada7047e
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =1920
+                    Top =120
+                    Width =2280
+                    Height =480
+                    FontSize =18
+                    Name ="Etichetta11"
+                    Caption ="Konservatoriji"
+                    GUID = Begin
+                        0xb11e6842a77d1741bcc173d062ef2bbf
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =1927
+            BackColor =-2147483633
+            Name ="Corpo"
+            GUID = Begin
+                0xedad3fdf7fbc7d40a750da5b2b5c6bbc
+            End
+            Begin
+                Begin TextBox
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =372
+                    Top =114
+                    Width =471
+                    Height =255
+                    ColumnWidth =1701
+                    Name ="IdK"
+                    ControlSource ="IdK"
+                    GUID = Begin
+                        0x4f68fe8c8875d540a82a8a06333880aa
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =57
+                            Top =114
+                            Width =315
+                            Height =240
+                            Name ="IdK_Etichetta"
+                            Caption ="IdK"
+                            GUID = Begin
+                                0xc6831d6018e5a343af3ca00440647c70
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =215
+                    IMESentenceMode =3
+                    Left =1980
+                    Top =113
+                    Width =4380
+                    Height =330
+                    ColumnWidth =3000
+                    FontSize =10
+                    FontWeight =700
+                    TabIndex =1
+                    Name ="Konservatori"
+                    ControlSource ="Konservatori"
+                    GUID = Begin
+                        0x2bdfb96f13d99945a4a7c74b4635bcae
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =1020
+                            Top =120
+                            Width =990
+                            Height =240
+                            Name ="Konservatori_Etichetta"
+                            Caption ="Konservatorij"
+                            GUID = Begin
+                                0x82933836e1034f46beebd1623ccb2555
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =581
+                    Top =737
+                    Width =2820
+                    ColumnWidth =3000
+                    TabIndex =2
+                    Name ="Luogo"
+                    ControlSource ="Luogo"
+                    GUID = Begin
+                        0x6fab0acbee37064eaa5c67c51344dec6
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =737
+                            Width =525
+                            Height =240
+                            Name ="Luogo_Etichetta"
+                            Caption ="Luogo"
+                            GUID = Begin
+                                0x3642a1ba10f35540b89c8d88917242be
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =4133
+                    Top =737
+                    Width =2310
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =3
+                    Name ="Accordo"
+                    ControlSource ="Accordo"
+                    GUID = Begin
+                        0x8cb34e0a40b82a41bf0543d9172f2c78
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =3458
+                            Top =737
+                            Width =675
+                            Height =240
+                            Name ="Accordo_Etichetta"
+                            Caption ="Accordo"
+                            GUID = Begin
+                                0x89bfbd8bb9b36d49a08baaffd9f347a2
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =476
+                    Top =1303
+                    Width =5985
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =4
+                    Name ="Note"
+                    ControlSource ="Note"
+                    GUID = Begin
+                        0xdef36b8a5bfbca428f51c6ff9a87ecf5
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =56
+                            Top =1303
+                            Width =420
+                            Height =240
+                            Name ="Note_Etichetta"
+                            Caption ="Note"
+                            GUID = Begin
+                                0xb934703cc42c8d43bdd4d2ea9dfaa541
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =802
+            BackColor =16763904
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x55d0f936c9019547905ac65830c6cefd
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =5272
+                    Top =113
+                    Width =576
+                    Height =576
+                    Name ="cmdEsci"
+                    Caption ="Comando10"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0x02b478bca7c4e1459e2923deddeb6f09
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
