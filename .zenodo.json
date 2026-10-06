@@ -1,6 +1,7 @@
 {
   "title": "Sola: student, fees and certificates management for a multi-site music school (Microsoft Access, 2015–2023)",
   "upload_type": "software",
+  "publication_date": "2023-12-31",
   "description": "<p><em>Gestionale di una scuola di musica con più sedi: allievi, quote, ricevute, pagelle e attestati</em></p><p>Sola is the administration system of a Slovene-language music school with several sites in Italy. The secretariat manages students, parents and teachers, enrolments per subject and teacher, membership and enrolment fees, instalments and receipts; teachers log in to record evaluations, performances, competitions and collaborations. The application prints bilingual Slovene–Italian documents: enrolment forms, receipts for parents and for adult students, payment statements, privacy consents, school certificates per site and attestations of pre-academic exams taken under an agreement with a state conservatory. It also produces monthly balances per fee item and site, teacher and student hour statistics and the electoral lists of members for the general assembly.</p><p>Designed and programmed by Massimo Sbarbaro in 2015–2023 (Microsoft Access). Published in 2026; all original data and the names of client organisations have been removed.</p>",
   "creators": [
     {
