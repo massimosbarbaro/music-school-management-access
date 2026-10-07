@@ -9,6 +9,7 @@ authors:
     given-names: Massimo
     orcid: "https://orcid.org/0009-0006-8965-9013"
 license: MIT
+doi: "10.5281/zenodo.23205212"
 repository-code: "https://github.com/massimosbarbaro/music-school-management-access"
 keywords:
   - "Microsoft Access"
