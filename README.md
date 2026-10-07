@@ -4,7 +4,7 @@
 
 *Gestionale di una scuola di musica con più sedi: allievi, quote, ricevute, pagelle e attestati*
 
-**Microsoft Access** · 2015–2023 · version 128  
+**db** · 2015–2023 · version 128  
 Author: **Massimo Sbarbaro** ([ORCID 0009-0006-8965-9013](https://orcid.org/0009-0006-8965-9013))
 
 ## Overview
@@ -53,7 +53,7 @@ The database is published **empty**: every table has been emptied and the file c
 
 Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23205212](https://doi.org/10.5281/zenodo.23205212).
 
-> Sbarbaro, Massimo. 2023. *Sola: student, fees and certificates management for a multi-site music school*. Software (Microsoft Access, 2015–2023), version 128. Zenodo. https://doi.org/10.5281/zenodo.23205212.
+> Sbarbaro, Massimo. 2023. *Sola: student, fees and certificates management for a multi-site music school*. Software (db, 2015–2023), version 128. Zenodo. https://doi.org/10.5281/zenodo.23205212.
 
 ## License
 
